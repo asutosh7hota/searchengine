@@ -1,0 +1,253 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.szyk.diabetes:id/action_bar_container",
+      "children": [
+        {
+          "text": "Data",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            135,
+            397,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Save",
+          "resource-id": "com.szyk.diabetes:id/menu_mode_save",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1263,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "save"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "",
+      "resource-id": "com.szyk.diabetes:id/dialog_edit_description_id",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        14,
+        294,
+        1426,
+        416
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Feb 18, 2017",
+      "resource-id": "com.szyk.diabetes:id/dialog_edit_date_id",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        14,
+        644,
+        706,
+        766
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "1:02:20 AM",
+      "resource-id": "com.szyk.diabetes:id/dialog_edit_digitalClock",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        734,
+        644,
+        1426,
+        766
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Weight",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        25,
+        805,
+        297,
+        927
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "-",
+      "resource-id": "com.szyk.diabetes:id/data_edit_weight",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        318,
+        812,
+        1408,
+        934
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Glucose",
+      "resource-id": "com.szyk.diabetes:id/glucose_label_id",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        547,
+        970,
+        720,
+        1040
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": " [mg/dl]",
+      "resource-id": "com.szyk.diabetes:id/glucose_unit_label_id",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        728,
+        970,
+        893,
+        1040
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        57,
+        495,
+        127,
+        565
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "text": "TAGS",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        141,
+        469,
+        364,
+        591
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

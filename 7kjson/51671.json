@@ -1,0 +1,294 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.aetn.aetv.watch:id/toolbar",
+      "children": [
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            87,
+            196,
+            273
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "JUST ADDED",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            132,
+            621,
+            225
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "com.aetn.aetv.watch:id/menu_search",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            97,
+            1440,
+            265
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        273
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "com.aetn.watch.widget.GridAsset",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.aetn.watch.widget.JustAddedAsset",
+      "bounds": [
+        28,
+        273,
+        1398,
+        950
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "resource-id": "com.aetn.aetv.watch:id/content_wrapper",
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            28,
+            273,
+            1398,
+            950
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "delete"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "com.aetn.watch.widget.GridAsset",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.aetn.watch.widget.JustAddedAsset",
+      "bounds": [
+        28,
+        964,
+        1398,
+        2009
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "resource-id": "com.aetn.aetv.watch:id/content_wrapper",
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.aetv.watch:id/episode_image_view",
+              "clickable": false,
+              "class": "com.android.volley.toolbox.NetworkImageView",
+              "bounds": [
+                39,
+                978,
+                1387,
+                1732
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "bounds": [
+                39,
+                978,
+                1387,
+                1732
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "componentLabel": "Image"
+            },
+            {
+              "text": "The Killing Season",
+              "resource-id": "com.aetn.aetv.watch:id/show_title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                39,
+                1591,
+                1387,
+                1732
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "resource-id": "com.aetn.aetv.watch:id/detail_layout",
+              "ancestors": [
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "android.widget.LinearLayout",
+              "bounds": [
+                291,
+                1792,
+                1275,
+                1928
+              ],
+              "componentLabel": "Text Button",
+              "text": "S1 E6 "
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageButton",
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.aetv.watch:id/login_btn",
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatImageButton",
+              "bounds": [
+                95,
+                1790,
+                235,
+                1930
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            28,
+            964,
+            1398,
+            2009
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "com.aetn.watch.widget.GridAsset",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.aetn.watch.widget.JustAddedAsset",
+      "bounds": [
+        28,
+        2023,
+        1398,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "resource-id": "com.aetn.aetv.watch:id/content_wrapper",
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            28,
+            2023,
+            1398,
+            2392
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "delete"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

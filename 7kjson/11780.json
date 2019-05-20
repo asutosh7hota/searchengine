@@ -1,0 +1,407 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "net.aljazeera.english:id/article_toolbar",
+      "children": [
+        {
+          "text": "Media",
+          "resource-id": "net.aljazeera.english:id/titleToolbarTextView",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            193,
+            127,
+            1247,
+            235
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "net.aljazeera.english:id/icon_left_button",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            35,
+            120,
+            158,
+            243
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "net.aljazeera.english:id/icon_right_button",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            1282,
+            120,
+            1405,
+            243
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        84,
+        1440,
+        835
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "net.aljazeera.english:id/imageView14",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            613,
+            291,
+            827,
+            642
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "com.android.volley.toolbox.NetworkImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "net.aljazeera.english:id/imageGallery",
+          "clickable": true,
+          "class": "net.aljazeera.english.ui.widget.FadeInNetworkImageView",
+          "bounds": [
+            0,
+            84,
+            1440,
+            835
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        870,
+        1440,
+        1038
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "net.aljazeera.english:id/favoritesButton",
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "bounds": [
+            1237,
+            870,
+            1405,
+            1038
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "9 hours ago",
+          "resource-id": "net.aljazeera.english:id/timeTextView",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            35,
+            927,
+            268,
+            981
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1073,
+        1440,
+        1574
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Mainstream media fashioned post-truth, not Trump",
+          "resource-id": "net.aljazeera.english:id/titleDetailText",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            35,
+            1073,
+            1405,
+            1574
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        1574,
+        1440,
+        1735
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "net.aljazeera.english:id/authorImageView",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            35,
+            1574,
+            196,
+            1735
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "by",
+          "resource-id": "net.aljazeera.english:id/writerBy",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            215,
+            1629,
+            258,
+            1679
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Andrew Mitrovica",
+          "resource-id": "net.aljazeera.english:id/authorName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            277,
+            1626,
+            609,
+            1683
+          ],
+          "componentLabel": "Text Button"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1770,
+        1440,
+        2028
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "If Trump has engineered a \"post-truth\" world, he didn't do this alone or first - he had help from the media.",
+          "resource-id": "net.aljazeera.english:id/summaryTextView",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            35,
+            1770,
+            1405,
+            1993
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2063,
+        1440,
+        2221
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Wanted: older male, preferably white, who can lie and order others to kill with impunity.",
+          "resource-id": "net.aljazeera.english:id/linkEnabledTextView",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            35,
+            2063,
+            1405,
+            2221
+          ],
+          "componentLabel": "Text Button"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2256,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Stripped of all the puffy embroidery, that might be considered a fairly precise job ad for the president of the United States. (I challenge you to disabuse me and, more importantly, the history of this.)",
+          "resource-id": "net.aljazeera.english:id/linkEnabledTextView",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            35,
+            2256,
+            1405,
+            2392
+          ],
+          "componentLabel": "Text Button"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

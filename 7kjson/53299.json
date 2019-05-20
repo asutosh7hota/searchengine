@@ -1,0 +1,1167 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.touchofmodern:id/action_bar_container",
+      "children": [
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "font",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.touchofmodern:id/icon",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            636,
+            108,
+            804,
+            255
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "cart",
+          "resource-id": "com.touchofmodern:id/menu_cart",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.touchofmodern:id/left_drawer",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            280,
+            840,
+            304
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "ART STORE",
+              "resource-id": "com.touchofmodern:id/drawer_option_textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                63,
+                280,
+                840,
+                304
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            303,
+            840,
+            478
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "FASHION (JUST YOUR FIT)",
+              "resource-id": "com.touchofmodern:id/drawer_option_textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                63,
+                303,
+                840,
+                478
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            477,
+            840,
+            652
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "FASHION ACCESSORIES",
+              "resource-id": "com.touchofmodern:id/drawer_option_textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                63,
+                477,
+                840,
+                652
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            651,
+            840,
+            826
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "FOOD + DRINK",
+              "resource-id": "com.touchofmodern:id/drawer_option_textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                63,
+                651,
+                840,
+                826
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            825,
+            840,
+            1000
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "IPHONE CASES & ACCESSORIES",
+              "resource-id": "com.touchofmodern:id/drawer_option_textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                63,
+                825,
+                840,
+                1000
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            999,
+            840,
+            1174
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "OUTDOOR",
+              "resource-id": "com.touchofmodern:id/drawer_option_textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                63,
+                999,
+                840,
+                1174
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1173,
+            840,
+            1348
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "SALES UNDER $25",
+              "resource-id": "com.touchofmodern:id/drawer_option_textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                63,
+                1173,
+                840,
+                1348
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1347,
+            840,
+            1522
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "SHOES FOR MILES",
+              "resource-id": "com.touchofmodern:id/drawer_option_textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                63,
+                1347,
+                840,
+                1522
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1521,
+            840,
+            1696
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "STAR WARS",
+              "resource-id": "com.touchofmodern:id/drawer_option_textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                63,
+                1521,
+                840,
+                1696
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1695,
+            840,
+            1870
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "TECH + GADGETS",
+              "resource-id": "com.touchofmodern:id/drawer_option_textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                63,
+                1695,
+                840,
+                1870
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1869,
+            840,
+            2044
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "THE DENIM DEPOT",
+              "resource-id": "com.touchofmodern:id/drawer_option_textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                63,
+                1869,
+                840,
+                2044
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            2043,
+            840,
+            2218
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "THE SHIRTING SOLUTIONS",
+              "resource-id": "com.touchofmodern:id/drawer_option_textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                63,
+                2043,
+                840,
+                2218
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            2217,
+            840,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "THE WATCH SHOP",
+              "resource-id": "com.touchofmodern:id/drawer_option_textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                63,
+                2217,
+                840,
+                2392
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "ancestors": [
+        "android.widget.AbsListView",
+        "android.widget.AdapterView",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.ListView",
+      "bounds": [
+        0,
+        280,
+        840,
+        2392
+      ],
+      "componentLabel": "Drawer"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        195,
+        726,
+        1245,
+        1173
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ListView",
+        "android.widget.AbsListView",
+        "android.widget.AdapterView",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.applidium.headerlistview.HeaderListView$InternalListView",
+      "bounds": [
+        0,
+        280,
+        1440,
+        2392
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            280,
+            1440,
+            718
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.touchofmodern:id/sale_header_imageview",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                0,
+                280,
+                1440,
+                718
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Fashion (just Your Fit)",
+              "resource-id": "com.touchofmodern:id/sale_name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                28,
+                460,
+                1412,
+                537
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "resource-id": "com.touchofmodern:id/section_title",
+          "children": [
+            {
+              "text": "STORES",
+              "resource-id": "com.touchofmodern:id/section_title_text",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                210,
+                717,
+                1230,
+                822
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            717,
+            1440,
+            822
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "resource-id": "com.touchofmodern:id/rv_related_stores",
+          "children": [
+            {
+              "ancestors": [
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "class": "android.widget.LinearLayout",
+              "bounds": [
+                0,
+                821,
+                1225,
+                1171
+              ],
+              "clickable": true,
+              "children": [
+                {
+                  "ancestors": [
+                    "android.widget.ImageView",
+                    "android.view.View",
+                    "java.lang.Object"
+                  ],
+                  "resource-id": "com.touchofmodern:id/related_store_imageview",
+                  "clickable": false,
+                  "class": "android.support.v7.widget.AppCompatImageView",
+                  "bounds": [
+                    18,
+                    839,
+                    1207,
+                    1153
+                  ],
+                  "componentLabel": "Image"
+                },
+                {
+                  "text": "Fashion (Small)",
+                  "resource-id": "com.touchofmodern:id/related_store_text",
+                  "ancestors": [
+                    "android.widget.TextView",
+                    "android.view.View",
+                    "java.lang.Object"
+                  ],
+                  "clickable": false,
+                  "class": "android.support.v7.widget.AppCompatTextView",
+                  "bounds": [
+                    18,
+                    926,
+                    1207,
+                    1066
+                  ],
+                  "componentLabel": "Text"
+                }
+              ],
+              "componentLabel": "List Item"
+            },
+            {
+              "ancestors": [
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "class": "android.widget.LinearLayout",
+              "bounds": [
+                1225,
+                821,
+                1440,
+                1171
+              ],
+              "clickable": true,
+              "children": [
+                {
+                  "ancestors": [
+                    "android.widget.ImageView",
+                    "android.view.View",
+                    "java.lang.Object"
+                  ],
+                  "resource-id": "com.touchofmodern:id/related_store_imageview",
+                  "clickable": false,
+                  "class": "android.support.v7.widget.AppCompatImageView",
+                  "bounds": [
+                    1243,
+                    839,
+                    1440,
+                    1153
+                  ],
+                  "componentLabel": "Image"
+                },
+                {
+                  "text": "Fashion (Medium)",
+                  "resource-id": "com.touchofmodern:id/related_store_text",
+                  "ancestors": [
+                    "android.widget.TextView",
+                    "android.view.View",
+                    "java.lang.Object"
+                  ],
+                  "clickable": false,
+                  "class": "android.support.v7.widget.AppCompatTextView",
+                  "bounds": [
+                    1243,
+                    926,
+                    1440,
+                    1066
+                  ],
+                  "componentLabel": "Text"
+                }
+              ],
+              "componentLabel": "List Item"
+            }
+          ],
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.RecyclerView",
+          "bounds": [
+            0,
+            821,
+            1440,
+            1171
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "resource-id": "com.touchofmodern:id/section_title",
+          "children": [
+            {
+              "text": "ITEMS",
+              "resource-id": "com.touchofmodern:id/section_title_text",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                210,
+                1170,
+                1230,
+                1275
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1170,
+            1440,
+            1275
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1274,
+            1440,
+            2225
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.touchofmodern:id/sale_image_view",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                28,
+                1302,
+                706,
+                2010
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Super Soft Lounge Pant // Grey Melange",
+              "resource-id": "com.touchofmodern:id/sale_product_name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                28,
+                2010,
+                706,
+                2065
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "$29.99",
+              "resource-id": "com.touchofmodern:id/sale_product_price",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                28,
+                2065,
+                706,
+                2131
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "$59.99",
+              "resource-id": "com.touchofmodern:id/sale_product_retail_price",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                28,
+                2131,
+                706,
+                2197
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.touchofmodern:id/sale_image_view",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                734,
+                1302,
+                1412,
+                2010
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Super Soft Lounge Pant // Blue Melange",
+              "resource-id": "com.touchofmodern:id/sale_product_name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.touchofmodern.util.CustomFontTextView",
+              "bounds": [
+                734,
+                2010,
+                1412,
+                2065
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "$29.99",
+              "resource-id": "com.touchofmodern:id/sale_product_price",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                734,
+                2065,
+                1412,
+                2131
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "$59.99",
+              "resource-id": "com.touchofmodern:id/sale_product_retail_price",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                734,
+                2131,
+                1412,
+                2197
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            2224,
+            1440,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.touchofmodern:id/sale_image_view",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                28,
+                2252,
+                706,
+                2392
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.touchofmodern:id/sale_image_view",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                734,
+                2252,
+                1412,
+                2392
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        1398,
+        280,
+        1433,
+        2392
+      ],
+      "clickable": false,
+      "children": [],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        2287,
+        186,
+        2357
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "expand_less",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1258,
+        2266,
+        1440,
+        2378
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Men's Apparel",
+      "resource-id": "com.touchofmodern:id/name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        187,
+        2289,
+        528,
+        2355
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.touchofmodern:id/remove_sticker",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        528,
+        2287,
+        640,
+        2357
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

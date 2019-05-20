@@ -1,0 +1,123 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "SIGN IN",
+      "resource-id": "com.RaceTrac.Common:id/signinButton",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        0,
+        2220,
+        713,
+        2392
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "login"
+    },
+    {
+      "text": "SIGN UP",
+      "resource-id": "com.RaceTrac.Common:id/signupButton",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        727,
+        2220,
+        1440,
+        2392
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "create"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.RaceTrac.Common:id/racetracwelcomelogo",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        230,
+        389,
+        1210,
+        1096
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "REWARDS",
+      "resource-id": "com.RaceTrac.Common:id/textView1",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        574,
+        862,
+        865,
+        947
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.RaceTrac.Common:id/facebookButton",
+      "clickable": true,
+      "class": "android.widget.ImageButton",
+      "bounds": [
+        88,
+        1114,
+        713,
+        1279
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.RaceTrac.Common:id/twitterButton",
+      "clickable": true,
+      "class": "android.widget.ImageButton",
+      "bounds": [
+        727,
+        1114,
+        1352,
+        1279
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

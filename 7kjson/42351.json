@@ -1,0 +1,329 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.tripit:id/tripit_toolbar",
+      "children": [
+        {
+          "text": "Push Notifications",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            252,
+            135,
+            831,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.support.v7.widget.Toolbar",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tripit.view.TripItToolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.tripit:id/trip_itinerary",
+      "children": [
+        {
+          "resource-id": "com.tripit:id/settings_check_box",
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.tripit.view.BooleanEditor",
+          "bounds": [
+            70,
+            534,
+            1370,
+            637
+          ],
+          "componentLabel": "Text Button",
+          "text": "Trip Itinerary Received"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            70,
+            697,
+            1370,
+            698
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "com.tripit.view.SettingsRowView",
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tripit.view.SettingsCheckBoxView",
+      "bounds": [
+        70,
+        504,
+        1370,
+        728
+      ],
+      "componentLabel": "Checkbox"
+    },
+    {
+      "resource-id": "com.tripit:id/pre_trip",
+      "children": [
+        {
+          "resource-id": "com.tripit:id/settings_check_box",
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.tripit.view.BooleanEditor",
+          "bounds": [
+            70,
+            758,
+            1370,
+            861
+          ],
+          "componentLabel": "Text Button",
+          "text": "Pre-trip Updates"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            70,
+            921,
+            1370,
+            922
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "com.tripit.view.SettingsRowView",
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tripit.view.SettingsCheckBoxView",
+      "bounds": [
+        70,
+        728,
+        1370,
+        952
+      ],
+      "componentLabel": "Checkbox"
+    },
+    {
+      "resource-id": "com.tripit:id/invites_notifs",
+      "children": [
+        {
+          "resource-id": "com.tripit:id/settings_check_box",
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.tripit.view.BooleanEditor",
+          "bounds": [
+            70,
+            982,
+            1370,
+            1085
+          ],
+          "componentLabel": "Text Button",
+          "text": "Invitations & Notifications"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            70,
+            1145,
+            1370,
+            1146
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "com.tripit.view.SettingsRowView",
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tripit.view.SettingsCheckBoxView",
+      "bounds": [
+        70,
+        952,
+        1370,
+        1176
+      ],
+      "componentLabel": "Checkbox"
+    },
+    {
+      "resource-id": "com.tripit:id/product_update_and_offers",
+      "children": [
+        {
+          "resource-id": "com.tripit:id/settings_check_box",
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.tripit.view.BooleanEditor",
+          "bounds": [
+            70,
+            1206,
+            1370,
+            1309
+          ],
+          "componentLabel": "Text Button",
+          "text": "Product Updates & Offers"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            70,
+            1369,
+            1370,
+            1370
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "com.tripit.view.SettingsRowView",
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tripit.view.SettingsCheckBoxView",
+      "bounds": [
+        70,
+        1176,
+        1370,
+        1400
+      ],
+      "componentLabel": "Checkbox"
+    },
+    {
+      "text": "TripIt Updates",
+      "resource-id": "com.tripit:id/settings_text_view",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        70,
+        292,
+        1370,
+        467
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        70,
+        491,
+        1370,
+        492
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Image"
+    }
+  ]
+}

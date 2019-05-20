@@ -1,0 +1,241 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.dbs:id/iv_seperator_3",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        70,
+        459,
+        1370,
+        463
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.dbs:id/iv_seperator_4",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        70,
+        629,
+        1370,
+        633
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.dbs:id/iv_seperator_5",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        70,
+        799,
+        1370,
+        803
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "resource-id": "com.dbs:id/rl_priv_polic",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        35,
+        803,
+        1405,
+        969
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "privacy policy"
+    },
+    {
+      "iconClass": "arrow_backward",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.dbs:id/ib_faq_back",
+      "clickable": true,
+      "class": "android.widget.ImageButton",
+      "bounds": [
+        35,
+        123,
+        131,
+        219
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Frequently Asked Questions",
+      "resource-id": "com.dbs:id/tv_faq_freq",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.dbs.yourdbs.view.CustomTitleTextView",
+      "bounds": [
+        70,
+        342,
+        799,
+        409
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "arrow_forward",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.dbs:id/iv_arrow_set",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1274,
+        328,
+        1370,
+        424
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Security Tips",
+      "resource-id": "com.dbs:id/tv_sec_tips",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.dbs.yourdbs.view.CustomTitleTextView",
+      "bounds": [
+        70,
+        512,
+        393,
+        579
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "arrow_forward",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.dbs:id/iv_sec_tips",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1274,
+        498,
+        1370,
+        594
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "DBS Bank Full Site",
+      "resource-id": "com.dbs:id/tv_dbs_site",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.dbs.yourdbs.view.CustomTitleTextView",
+      "bounds": [
+        70,
+        682,
+        541,
+        749
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "arrow_forward",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.dbs:id/iv_dbs_site",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1274,
+        668,
+        1370,
+        764
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.dbs:id/logo_faq",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        505,
+        130,
+        588,
+        211
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Info/FAQ",
+      "resource-id": "com.dbs:id/tv_faq_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.dbs.yourdbs.view.CustomHeaderTextView",
+      "bounds": [
+        606,
+        125,
+        934,
+        217
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

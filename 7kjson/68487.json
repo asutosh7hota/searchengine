@@ -1,0 +1,739 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.support.design.widget.di",
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "naukriApp.appModules.login:id/fab_refine",
+      "clickable": true,
+      "class": "android.support.design.widget.FloatingActionButton",
+      "bounds": [
+        1188,
+        2140,
+        1384,
+        2336
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "resource-id": "naukriApp.appModules.login:id/n_toolbar",
+      "children": [
+        {
+          "text": "32 Jobs Found",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            135,
+            671,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "naukriApp.appModules.login:id/dash_search_highlight",
+      "clickable": false,
+      "class": "com.naukri.widgets.OverlayWithHoleImageView",
+      "bounds": [
+        1125,
+        2077,
+        1440,
+        2392
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "2/2",
+      "resource-id": "naukriApp.appModules.login:id/tv_srp_refine_no",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.bs",
+      "bounds": [
+        56,
+        280,
+        1440,
+        346
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Refine search results on location, industry, function, salary etc.",
+      "resource-id": "naukriApp.appModules.login:id/tv_srp_refine_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.bs",
+      "bounds": [
+        56,
+        346,
+        1440,
+        525
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "GOT IT",
+      "resource-id": "naukriApp.appModules.login:id/bt_srp_refine_info",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.an",
+      "bounds": [
+        56,
+        630,
+        756,
+        788
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "ok"
+    },
+    {
+      "resource-id": "naukriApp.appModules.login:id/container",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            49,
+            448,
+            1391,
+            1130
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "Medical Imaging Engineer / Imaging Engineer / Image Processing",
+              "resource-id": "naukriApp.appModules.login:id/tv_job_name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                517,
+                1290,
+                631
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Panacea Medical Technologies Pvt. Ltd.",
+              "resource-id": "naukriApp.appModules.login:id/tv_org_name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                635,
+                1290,
+                701
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "0 - 4 Years",
+              "resource-id": "naukriApp.appModules.login:id/tv_exp_req",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                715,
+                484,
+                781
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Bengaluru",
+              "resource-id": "naukriApp.appModules.login:id/tv_located",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                785,
+                476,
+                851
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "C++, QT, Python, ITK, Medical Imaging, Image Processing, Architectural Design, Design Development",
+              "resource-id": "naukriApp.appModules.login:id/tv_key_skills",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                855,
+                1325,
+                978
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Posted Today",
+              "resource-id": "naukriApp.appModules.login:id/tv_job_post_date",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                1020,
+                329,
+                1061
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "naukriApp.appModules.login:id/iv_star",
+              "clickable": true,
+              "class": "android.support.v7.widget.ba",
+              "bounds": [
+                1226,
+                962,
+                1359,
+                1095
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        448,
+        1440,
+        1130
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "naukriApp.appModules.login:id/container",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            49,
+            1130,
+            1391,
+            1755
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "naukriApp.appModules.login:id/logo",
+              "clickable": false,
+              "class": "android.support.v7.widget.ba",
+              "bounds": [
+                1178,
+                1199,
+                1325,
+                1346
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Cloud Professional Services Architect",
+              "resource-id": "naukriApp.appModules.login:id/tv_job_name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                1199,
+                1143,
+                1256
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "IBM India Pvt. Limited",
+              "resource-id": "naukriApp.appModules.login:id/tv_org_name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                1260,
+                1143,
+                1326
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "1 - 5 Years",
+              "resource-id": "naukriApp.appModules.login:id/tv_exp_req",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                1340,
+                484,
+                1406
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Bengaluru",
+              "resource-id": "naukriApp.appModules.login:id/tv_located",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                1410,
+                476,
+                1476
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "development, consulting, formulation, software development, methods, dedicated, architectural design, cloud, solutions, implementation",
+              "resource-id": "naukriApp.appModules.login:id/tv_key_skills",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                1480,
+                1325,
+                1603
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "naukriApp.appModules.login:id/jobType",
+              "clickable": false,
+              "class": "android.support.v7.widget.ba",
+              "bounds": [
+                115,
+                1641,
+                160,
+                1686
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Posted 46 days ago",
+              "resource-id": "naukriApp.appModules.login:id/tv_job_post_date",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                255,
+                1645,
+                565,
+                1686
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "naukriApp.appModules.login:id/iv_star",
+              "clickable": true,
+              "class": "android.support.v7.widget.ba",
+              "bounds": [
+                1226,
+                1587,
+                1359,
+                1720
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1130,
+        1440,
+        1755
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "naukriApp.appModules.login:id/container",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            49,
+            1755,
+            1391,
+            2380
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "Architect / Interior Designer",
+              "resource-id": "naukriApp.appModules.login:id/tv_job_name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                1824,
+                1290,
+                1881
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Karan IT Solutions",
+              "resource-id": "naukriApp.appModules.login:id/tv_org_name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                1885,
+                1290,
+                1951
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "0 - 3 Years",
+              "resource-id": "naukriApp.appModules.login:id/tv_exp_req",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                1965,
+                484,
+                2031
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Bengaluru, Hyderabad, Chennai",
+              "resource-id": "naukriApp.appModules.login:id/tv_located",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                2035,
+                935,
+                2101
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Detailing, Interior Designing, 3DSmax, Photoshop, AutoCAD, Sketching Design, 3D, archi, architecture",
+              "resource-id": "naukriApp.appModules.login:id/tv_key_skills",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                2105,
+                1325,
+                2228
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Posted Yesterday",
+              "resource-id": "naukriApp.appModules.login:id/tv_job_post_date",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.bs",
+              "bounds": [
+                115,
+                2270,
+                389,
+                2311
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "naukriApp.appModules.login:id/iv_star",
+              "clickable": true,
+              "class": "android.support.v7.widget.ba",
+              "bounds": [
+                1226,
+                2212,
+                1359,
+                2345
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1755,
+        1440,
+        2380
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "naukriApp.appModules.login:id/container",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            49,
+            2380,
+            1391,
+            2392
+          ],
+          "clickable": false,
+          "children": [],
+          "componentLabel": "Card"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2380,
+        1440,
+        2392
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "naukriApp.appModules.login:id/srpSearchHeader_linearLayout",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        112,
+        289,
+        1328,
+        425
+      ],
+      "componentLabel": "Text Button",
+      "text": "Designer, Ar.. | Bengaluru / .. | 1 Years "
+    }
+  ]
+}

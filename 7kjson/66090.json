@@ -1,0 +1,198 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.amojee.android:id/toolbar",
+      "children": [
+        {
+          "text": "Amojee",
+          "resource-id": "com.amojee.android:id/toolbar_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            196,
+            84,
+            1440,
+            280
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.layer.atlas.util.views.SwipeableItem",
+      "bounds": [
+        0,
+        1422,
+        1440,
+        2095
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Today",
+          "resource-id": "com.amojee.android:id/time_group_day",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            580,
+            1478,
+            694,
+            1535
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": " 2:04 AM",
+          "resource-id": "com.amojee.android:id/time_group_time",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            694,
+            1478,
+            860,
+            1535
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Welcome to {{3192bb5f-8cd4-11e5-9f47-0648e073ed11:amojee}}{{218ecce4-3eb6-40f0-adb1-8f18cf5b4dbd:wave}}. \n\nStart typing to see emojis based on your message Cat={{0bc018d4-6328-4999-88f1-9e565280948f:persian}}. \n\nYou can also create your own. {{31917158-8cd4-11e5-9f47-0648e073ed11:yo}}{{952123af-b2f6-4d05-8962-7971ab437fd7:girl}}{{3198b2df-8cd4-11e5-9f47-0648e073ed11:excellent}}",
+          "resource-id": "com.amojee.android:id/cell_text",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            84,
+            1574,
+            1297,
+            2074
+          ],
+          "componentLabel": "Text Button"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.amojee.android:id/chat_iv_emoji",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        42,
+        2246,
+        160,
+        2346
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "",
+      "resource-id": "com.amojee.android:id/chat_et_msg",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        188,
+        2204,
+        1065,
+        2388
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.amojee.android:id/chat_iv_camera",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1281,
+        2246,
+        1399,
+        2346
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

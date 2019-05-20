@@ -1,0 +1,745 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "com.mopub.mobileads.BaseWebView",
+        "android.webkit.WebView",
+        "android.widget.AbsoluteLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        160,
+        2217,
+        1280,
+        2392
+      ],
+      "clickable": true,
+      "class": "com.mopub.mraid.MraidBridge$MraidWebView",
+      "componentLabel": "Web View"
+    },
+    {
+      "resource-id": "com.crayzoo.zueiras:id/toolbar",
+      "children": [
+        {
+          "text": "Home",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            135,
+            441,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "search",
+          "resource-id": "com.crayzoo.zueiras:id/menu_search",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.support.design.widget.TabLayout$SlidingTabStrip",
+      "bounds": [
+        0,
+        280,
+        1440,
+        448
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.widget.TabLayout$TabView",
+          "bounds": [
+            0,
+            280,
+            314,
+            448
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "categories"
+        },
+        {
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.widget.TabLayout$TabView",
+          "bounds": [
+            1148,
+            280,
+            1440,
+            448
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "random"
+        },
+        {
+          "text": "Fresh",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            364,
+            331,
+            515,
+            397
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Trending",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            608,
+            331,
+            846,
+            397
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Voting",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            930,
+            331,
+            1106,
+            397
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "Multi-Tab"
+    },
+    {
+      "text": "Go to the top",
+      "resource-id": "com.crayzoo.zueiras:id/scroll_top_btn",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        543,
+        483,
+        896,
+        571
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        448,
+        1440,
+        1005
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.crayzoo.zueiras:id/asset_item_image",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            35,
+            448,
+            1405,
+            554
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "644 shares",
+          "resource-id": "com.crayzoo.zueiras:id/share_asset_hits",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.crayzoo.zueiras.ext.TypefacedTextView",
+          "bounds": [
+            70,
+            720,
+            279,
+            777
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "call",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.crayzoo.zueiras:id/asset_item_btn_wa_share",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            70,
+            812,
+            210,
+            952
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "facebook",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.crayzoo.zueiras:id/asset_item_btn_fb_share",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            245,
+            812,
+            385,
+            952
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.crayzoo.zueiras:id/asset_item_btn_allo_share",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            420,
+            812,
+            560,
+            952
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "COMPARTILHAR",
+          "resource-id": "com.crayzoo.zueiras:id/asset_item_btn_share",
+          "ancestors": [
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatButton",
+          "bounds": [
+            595,
+            812,
+            1034,
+            952
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "iconClass": "chat",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.crayzoo.zueiras:id/comments_button",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            501,
+            583,
+            585,
+            667
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "4",
+          "resource-id": "com.crayzoo.zueiras:id/comments_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.crayzoo.zueiras.ext.TypefacedTextView",
+          "bounds": [
+            603,
+            596,
+            627,
+            653
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "favorite",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.crayzoo.zueiras:id/fav_button",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            1272,
+            583,
+            1370,
+            667
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "thumbs_up",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.crayzoo.zueiras:id/like_button",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            71,
+            583,
+            155,
+            667
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "751",
+          "resource-id": "com.crayzoo.zueiras:id/likes_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.crayzoo.zueiras.ext.TypefacedTextView",
+          "bounds": [
+            173,
+            596,
+            245,
+            653
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "thumbs_down",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.crayzoo.zueiras:id/dislike_button",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            298,
+            583,
+            382,
+            667
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "56",
+          "resource-id": "com.crayzoo.zueiras:id/dislikes_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.crayzoo.zueiras.ext.TypefacedTextView",
+          "bounds": [
+            400,
+            596,
+            448,
+            653
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1005,
+        1440,
+        2217
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.crayzoo.zueiras:id/asset_item_image",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            35,
+            1233,
+            1405,
+            2142
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.crayzoo.zueiras:id/asset_item_btn_open_menu",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            1295,
+            1058,
+            1387,
+            1198
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "help",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.crayzoo.zueiras:id/asset_item_author_img",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            70,
+            1058,
+            210,
+            1198
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "?",
+          "resource-id": "com.crayzoo.zueiras:id/asset_item_txt_author_first_letter",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.crayzoo.zueiras.ext.TypefacedTextView",
+          "bounds": [
+            125,
+            1085,
+            154,
+            1170
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Anon",
+          "resource-id": "com.crayzoo.zueiras:id/asset_item_txt_author",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.crayzoo.zueiras.ext.TypefacedTextView",
+          "bounds": [
+            245,
+            1064,
+            1295,
+            1134
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "1 year ago",
+          "resource-id": "com.crayzoo.zueiras:id/asset_item_txt_created_at",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            245,
+            1134,
+            1295,
+            1191
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.crayzoo.zueiras:id/comments_button",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            501,
+            2171,
+            585,
+            2217
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "1",
+          "resource-id": "com.crayzoo.zueiras:id/comments_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.crayzoo.zueiras.ext.TypefacedTextView",
+          "bounds": [
+            603,
+            2184,
+            627,
+            2217
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.crayzoo.zueiras:id/fav_button",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            1272,
+            2171,
+            1370,
+            2217
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.crayzoo.zueiras:id/like_button",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            71,
+            2171,
+            155,
+            2217
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "769",
+          "resource-id": "com.crayzoo.zueiras:id/likes_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.crayzoo.zueiras.ext.TypefacedTextView",
+          "bounds": [
+            173,
+            2184,
+            245,
+            2217
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.crayzoo.zueiras:id/dislike_button",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            298,
+            2171,
+            382,
+            2217
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "69",
+          "resource-id": "com.crayzoo.zueiras:id/dislikes_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.crayzoo.zueiras.ext.TypefacedTextView",
+          "bounds": [
+            400,
+            2184,
+            448,
+            2217
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

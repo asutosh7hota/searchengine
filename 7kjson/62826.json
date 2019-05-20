@@ -1,0 +1,524 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "net.bloomz:id/tabs",
+      "children": [
+        {
+          "resource-id": "net.bloomz:id/llHeader",
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            288,
+            2224,
+            576,
+            2392
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "calendar"
+        },
+        {
+          "text": "Feed",
+          "resource-id": "net.bloomz:id/txtHeaderName",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            103,
+            2343,
+            184,
+            2392
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Signups",
+          "resource-id": "net.bloomz:id/txtHeaderName",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            652,
+            2343,
+            788,
+            2392
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Media",
+          "resource-id": "net.bloomz:id/txtHeaderName",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            955,
+            2343,
+            1060,
+            2392
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Members",
+          "resource-id": "net.bloomz:id/txtHeaderName",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            1215,
+            2343,
+            1377,
+            2392
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "net.bloomz:id/btnHome",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            100,
+            2248,
+            188,
+            2336
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "net.bloomz:id/btnHome",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            676,
+            2248,
+            764,
+            2336
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "minus",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "net.bloomz:id/btnHome",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            964,
+            2248,
+            1052,
+            2336
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "net.bloomz:id/btnHome",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            1252,
+            2248,
+            1340,
+            2336
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.HorizontalScrollView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "md58904f7f7adc93b96137fd7e198132609.PagerSlidingTabStrip",
+      "bounds": [
+        0,
+        2224,
+        1440,
+        2392
+      ],
+      "componentLabel": "Multi-Tab"
+    },
+    {
+      "text": "Exit Demo",
+      "resource-id": "net.bloomz:id/btnExitDemo",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        0,
+        84,
+        308,
+        259
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "DEMO CLASS",
+      "resource-id": "net.bloomz:id/txtHeading",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        322,
+        84,
+        1085,
+        259
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.bloomz:id/settingsBtn",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1099,
+        110,
+        1222,
+        233
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Welcome! This is a fake class for you to explore – Look at posts, events, pictures - try posting yourself, all content in Demo Class is only for you, and will not show in your feed.",
+      "resource-id": "net.bloomz:id/txtDemoClassHint",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        35,
+        294,
+        1405,
+        479
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "close",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.bloomz:id/btnStart",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1160,
+        1943,
+        1440,
+        2223
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.bloomz:id/imgChatTrayGroup",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1313,
+        127,
+        1401,
+        215
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        518,
+        1440,
+        2220
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Welcome! Build your class community here!",
+          "resource-id": "net.bloomz:id/txtTeacherClassHeader",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            105,
+            518,
+            1335,
+            555
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "•",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            105,
+            611,
+            126,
+            696
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Invite all class parents to join your classroom group on Bloomz.",
+          "resource-id": "net.bloomz:id/txtTeacherClassLine1",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            144,
+            608,
+            1335,
+            775
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "•",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            105,
+            813,
+            126,
+            898
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "All your communications, including calendar events and reminders show up here, in one view. (By the way, see all the tools Bloomz can replace for you)",
+          "resource-id": "net.bloomz:id/txtTeacherClassLine2",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            144,
+            810,
+            1335,
+            1109
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "•",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            105,
+            1147,
+            126,
+            1232
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Everything posted here is private, between you and your class parents.",
+          "resource-id": "net.bloomz:id/txtTeacherClassLine3",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            144,
+            1144,
+            1335,
+            1311
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "•",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            105,
+            1349,
+            126,
+            1434
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Post quick updates on what the kids are learning in class, or share a photo to help parents stay in the know",
+          "resource-id": "net.bloomz:id/txtTeacherClassLine4",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            144,
+            1346,
+            1335,
+            1579
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "•",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            105,
+            1617,
+            126,
+            1702
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Make an announcement to remind parents about an upcoming tests or field trip.",
+          "resource-id": "net.bloomz:id/txtTeacherClassLine5",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            144,
+            1614,
+            1335,
+            1781
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "•",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            105,
+            1819,
+            126,
+            1904
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Visit our support site to learn more about all the cool features in the app, get help on how the tools work, and find helpful for introducing Bloomz to class parents.",
+          "resource-id": "net.bloomz:id/txtTeacherClassLine6",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            144,
+            1816,
+            1335,
+            2115
+          ],
+          "componentLabel": "Text Button"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

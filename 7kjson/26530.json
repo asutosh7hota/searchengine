@@ -1,0 +1,125 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    164,
+    392,
+    1275,
+    2084
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        164,
+        392,
+        1275,
+        2084
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "A new version of Zoom is available!",
+          "resource-id": "us.zoom.videomeetings:id/alertTitle",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            164,
+            462,
+            1275,
+            589
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Cancel",
+          "resource-id": "us.zoom.videomeetings:id/button2",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.Button",
+          "bounds": [
+            164,
+            1897,
+            718,
+            2084
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "back"
+        },
+        {
+          "text": "Update Now",
+          "resource-id": "us.zoom.videomeetings:id/button1",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.Button",
+          "bounds": [
+            720,
+            1897,
+            1275,
+            2084
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "update"
+        },
+        {
+          "text": "Release Notes:",
+          "resource-id": "us.zoom.videomeetings:id/txtTitle",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            199,
+            600,
+            573,
+            676
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Release notes of 3.6.18034.1231 :\n\n• Meeting features\n  o Meetings can have multiple co-hosts\n  o Support the annotation feature\n  o Support remote control\n• Webinar feature\n  o Hosts can change the name of a panelist during a webinar\n• IM features\n  o View additional profile information for contacts by tapping the avatar\n  o Recall messages for up to two minutes after they are sent\n  o Block one or more contacts without deleting them\n  o Delete a chat group\n  o Save a static or animated GIF as an emoji\n• Accessibility enhancements\n• Bug fixes",
+          "resource-id": "us.zoom.videomeetings:id/txtNote",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            199,
+            676,
+            1240,
+            1825
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "Modal"
+    }
+  ]
+}

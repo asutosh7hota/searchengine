@@ -1,0 +1,274 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.facebook.ads.AdView",
+      "bounds": [
+        0,
+        0,
+        1440,
+        175
+      ],
+      "clickable": false,
+      "children": [],
+      "componentLabel": "Advertisement"
+    },
+    {
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "back",
+      "bounds": [
+        0,
+        178,
+        480,
+        346
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "componentLabel": "Text Button",
+      "textButtonClass": "back"
+    },
+    {
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "help",
+      "bounds": [
+        480,
+        178,
+        960,
+        346
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "componentLabel": "Text Button",
+      "textButtonClass": "help"
+    },
+    {
+      "text": "ready",
+      "resource-id": "com.just4fun.addghost:id/button_global_done",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        960,
+        178,
+        1440,
+        346
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.widget.AbsSeekBar",
+        "android.widget.ProgressBar",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.just4fun.addghost:id/seekbar_transparency",
+      "clickable": false,
+      "class": "android.widget.SeekBar",
+      "bounds": [
+        0,
+        1930,
+        1440,
+        2021
+      ],
+      "componentLabel": "Slider"
+    },
+    {
+      "iconClass": "add",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.just4fun.addghost:id/button_add",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        2217,
+        288,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "build",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.just4fun.addghost:id/button_effects",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        288,
+        2217,
+        576,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.just4fun.addghost:id/button_transformation",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        576,
+        2217,
+        864,
+        2392
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "delete",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.just4fun.addghost:id/button_remove",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        864,
+        2217,
+        1152,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "menu",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.just4fun.addghost:id/button_elements",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1152,
+        2217,
+        1440,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "copy",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.just4fun.addghost:id/iv_effect_transparent",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        2042,
+        288,
+        2217
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.just4fun.addghost:id/iv_effect_hue",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        288,
+        2042,
+        576,
+        2217
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "book",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.just4fun.addghost:id/iv_effect_saturation",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        576,
+        2042,
+        864,
+        2217
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.just4fun.addghost:id/iv_effect_brightness",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        864,
+        2042,
+        1152,
+        2217
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.just4fun.addghost:id/iv_effect_contrast",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1152,
+        2042,
+        1440,
+        2217
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

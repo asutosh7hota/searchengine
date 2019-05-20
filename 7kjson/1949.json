@@ -1,0 +1,97 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1303,
+        148,
+        1384,
+        229
+      ],
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1145,
+        140,
+        1243,
+        238
+      ],
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.AbsoluteLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        294,
+        1440,
+        2392
+      ],
+      "clickable": true,
+      "class": "android.webkit.WebView",
+      "componentLabel": "Web View"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "best treatment acne - Yahoo Search Results",
+      "bounds": [
+        56,
+        105,
+        1089,
+        182
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "https://search.yahoo.com/yhs/mobile/search?act=7&cat=WEB&p=best+treatment+acne&hspart=startapp&hsimp=yhs-social_full&param1=&param2=&type=mobile_s2082104530DAP_b994697848c8fea89a911057f46c0f2c",
+      "bounds": [
+        56,
+        182,
+        1089,
+        239
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    }
+  ]
+}

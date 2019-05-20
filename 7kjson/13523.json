@@ -1,0 +1,221 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "android.widget.PopupWindow$PopupDecorView",
+  "bounds": [
+    740,
+    88,
+    1426,
+    1432
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.PopupWindow$PopupBackgroundView",
+      "bounds": [
+        740,
+        88,
+        1426,
+        1432
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "iconClass": "group",
+          "clickable": false,
+          "children": [
+            {
+              "text": "Femail",
+              "resource-id": "com.dailymail.online:id/title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.be",
+              "bounds": [
+                796,
+                470,
+                1370,
+                546
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.v7.view.menu.ListMenuItemView",
+          "bounds": [
+            740,
+            424,
+            1426,
+            592
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "group",
+          "clickable": false,
+          "children": [
+            {
+              "text": "Gallery",
+              "resource-id": "com.dailymail.online:id/title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.be",
+              "bounds": [
+                796,
+                806,
+                1370,
+                882
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.v7.view.menu.ListMenuItemView",
+          "bounds": [
+            740,
+            760,
+            1426,
+            928
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "US Home",
+          "resource-id": "com.dailymail.online:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.be",
+          "bounds": [
+            796,
+            134,
+            1370,
+            210
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "US Showbiz",
+          "resource-id": "com.dailymail.online:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.be",
+          "bounds": [
+            796,
+            302,
+            1370,
+            378
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Share",
+          "resource-id": "com.dailymail.online:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.be",
+          "bounds": [
+            796,
+            638,
+            1370,
+            714
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "View via Browser",
+          "resource-id": "com.dailymail.online:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.be",
+          "bounds": [
+            796,
+            974,
+            1370,
+            1050
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Increase font size",
+          "resource-id": "com.dailymail.online:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.be",
+          "bounds": [
+            796,
+            1142,
+            1370,
+            1218
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Decrease font size",
+          "resource-id": "com.dailymail.online:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.be",
+          "bounds": [
+            796,
+            1310,
+            1370,
+            1386
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "Modal"
+    }
+  ]
+}

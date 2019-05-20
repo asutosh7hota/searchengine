@@ -1,0 +1,493 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.aetn.aetv.watch:id/generic_fragment_toolbar",
+      "children": [
+        {
+          "text": "SIGN IN",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            132,
+            457,
+            225
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            87,
+            196,
+            273
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        273
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "",
+      "resource-id": "com.aetn.aetv.watch:id/mvpdfilter",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.aetn.watch.widget.CustomEditText",
+      "bounds": [
+        70,
+        485,
+        1440,
+        695
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Select your TV provider to access all available A&E Videos",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        210,
+        273,
+        1422,
+        415
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        699,
+        1440,
+        2004
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.FrameLayout",
+          "bounds": [
+            0,
+            699,
+            720,
+            953
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.aetv.watch:id/mvpd_logo",
+              "clickable": false,
+              "class": "com.android.volley.toolbox.NetworkImageView",
+              "bounds": [
+                35,
+                745,
+                681,
+                903
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.FrameLayout",
+          "bounds": [
+            720,
+            699,
+            1440,
+            953
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.aetv.watch:id/mvpd_logo",
+              "clickable": false,
+              "class": "com.android.volley.toolbox.NetworkImageView",
+              "bounds": [
+                755,
+                745,
+                1401,
+                903
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.FrameLayout",
+          "bounds": [
+            0,
+            953,
+            720,
+            1207
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.aetv.watch:id/mvpd_logo",
+              "clickable": false,
+              "class": "com.android.volley.toolbox.NetworkImageView",
+              "bounds": [
+                35,
+                999,
+                681,
+                1157
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.FrameLayout",
+          "bounds": [
+            720,
+            953,
+            1440,
+            1207
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.aetv.watch:id/mvpd_logo",
+              "clickable": false,
+              "class": "com.android.volley.toolbox.NetworkImageView",
+              "bounds": [
+                755,
+                999,
+                1401,
+                1157
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.FrameLayout",
+          "bounds": [
+            0,
+            1207,
+            720,
+            1461
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.aetv.watch:id/mvpd_logo",
+              "clickable": false,
+              "class": "com.android.volley.toolbox.NetworkImageView",
+              "bounds": [
+                35,
+                1253,
+                681,
+                1411
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.FrameLayout",
+          "bounds": [
+            720,
+            1207,
+            1440,
+            1461
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.aetv.watch:id/mvpd_logo",
+              "clickable": false,
+              "class": "com.android.volley.toolbox.NetworkImageView",
+              "bounds": [
+                755,
+                1253,
+                1401,
+                1411
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.FrameLayout",
+          "bounds": [
+            0,
+            1461,
+            720,
+            1715
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.aetv.watch:id/mvpd_logo",
+              "clickable": false,
+              "class": "com.android.volley.toolbox.NetworkImageView",
+              "bounds": [
+                35,
+                1507,
+                681,
+                1665
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.FrameLayout",
+          "bounds": [
+            720,
+            1461,
+            1440,
+            1715
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.aetv.watch:id/mvpd_logo",
+              "clickable": false,
+              "class": "com.android.volley.toolbox.NetworkImageView",
+              "bounds": [
+                755,
+                1507,
+                1401,
+                1665
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.FrameLayout",
+          "bounds": [
+            0,
+            1715,
+            720,
+            1969
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.aetv.watch:id/mvpd_logo",
+              "clickable": false,
+              "class": "com.android.volley.toolbox.NetworkImageView",
+              "bounds": [
+                35,
+                1761,
+                681,
+                1919
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "3 Rivers Communications",
+      "resource-id": "android:id/text1",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        2003,
+        1440,
+        2161
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Access Communications",
+      "resource-id": "android:id/text1",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        2160,
+        1440,
+        2318
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Access Montana",
+      "resource-id": "android:id/text1",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        2317,
+        1440,
+        2392
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

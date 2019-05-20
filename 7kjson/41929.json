@@ -1,0 +1,142 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.zoomer.app:id/viewPagerIndicator",
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "me.relex.circleindicator.CircleIndicator",
+      "bounds": [
+        0,
+        2042,
+        1440,
+        2182
+      ],
+      "componentLabel": "Pager Indicator"
+    },
+    {
+      "text": "Skip",
+      "resource-id": "com.zoomer.app:id/tutorialSkipButton",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.z",
+      "bounds": [
+        547,
+        2183,
+        891,
+        2306
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "skip"
+    },
+    {
+      "text": "What is Zoomer?",
+      "resource-id": "com.zoomer.app:id/tutorialStep1TopSlogan",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.z",
+      "bounds": [
+        300,
+        554,
+        1139,
+        789
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Zoomer specializes in\nFAST and RELIABLE\nfood delivery!",
+      "resource-id": "com.zoomer.app:id/tutorialStep1Info",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.z",
+      "bounds": [
+        309,
+        789,
+        1131,
+        1165
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Swipe To Continue",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.z",
+      "bounds": [
+        364,
+        1240,
+        1075,
+        1448
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.zoomer.app:id/swipeHand",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        615,
+        1452,
+        681,
+        1559
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "repeat",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        712,
+        1479,
+        823,
+        1528
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Icon"
+    }
+  ]
+}

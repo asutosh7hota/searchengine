@@ -1,0 +1,943 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.naver.linewebtoon:id/toolbar",
+      "children": [
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            252
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Popular",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            121,
+            451,
+            214
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        252
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        252,
+        480,
+        1058
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "com.naver.linewebtoon.common.widget.TitleThumbnailView",
+            "com.naver.linewebtoon.common.widget.RatioImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naver.linewebtoon:id/top_rated_image",
+          "clickable": false,
+          "class": "com.naver.linewebtoon.title.rank.RankTitleThumbnailView",
+          "bounds": [
+            0,
+            252,
+            480,
+            760
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "1",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_rank",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            23,
+            256,
+            86,
+            387
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Romance",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_genre",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            44,
+            778,
+            436,
+            837
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Siren's Lament",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            44,
+            841,
+            381,
+            964
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "9.73",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_score",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            44,
+            979,
+            171,
+            1032
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        480,
+        252,
+        960,
+        1058
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "com.naver.linewebtoon.common.widget.TitleThumbnailView",
+            "com.naver.linewebtoon.common.widget.RatioImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naver.linewebtoon:id/top_rated_image",
+          "clickable": false,
+          "class": "com.naver.linewebtoon.title.rank.RankTitleThumbnailView",
+          "bounds": [
+            480,
+            252,
+            960,
+            760
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "2",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_rank",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            503,
+            256,
+            566,
+            387
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Romance",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_genre",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            524,
+            778,
+            916,
+            837
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Super Secret",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            524,
+            841,
+            823,
+            964
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "9.78",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_score",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            524,
+            979,
+            651,
+            1032
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        960,
+        252,
+        1440,
+        1058
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "com.naver.linewebtoon.common.widget.TitleThumbnailView",
+            "com.naver.linewebtoon.common.widget.RatioImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naver.linewebtoon:id/top_rated_image",
+          "clickable": false,
+          "class": "com.naver.linewebtoon.title.rank.RankTitleThumbnailView",
+          "bounds": [
+            960,
+            252,
+            1440,
+            760
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "3",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_rank",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            983,
+            256,
+            1046,
+            387
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Fantasy",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_genre",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1004,
+            778,
+            1396,
+            837
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "unOrdinary",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1004,
+            841,
+            1260,
+            964
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "9.61",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_score",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1004,
+            979,
+            1131,
+            1032
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1058,
+        480,
+        1864
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "com.naver.linewebtoon.common.widget.TitleThumbnailView",
+            "com.naver.linewebtoon.common.widget.RatioImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naver.linewebtoon:id/top_rated_image",
+          "clickable": false,
+          "class": "com.naver.linewebtoon.title.rank.RankTitleThumbnailView",
+          "bounds": [
+            0,
+            1058,
+            480,
+            1566
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "4",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_rank",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            23,
+            1062,
+            86,
+            1193
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Romance",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_genre",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            44,
+            1584,
+            436,
+            1643
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Oh! Holy",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            44,
+            1647,
+            240,
+            1770
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "9.72",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_score",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            44,
+            1785,
+            171,
+            1838
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        480,
+        1058,
+        960,
+        1864
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "com.naver.linewebtoon.common.widget.TitleThumbnailView",
+            "com.naver.linewebtoon.common.widget.RatioImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naver.linewebtoon:id/top_rated_image",
+          "clickable": false,
+          "class": "com.naver.linewebtoon.title.rank.RankTitleThumbnailView",
+          "bounds": [
+            480,
+            1058,
+            960,
+            1566
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "5",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_rank",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            503,
+            1062,
+            566,
+            1193
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Romance",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_genre",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            524,
+            1584,
+            916,
+            1643
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Miss Abbott and the Doctor",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            524,
+            1647,
+            916,
+            1771
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "9.79",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_score",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            524,
+            1785,
+            651,
+            1838
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        960,
+        1058,
+        1440,
+        1864
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "com.naver.linewebtoon.common.widget.TitleThumbnailView",
+            "com.naver.linewebtoon.common.widget.RatioImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naver.linewebtoon:id/top_rated_image",
+          "clickable": false,
+          "class": "com.naver.linewebtoon.title.rank.RankTitleThumbnailView",
+          "bounds": [
+            960,
+            1058,
+            1440,
+            1566
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "6",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_rank",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            983,
+            1062,
+            1046,
+            1193
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Action",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_genre",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1004,
+            1584,
+            1396,
+            1643
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "The God of High School",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1004,
+            1647,
+            1396,
+            1771
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "9.53",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_score",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1004,
+            1785,
+            1131,
+            1838
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1864,
+        480,
+        2392
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "com.naver.linewebtoon.common.widget.TitleThumbnailView",
+            "com.naver.linewebtoon.common.widget.RatioImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naver.linewebtoon:id/top_rated_image",
+          "clickable": false,
+          "class": "com.naver.linewebtoon.title.rank.RankTitleThumbnailView",
+          "bounds": [
+            0,
+            1864,
+            480,
+            2372
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "7",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_rank",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            23,
+            1868,
+            86,
+            1999
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Fantasy",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_genre",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            44,
+            2390,
+            436,
+            2392
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        480,
+        1864,
+        960,
+        2392
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "com.naver.linewebtoon.common.widget.TitleThumbnailView",
+            "com.naver.linewebtoon.common.widget.RatioImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naver.linewebtoon:id/top_rated_image",
+          "clickable": false,
+          "class": "com.naver.linewebtoon.title.rank.RankTitleThumbnailView",
+          "bounds": [
+            480,
+            1864,
+            960,
+            2372
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "8",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_rank",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            503,
+            1868,
+            566,
+            1999
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Fantasy",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_genre",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            524,
+            2390,
+            916,
+            2392
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        960,
+        1864,
+        1440,
+        2392
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "com.naver.linewebtoon.common.widget.TitleThumbnailView",
+            "com.naver.linewebtoon.common.widget.RatioImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naver.linewebtoon:id/top_rated_image",
+          "clickable": false,
+          "class": "com.naver.linewebtoon.title.rank.RankTitleThumbnailView",
+          "bounds": [
+            960,
+            1864,
+            1440,
+            2372
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "9",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_rank",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            983,
+            1868,
+            1046,
+            1999
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Romance",
+          "resource-id": "com.naver.linewebtoon:id/top_rated_genre",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1004,
+            2390,
+            1396,
+            2392
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

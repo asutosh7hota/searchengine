@@ -1,0 +1,122 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.narvii.amino.x59:id/action_layout",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        144,
+        1858,
+        1296,
+        2033
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "next"
+    },
+    {
+      "text": "Welcome Message\n ",
+      "resource-id": "com.narvii.amino.x59:id/title",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        144,
+        359,
+        1296,
+        604
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "avatar",
+      "ancestors": [
+        "com.narvii.widget.ThumbImageView",
+        "com.narvii.widget.NVImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.narvii.amino.x59:id/avatar",
+      "clickable": false,
+      "class": "com.narvii.widget.CircleImageView",
+      "bounds": [
+        214,
+        661,
+        389,
+        836
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Hey! Listen! You just joined Zelda Amino and for that, you are awesome! Enjoy blogging and communicating with Legend of Zelda fans from across the globe! Have a good one! 👋😁",
+      "resource-id": "com.narvii.amino.x59:id/text",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        144,
+        906,
+        1296,
+        1200
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Leader",
+      "bounds": [
+        431,
+        763,
+        587,
+        820
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Pixel",
+      "bounds": [
+        431,
+        676,
+        551,
+        752
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    }
+  ]
+}

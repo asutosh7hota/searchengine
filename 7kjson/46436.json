@@ -1,0 +1,869 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.ebay.gumtree.za:id/left_drawer_container",
+      "children": [
+        {
+          "ancestors": [
+            "com.ebay.app.userAccount.views.b",
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.ebay.app.userAccount.views.a",
+          "bounds": [
+            0,
+            0,
+            1106,
+            784
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "Welcome!",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                278,
+                234,
+                828,
+                368
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Sell unused stuff and make extra cash!",
+              "resource-id": "com.ebay.gumtree.za:id/navDrawerSignInNudge",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                150,
+                410,
+                955,
+                465
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Sign In",
+              "resource-id": "com.ebay.gumtree.za:id/signInButton",
+              "ancestors": [
+                "android.widget.Button",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatButton",
+              "bounds": [
+                231,
+                521,
+                875,
+                633
+              ],
+              "componentLabel": "Text Button",
+              "textButtonClass": "login"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            788,
+            1106,
+            1012
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "iconClass": "search",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.ebay.gumtree.za:id/icon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                56,
+                858,
+                140,
+                942
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "text": "Home",
+              "resource-id": "com.ebay.gumtree.za:id/title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                252,
+                872,
+                384,
+                927
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1016,
+            1106,
+            1240
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "iconClass": "photo",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.ebay.gumtree.za:id/icon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                56,
+                1086,
+                140,
+                1170
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "text": "Post",
+              "resource-id": "com.ebay.gumtree.za:id/title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                252,
+                1100,
+                350,
+                1155
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1244,
+            1106,
+            1468
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "iconClass": "chat",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.ebay.gumtree.za:id/icon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                56,
+                1314,
+                140,
+                1398
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "text": "My Messages",
+              "resource-id": "com.ebay.gumtree.za:id/title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                252,
+                1328,
+                545,
+                1383
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1472,
+            1106,
+            1696
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "iconClass": "avatar",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.ebay.gumtree.za:id/icon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                56,
+                1542,
+                140,
+                1626
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "text": "My Ads",
+              "resource-id": "com.ebay.gumtree.za:id/title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                252,
+                1556,
+                417,
+                1611
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1700,
+            1106,
+            1924
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "iconClass": "avatar",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.ebay.gumtree.za:id/icon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                56,
+                1770,
+                140,
+                1854
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "text": "Browse",
+              "resource-id": "com.ebay.gumtree.za:id/title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                252,
+                1784,
+                418,
+                1839
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1928,
+            1106,
+            2152
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "iconClass": "favorite",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.ebay.gumtree.za:id/icon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                56,
+                1998,
+                140,
+                2082
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "text": "Favorites",
+              "resource-id": "com.ebay.gumtree.za:id/title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                252,
+                2012,
+                457,
+                2067
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            2156,
+            1106,
+            2380
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "iconClass": "notifications",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.ebay.gumtree.za:id/icon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                56,
+                2226,
+                140,
+                2310
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "text": "Saved Searches",
+              "resource-id": "com.ebay.gumtree.za:id/title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                252,
+                2240,
+                587,
+                2295
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            2384,
+            1106,
+            2392
+          ],
+          "clickable": false,
+          "children": [],
+          "componentLabel": "List Item"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.design.internal.ScrimInsetsFrameLayout",
+      "bounds": [
+        0,
+        0,
+        1106,
+        2392
+      ],
+      "componentLabel": "Drawer"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.ebay.gumtree.za:id/home_backdrop_image",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2392
+      ],
+      "componentLabel": "Background Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        0,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Background Image"
+    },
+    {
+      "resource-id": "com.ebay.gumtree.za:id/home_search_container_card",
+      "children": [
+        {
+          "text": "",
+          "resource-id": "com.ebay.gumtree.za:id/home_search_edittext",
+          "ancestors": [
+            "android.widget.EditText",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatEditText",
+          "bounds": [
+            224,
+            112,
+            1300,
+            280
+          ],
+          "componentLabel": "Input"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.ebay.gumtree.za:id/home_search_icon",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            84,
+            154,
+            168,
+            238
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.CardView",
+      "bounds": [
+        18,
+        99,
+        1422,
+        293
+      ],
+      "componentLabel": "Card"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        273,
+        1440,
+        1679
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            18,
+            273,
+            1422,
+            1679
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "View all in Reservoir Hills",
+              "resource-id": "com.ebay.gumtree.za:id/card_view_all",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                28,
+                1442,
+                1412,
+                1666
+              ],
+              "componentLabel": "Text Button"
+            },
+            {
+              "ancestors": [
+                "android.widget.FrameLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "class": "com.ebay.app.common.views.SquarableFrameLayout",
+              "bounds": [
+                84,
+                273,
+                706,
+                732
+              ],
+              "clickable": true,
+              "children": [
+                {
+                  "ancestors": [
+                    "android.widget.ImageView",
+                    "android.view.View",
+                    "java.lang.Object"
+                  ],
+                  "resource-id": "com.ebay.gumtree.za:id/ad_high_res_image",
+                  "clickable": false,
+                  "class": "android.support.v7.widget.AppCompatImageView",
+                  "bounds": [
+                    84,
+                    273,
+                    706,
+                    732
+                  ],
+                  "componentLabel": "Image"
+                }
+              ],
+              "componentLabel": "List Item"
+            },
+            {
+              "ancestors": [
+                "android.widget.FrameLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "class": "com.ebay.app.common.views.SquarableFrameLayout",
+              "bounds": [
+                734,
+                273,
+                1356,
+                732
+              ],
+              "clickable": true,
+              "children": [
+                {
+                  "ancestors": [
+                    "android.widget.ImageView",
+                    "android.view.View",
+                    "java.lang.Object"
+                  ],
+                  "resource-id": "com.ebay.gumtree.za:id/ad_high_res_image",
+                  "clickable": false,
+                  "class": "android.support.v7.widget.AppCompatImageView",
+                  "bounds": [
+                    734,
+                    273,
+                    1356,
+                    732
+                  ],
+                  "componentLabel": "Image"
+                }
+              ],
+              "componentLabel": "List Item"
+            },
+            {
+              "ancestors": [
+                "android.widget.FrameLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "class": "com.ebay.app.common.views.SquarableFrameLayout",
+              "bounds": [
+                84,
+                760,
+                706,
+                1382
+              ],
+              "clickable": true,
+              "children": [
+                {
+                  "ancestors": [
+                    "android.widget.ImageView",
+                    "android.view.View",
+                    "java.lang.Object"
+                  ],
+                  "resource-id": "com.ebay.gumtree.za:id/ad_high_res_image",
+                  "clickable": false,
+                  "class": "android.support.v7.widget.AppCompatImageView",
+                  "bounds": [
+                    84,
+                    760,
+                    706,
+                    1382
+                  ],
+                  "componentLabel": "Image"
+                }
+              ],
+              "componentLabel": "List Item"
+            },
+            {
+              "ancestors": [
+                "android.widget.FrameLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "class": "com.ebay.app.common.views.SquarableFrameLayout",
+              "bounds": [
+                734,
+                760,
+                1356,
+                1382
+              ],
+              "clickable": true,
+              "children": [
+                {
+                  "ancestors": [
+                    "android.widget.ImageView",
+                    "android.view.View",
+                    "java.lang.Object"
+                  ],
+                  "resource-id": "com.ebay.gumtree.za:id/ad_high_res_image",
+                  "clickable": false,
+                  "class": "android.support.v7.widget.AppCompatImageView",
+                  "bounds": [
+                    734,
+                    760,
+                    1356,
+                    1382
+                  ],
+                  "componentLabel": "Image"
+                }
+              ],
+              "componentLabel": "List Item"
+            }
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        56,
+        1791,
+        1384,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.google.android.gms.ads.doubleclick.PublisherAdView",
+          "bounds": [
+            195,
+            1791,
+            1245,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.FrameLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "class": "com.google.android.gms.ads.internal.webview.l",
+              "bounds": [
+                195,
+                1791,
+                1245,
+                2392
+              ],
+              "clickable": false,
+              "children": [
+                {
+                  "ancestors": [
+                    "android.webkit.WebView",
+                    "android.widget.AbsoluteLayout",
+                    "android.view.ViewGroup",
+                    "android.view.View",
+                    "java.lang.Object"
+                  ],
+                  "bounds": [
+                    195,
+                    1791,
+                    1245,
+                    2392
+                  ],
+                  "clickable": true,
+                  "class": "com.google.android.gms.ads.internal.webview.m",
+                  "componentLabel": "Web View"
+                }
+              ],
+              "componentLabel": "Web View"
+            }
+          ],
+          "componentLabel": "Advertisement"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

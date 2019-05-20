@@ -1,0 +1,476 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "iconClass": "menu",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.naturalistapp.app:id/menu_btn",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        112,
+        123,
+        228
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "RECIPES",
+      "resource-id": "com.naturalistapp.app:id/header",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        141,
+        123,
+        1028,
+        216
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "resource-id": "com.naturalistapp.app:id/left_drawer",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            310,
+            172,
+            357
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Flow",
+          "resource-id": "com.naturalistapp.app:id/menu_flow_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            256,
+            864,
+            411
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            455,
+            172,
+            522
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "My Profile",
+          "resource-id": "com.naturalistapp.app:id/menu_profile_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            411,
+            864,
+            566
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "iconClass": "national_flag",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            601,
+            172,
+            685
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "My Recipes",
+          "resource-id": "com.naturalistapp.app:id/menu_recipes_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            566,
+            864,
+            721
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            754,
+            172,
+            842
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "My Products",
+          "resource-id": "com.naturalistapp.app:id/menu_products_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            721,
+            864,
+            876
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            909,
+            172,
+            997
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "My Planner",
+          "resource-id": "com.naturalistapp.app:id/menu_care_plan_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            876,
+            864,
+            1031
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            1070,
+            172,
+            1147
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "My Media",
+          "resource-id": "com.naturalistapp.app:id/menu_media_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            1031,
+            864,
+            1186
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            1226,
+            172,
+            1300
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "My Posts",
+          "resource-id": "com.naturalistapp.app:id/menu_posts_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            1186,
+            864,
+            1341
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            1388,
+            172,
+            1449
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "My Buddies",
+          "resource-id": "com.naturalistapp.app:id/menu_community_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            1341,
+            864,
+            1496
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            1547,
+            172,
+            1600
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "My Messages",
+          "resource-id": "com.naturalistapp.app:id/menu_messages_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            1496,
+            864,
+            1651
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            1691,
+            172,
+            1765
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Settings",
+          "resource-id": "com.naturalistapp.app:id/menu_setting_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            1651,
+            864,
+            1806
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "settings"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        256,
+        864,
+        2392
+      ],
+      "componentLabel": "Drawer"
+    },
+    {
+      "iconClass": "edit",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.naturalistapp.app:id/whatson_img",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1028,
+        118,
+        1124,
+        214
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "search",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.naturalistapp.app:id/search_img",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1124,
+        118,
+        1223,
+        222
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "email",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.naturalistapp.app:id/msg_img",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1223,
+        125,
+        1327,
+        215
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "chat",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.naturalistapp.app:id/chat_img",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1327,
+        118,
+        1433,
+        222
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        370,
+        974,
+        1070,
+        1674
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    }
+  ]
+}

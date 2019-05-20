@@ -1,0 +1,346 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.mail.mobile.android.mail:id/toolbar",
+      "children": [
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            140,
+            196,
+            224
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "appcrawler2@mail.com",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            196,
+            115,
+            789,
+            191
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Inbox",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            196,
+            191,
+            299,
+            248
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "iconClass": "add",
+      "ancestors": [
+        "com.getbase.floatingactionbutton.AddFloatingActionButton",
+        "com.getbase.floatingactionbutton.FloatingActionButton",
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.mail.mobile.android.mail:id/fab_expand_menu_button",
+      "clickable": true,
+      "class": "com.getbase.floatingactionbutton.FloatingActionsMenu$1",
+      "bounds": [
+        1154,
+        1951,
+        1412,
+        2210
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        280,
+        1440,
+        428
+      ],
+      "clickable": false,
+      "children": [],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.mail.mobile.android.mail:id/content_of_mailitem",
+      "children": [
+        {
+          "text": "Welcome to mail.com! Get started now and set up your old email! - Hello Raphael Tan, You have registered your mail.com account appcrawler2@mail.com. Now we are happy to assist and support you to make the most out of it. Access your emails anytime and anywhere you like – with our innovative solutions",
+          "resource-id": "com.mail.mobile.android.mail:id/txtMessage",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            196,
+            643,
+            1398,
+            705
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "2:32 AM",
+          "resource-id": "com.mail.mobile.android.mail:id/txtDate",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1223,
+            479,
+            1398,
+            536
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Welcome to mail.com! Get started now and set up your old email!",
+          "resource-id": "com.mail.mobile.android.mail:id/txtSubject",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            196,
+            567,
+            1310,
+            629
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "com.mail.mobile.android.mail:id/checkbox_selection",
+          "ancestors": [
+            "android.widget.CheckBox",
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatCheckBox",
+          "bounds": [
+            42,
+            455,
+            154,
+            567
+          ],
+          "componentLabel": "Input"
+        },
+        {
+          "text": "service@corp.mail.com",
+          "resource-id": "com.mail.mobile.android.mail:id/txtFrom",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            196,
+            467,
+            821,
+            547
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        427,
+        1440,
+        751
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.mail.mobile.android.mail:id/layBtnLoadMoreMessages",
+      "children": [
+        {
+          "text": "Load more messages",
+          "resource-id": "com.mail.mobile.android.mail:id/txtLoadMoreMessages",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            196,
+            813,
+            728,
+            879
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        750,
+        1440,
+        943
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "Synced: Just now",
+      "resource-id": "com.mail.mobile.android.mail:id/label_last_sync",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        329,
+        1398,
+        382
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.google.android.gms.ads.doubleclick.PublisherAdView",
+      "bounds": [
+        0,
+        2217,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.google.android.gms.ads.internal.webview.l",
+          "bounds": [
+            0,
+            2217,
+            1440,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.webkit.WebView",
+                "android.widget.AbsoluteLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "bounds": [
+                0,
+                2217,
+                1440,
+                2392
+              ],
+              "clickable": true,
+              "class": "com.google.android.gms.ads.internal.webview.m",
+              "componentLabel": "Web View"
+            }
+          ],
+          "componentLabel": "Web View"
+        }
+      ],
+      "componentLabel": "Advertisement"
+    }
+  ]
+}

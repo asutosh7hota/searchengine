@@ -1,0 +1,189 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "Settings",
+      "resource-id": "net.bloomz:id/txtHeading",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        189,
+        84,
+        1202,
+        259
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Done",
+      "resource-id": "net.bloomz:id/donebtn",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        1216,
+        84,
+        1440,
+        259
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "finish"
+    },
+    {
+      "iconClass": "arrow_backward",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.bloomz:id/backarrow",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        84,
+        175,
+        259
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "General",
+      "resource-id": "net.bloomz:id/txtGeneral",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        263,
+        273,
+        438
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Calendar",
+      "resource-id": "net.bloomz:id/txtCalendar",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        273,
+        263,
+        575,
+        438
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "calendar"
+    },
+    {
+      "text": "Students",
+      "resource-id": "net.bloomz:id/txtStudents",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        575,
+        263,
+        875,
+        438
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Calendar ",
+      "resource-id": "net.bloomz:id/txtCalendarAdd",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        35,
+        566,
+        280,
+        639
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "+",
+      "resource-id": "net.bloomz:id/txtCalendarPlus",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        280,
+        543,
+        337,
+        663
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Import Calendar (iCal)",
+      "resource-id": "net.bloomz:id/txtImportCalendar",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        70,
+        698,
+        1282,
+        873
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1282,
+        715,
+        1405,
+        855
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    }
+  ]
+}

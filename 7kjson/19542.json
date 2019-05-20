@@ -1,0 +1,354 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "android:id/action_bar_container",
+      "children": [
+        {
+          "iconClass": "build",
+          "resource-id": "com.smeunier.nightskytools:id/menu_settings",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.android.internal.view.menu.ActionMenuItemView",
+          "bounds": [
+            1048,
+            84,
+            1244,
+            252
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1244,
+            84,
+            1440,
+            252
+          ],
+          "clickable": true,
+          "class": "android.widget.ActionMenuPresenter$OverflowMenuButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "android:id/up",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            140,
+            56,
+            196
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "android:id/home",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            43,
+            112,
+            155,
+            224
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Equinoxes",
+          "resource-id": "android:id/action_bar_title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            169,
+            125,
+            455,
+            210
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "share",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "android:id/image",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            696,
+            112,
+            808,
+            224
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "android:id/image",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            894,
+            112,
+            1006,
+            224
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.internal.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        252
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.smeunier.nightskytools:id/year_spinner",
+      "ancestors": [
+        "android.widget.AbsSpinner",
+        "android.widget.AdapterView",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Spinner",
+      "bounds": [
+        35,
+        287,
+        782,
+        406
+      ],
+      "componentLabel": "Text Button",
+      "text": "2017"
+    },
+    {
+      "text": "Events",
+      "resource-id": "com.smeunier.nightskytools:id/event_label",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        35,
+        427,
+        782,
+        523
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Event Type",
+      "bounds": [
+        70,
+        558,
+        431,
+        615
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Time (UTC)",
+      "bounds": [
+        431,
+        558,
+        747,
+        615
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "March equinox",
+      "bounds": [
+        70,
+        615,
+        431,
+        672
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "20 Mar 10:28:38",
+      "bounds": [
+        431,
+        615,
+        747,
+        672
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "June solstice",
+      "bounds": [
+        70,
+        672,
+        431,
+        729
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "21 Jun 04:23:43",
+      "bounds": [
+        431,
+        672,
+        747,
+        729
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "September equinox",
+      "bounds": [
+        70,
+        729,
+        431,
+        786
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "22 Sep 20:02:24",
+      "bounds": [
+        431,
+        729,
+        747,
+        786
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "December solstice",
+      "bounds": [
+        70,
+        786,
+        431,
+        843
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "21 Dec 16:29:04",
+      "bounds": [
+        431,
+        786,
+        747,
+        843
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    }
+  ]
+}

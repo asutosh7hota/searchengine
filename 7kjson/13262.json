@@ -1,0 +1,145 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.evilduck.musiciankit:id/action_bar_container",
+      "children": [
+        {
+          "text": "Sight Reading",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.au",
+          "bounds": [
+            252,
+            98,
+            688,
+            191
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.ac",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Treble Clef: G3-C5",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.au",
+          "bounds": [
+            252,
+            191,
+            698,
+            266
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "0%",
+      "resource-id": "com.evilduck.musiciankit:id/result_label",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.au",
+      "bounds": [
+        593,
+        1732,
+        847,
+        1994
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "1/20",
+      "resource-id": "com.evilduck.musiciankit:id/progress_label",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.au",
+      "bounds": [
+        56,
+        2233,
+        1160,
+        2299
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Next",
+      "resource-id": "com.evilduck.musiciankit:id/button_bottom",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.v",
+      "bounds": [
+        1160,
+        2140,
+        1384,
+        2392
+      ],
+      "componentLabel": "Text Button"
+    }
+  ]
+}

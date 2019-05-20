@@ -1,0 +1,94 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "iconClass": "avatar",
+      "ancestors": [
+        "com.instagram.common.ui.widget.imageview.IgImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.instagram.android:id/reel_viewer_profile_picture",
+      "clickable": true,
+      "class": "com.instagram.common.ui.widget.imageview.CircularImageView",
+      "bounds": [
+        42,
+        63,
+        147,
+        168
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "resource-id": "com.instagram.android:id/reel_viewer_text_container",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        147,
+        0,
+        694,
+        231
+      ],
+      "componentLabel": "Text Button",
+      "text": "kevinhart4real"
+    },
+    {
+      "text": "",
+      "resource-id": "com.instagram.android:id/toolbar_follow_button",
+      "ancestors": [
+        "com.instagram.user.follow.x",
+        "com.instagram.ui.widget.textview.ImageWithTitleTextView",
+        "com.instagram.ui.text.TitleTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.instagram.user.follow.FollowButton",
+      "bounds": [
+        1174,
+        2259,
+        1342,
+        2357
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "more",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.instagram.android:id/toolbar_menu_button",
+      "clickable": true,
+      "class": "com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView",
+      "bounds": [
+        1342,
+        2224,
+        1440,
+        2392
+      ],
+      "componentLabel": "Icon"
+    }
+  ]
+}

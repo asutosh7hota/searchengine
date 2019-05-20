@@ -1,0 +1,992 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.idmedia.android.newsportal:id/action_bar_container",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            259,
+            105,
+            431,
+            231
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.q",
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            7,
+            84,
+            203,
+            252
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.o",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "search",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.idmedia.android.newsportal:id/search_button",
+          "clickable": true,
+          "class": "android.support.v7.widget.q",
+          "bounds": [
+            1247,
+            84,
+            1415,
+            252
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.idmedia.android.newsportal:id/navigation_drawer",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            280,
+            1064,
+            462
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "T O P   S T O R I E S",
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_text",
+              "ancestors": [
+                "de.dw.mobile.views.e",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "de.dw.mobile.views.FontTextView",
+              "bounds": [
+                70,
+                333,
+                464,
+                409
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_divider",
+              "clickable": false,
+              "class": "android.support.v7.widget.q",
+              "bounds": [
+                70,
+                458,
+                994,
+                462
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            462,
+            1064,
+            644
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "G E R M A N Y",
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_text",
+              "ancestors": [
+                "de.dw.mobile.views.e",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "de.dw.mobile.views.FontTextView",
+              "bounds": [
+                70,
+                522,
+                358,
+                583
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_divider",
+              "clickable": false,
+              "class": "android.support.v7.widget.q",
+              "bounds": [
+                70,
+                640,
+                994,
+                644
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            644,
+            1064,
+            826
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "W O R L D",
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_text",
+              "ancestors": [
+                "de.dw.mobile.views.e",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "de.dw.mobile.views.FontTextView",
+              "bounds": [
+                70,
+                704,
+                297,
+                765
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_divider",
+              "clickable": false,
+              "class": "android.support.v7.widget.q",
+              "bounds": [
+                70,
+                822,
+                994,
+                826
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            826,
+            1064,
+            1008
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "B U S I N E S S",
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_text",
+              "ancestors": [
+                "de.dw.mobile.views.e",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "de.dw.mobile.views.FontTextView",
+              "bounds": [
+                70,
+                886,
+                361,
+                947
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_divider",
+              "clickable": false,
+              "class": "android.support.v7.widget.q",
+              "bounds": [
+                70,
+                1004,
+                994,
+                1008
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1008,
+            1064,
+            1190
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "S C I E N C E",
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_text",
+              "ancestors": [
+                "de.dw.mobile.views.e",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "de.dw.mobile.views.FontTextView",
+              "bounds": [
+                70,
+                1068,
+                330,
+                1129
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_divider",
+              "clickable": false,
+              "class": "android.support.v7.widget.q",
+              "bounds": [
+                70,
+                1186,
+                994,
+                1190
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1190,
+            1064,
+            1372
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "E N V I R O N M E N T",
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_text",
+              "ancestors": [
+                "de.dw.mobile.views.e",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "de.dw.mobile.views.FontTextView",
+              "bounds": [
+                70,
+                1250,
+                466,
+                1311
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_divider",
+              "clickable": false,
+              "class": "android.support.v7.widget.q",
+              "bounds": [
+                70,
+                1368,
+                994,
+                1372
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1372,
+            1064,
+            1554
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "C U L T U R E",
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_text",
+              "ancestors": [
+                "de.dw.mobile.views.e",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "de.dw.mobile.views.FontTextView",
+              "bounds": [
+                70,
+                1432,
+                344,
+                1493
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_divider",
+              "clickable": false,
+              "class": "android.support.v7.widget.q",
+              "bounds": [
+                70,
+                1550,
+                994,
+                1554
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1554,
+            1064,
+            1736
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "S P O R T S",
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_text",
+              "ancestors": [
+                "de.dw.mobile.views.e",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "de.dw.mobile.views.FontTextView",
+              "bounds": [
+                70,
+                1614,
+                314,
+                1675
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_divider",
+              "clickable": false,
+              "class": "android.support.v7.widget.q",
+              "bounds": [
+                70,
+                1732,
+                994,
+                1736
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1736,
+            1064,
+            1918
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "M E D I A   C E N T E R",
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_text",
+              "ancestors": [
+                "de.dw.mobile.views.e",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "de.dw.mobile.views.FontTextView",
+              "bounds": [
+                70,
+                1789,
+                515,
+                1865
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_divider",
+              "clickable": false,
+              "class": "android.support.v7.widget.q",
+              "bounds": [
+                70,
+                1914,
+                994,
+                1918
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1918,
+            1064,
+            2100
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "T V",
+              "resource-id": "com.idmedia.android.newsportal:id/menu_item_text",
+              "ancestors": [
+                "de.dw.mobile.views.e",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "de.dw.mobile.views.FontTextView",
+              "bounds": [
+                70,
+                1971,
+                141,
+                2047
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            2100,
+            1064,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "resource-id": "com.idmedia.android.newsportal:id/offline_mode_container",
+              "ancestors": [
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "android.widget.LinearLayout",
+              "bounds": [
+                70,
+                2100,
+                994,
+                2282
+              ],
+              "componentLabel": "Text Button",
+              "text": "O F F L I N E   M O D E"
+            },
+            {
+              "resource-id": "com.idmedia.android.newsportal:id/text_mode_container",
+              "ancestors": [
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "android.widget.LinearLayout",
+              "bounds": [
+                70,
+                2286,
+                994,
+                2392
+              ],
+              "componentLabel": "Text Button",
+              "text": "T E X T   O N L Y   M O D E"
+            }
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        280,
+        1064,
+        2392
+      ],
+      "componentLabel": "Drawer"
+    },
+    {
+      "resource-id": "com.idmedia.android.newsportal:id/category_sliding_tabs",
+      "children": [
+        {
+          "text": "M E D I A   C E N T E R",
+          "resource-id": "com.idmedia.android.newsportal:id/tab_indicator_tv",
+          "ancestors": [
+            "de.dw.mobile.views.e",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "de.dw.mobile.views.FontTextView",
+          "bounds": [
+            14,
+            294,
+            571,
+            434
+          ],
+          "componentLabel": "Text Button"
+        }
+      ],
+      "ancestors": [
+        "android.widget.HorizontalScrollView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "de.dw.mobile.views.SlidingTabLayout",
+      "bounds": [
+        0,
+        294,
+        1440,
+        434
+      ],
+      "componentLabel": "Multi-Tab"
+    },
+    {
+      "resource-id": "com.idmedia.android.newsportal:id/teaser_container_ll",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.idmedia.android.newsportal:id/teaser_iv_add_to_mysection",
+          "clickable": true,
+          "class": "android.support.v7.widget.q",
+          "bounds": [
+            1202,
+            434,
+            1370,
+            476
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        434,
+        1440,
+        546
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.idmedia.android.newsportal:id/teaser_container_ll",
+      "children": [
+        {
+          "text": "WorldLink: Mental health in the West Bank",
+          "resource-id": "com.idmedia.android.newsportal:id/teaser_tv_name",
+          "ancestors": [
+            "de.dw.mobile.views.FontTextView",
+            "de.dw.mobile.views.e",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "de.dw.mobile.views.EllipsizingFontTextView",
+          "bounds": [
+            70,
+            592,
+            1370,
+            782
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "The Middle East has the highest rates of depression, anxiety and post-traumatic stress due to conflict and disaster, according to studies by…",
+          "resource-id": "com.idmedia.android.newsportal:id/teaser_tv_text",
+          "ancestors": [
+            "de.dw.mobile.views.FontTextView",
+            "de.dw.mobile.views.e",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "de.dw.mobile.views.EllipsizingFontTextView",
+          "bounds": [
+            70,
+            796,
+            1370,
+            1025
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "bookmark",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.idmedia.android.newsportal:id/teaser_iv_add_to_mysection",
+          "clickable": true,
+          "class": "android.support.v7.widget.q",
+          "bounds": [
+            1202,
+            1025,
+            1370,
+            1186
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        546,
+        1440,
+        1256
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.idmedia.android.newsportal:id/teaser_container_ll",
+      "children": [
+        {
+          "text": "WorldLink: LGBT rights under Trump",
+          "resource-id": "com.idmedia.android.newsportal:id/teaser_tv_name",
+          "ancestors": [
+            "de.dw.mobile.views.FontTextView",
+            "de.dw.mobile.views.e",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "de.dw.mobile.views.EllipsizingFontTextView",
+          "bounds": [
+            70,
+            1302,
+            1370,
+            1395
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "For the LGBT-community Trump's action on the bathroom-issue has validated fears that he wants to revoke their rights.",
+          "resource-id": "com.idmedia.android.newsportal:id/teaser_tv_text",
+          "ancestors": [
+            "de.dw.mobile.views.FontTextView",
+            "de.dw.mobile.views.e",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "de.dw.mobile.views.EllipsizingFontTextView",
+          "bounds": [
+            70,
+            1409,
+            1370,
+            1638
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "bookmark",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.idmedia.android.newsportal:id/teaser_iv_add_to_mysection",
+          "clickable": true,
+          "class": "android.support.v7.widget.q",
+          "bounds": [
+            1202,
+            1638,
+            1370,
+            1799
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1256,
+        1440,
+        1869
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.idmedia.android.newsportal:id/teaser_container_ll",
+      "children": [
+        {
+          "text": "Women and Equality: Progress or Backlash?",
+          "resource-id": "com.idmedia.android.newsportal:id/teaser_tv_name",
+          "ancestors": [
+            "de.dw.mobile.views.FontTextView",
+            "de.dw.mobile.views.e",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "de.dw.mobile.views.EllipsizingFontTextView",
+          "bounds": [
+            70,
+            1915,
+            1370,
+            2105
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Women’s rights: under pressure from the rise of populism and authoritarian leaders?",
+          "resource-id": "com.idmedia.android.newsportal:id/teaser_tv_text",
+          "ancestors": [
+            "de.dw.mobile.views.FontTextView",
+            "de.dw.mobile.views.e",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "de.dw.mobile.views.EllipsizingFontTextView",
+          "bounds": [
+            70,
+            2119,
+            1370,
+            2269
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.idmedia.android.newsportal:id/teaser_iv_add_to_mysection",
+          "clickable": true,
+          "class": "android.support.v7.widget.q",
+          "bounds": [
+            1202,
+            2269,
+            1370,
+            2392
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1869,
+        1440,
+        2392
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

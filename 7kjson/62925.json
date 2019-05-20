@@ -1,0 +1,410 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.eightd.android.spotcycle:id/action_bar_toolbar",
+      "children": [
+        {
+          "text": "Directions",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            135,
+            529,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "iconClass": "navigation",
+      "ancestors": [
+        "android.support.design.widget.VisibilityAwareImageButton",
+        "android.support.v7.widget.AppCompatImageButton",
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.eightd.android.spotcycle:id/route_btn",
+      "clickable": true,
+      "class": "android.support.design.widget.FloatingActionButton",
+      "bounds": [
+        1188,
+        620,
+        1384,
+        816
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.google.android.gms.maps.MapView",
+      "bounds": [
+        0,
+        84,
+        1440,
+        2392
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "iconClass": "sliders",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            18,
+            1765,
+            228,
+            1842
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Icon"
+        }
+      ],
+      "componentLabel": "Map View"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.eightd.android.spotcycle:id/switch_btn",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        0,
+        336,
+        196,
+        623
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Visitors Center",
+      "resource-id": "com.eightd.android.spotcycle:id/from_txt",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        196,
+        336,
+        1384,
+        476
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "",
+      "resource-id": "com.eightd.android.spotcycle:id/to_txt",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        196,
+        483,
+        1384,
+        623
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "resource-id": "com.eightd.android.spotcycle:id/toolbar_fav_wrap",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        576,
+        2112,
+        864,
+        2392
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "add"
+    },
+    {
+      "text": "Visitors Center",
+      "resource-id": "com.eightd.android.spotcycle:id/header_line1_txt",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        56,
+        1860,
+        1147,
+        1978
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Could not resolve address",
+      "resource-id": "com.eightd.android.spotcycle:id/header_line2_txt",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.eightd.core.widgets.WLTextView",
+      "bounds": [
+        56,
+        2006,
+        1147,
+        2100
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Distance",
+      "resource-id": "com.eightd.android.spotcycle:id/distance_lbl",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        1200,
+        1860,
+        1391,
+        1968
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "3166.85 km",
+      "resource-id": "com.eightd.android.spotcycle:id/distance_txt",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        1165,
+        1996,
+        1426,
+        2062
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Bikes",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        2168,
+        288,
+        2234
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Docks",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        288,
+        2168,
+        576,
+        2234
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.eightd.android.spotcycle:id/from_here_img",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        948,
+        2168,
+        1067,
+        2252
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "FROM",
+      "resource-id": "com.eightd.android.spotcycle:id/toolbar_from_here_lbl",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        864,
+        2270,
+        1152,
+        2336
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.eightd.android.spotcycle:id/to_here_img",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1236,
+        2168,
+        1355,
+        2252
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "TO",
+      "resource-id": "com.eightd.android.spotcycle:id/toolbar_to_here_lbl",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        1152,
+        2270,
+        1440,
+        2336
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "4",
+      "resource-id": "com.eightd.android.spotcycle:id/bikes_txt",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        102,
+        2252,
+        186,
+        2336
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "10",
+      "resource-id": "com.eightd.android.spotcycle:id/docks_txt",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        390,
+        2252,
+        474,
+        2336
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

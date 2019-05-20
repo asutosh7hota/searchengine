@@ -1,0 +1,365 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.bitsmedia.android.muslimpro:id/logo",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        84,
+        1440,
+        2392
+      ],
+      "componentLabel": "Background Image"
+    },
+    {
+      "iconClass": "arrow_backward",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.bitsmedia.android.muslimpro:id/previousButton",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        0,
+        2224,
+        288,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "font",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.bitsmedia.android.muslimpro:id/textButton",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        288,
+        2224,
+        576,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.bitsmedia.android.muslimpro:id/backgroundButton",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        864,
+        2224,
+        1152,
+        2392
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "arrow_forward",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.bitsmedia.android.muslimpro:id/nextButton",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        1152,
+        2224,
+        1440,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "resource-id": "com.bitsmedia.android.muslimpro:id/toolbar",
+      "children": [
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Al-Kahf",
+          "resource-id": "com.bitsmedia.android.muslimpro:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            139,
+            551,
+            224
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "iconClass": "search",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1104,
+            98,
+            1272,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        280,
+        1440,
+        482
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.bitsmedia.android.muslimpro:id/bismillahImageView",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            300,
+            308,
+            1140,
+            454
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        486,
+        1440,
+        1364
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "ٱﻟْﺤَﻤْﺪُ ﻟِﻠَّﻪِ ٱﻟَّﺬِﻯٓ ﺃَﻧﺰَﻝَ ﻋَﻠَﻰٰ ﻋَﺒْﺪِﻩِ ٱﻟْﻜِﺘَٰﺐَ ﻭَﻟَﻢْ ﻳَﺠْﻌَﻞ ﻟَّﻪُۥ ﻋِﻮَﺟَﺎ ۜ ﴿﻿١﻿﴾\n1. Alhamdu lillahi allathee anzala AAala AAabdihi alkitaba walam yajAAal lahu AAiwajan",
+          "resource-id": "com.bitsmedia.android.muslimpro:id/ayaTextView",
+          "ancestors": [
+            "android.widget.EditText",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.bitsmedia.android.muslimpro.views.SelectableTextView",
+          "bounds": [
+            0,
+            598,
+            1440,
+            1364
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.bitsmedia.android.muslimpro:id/menuImageView",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            486,
+            189,
+            675
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1368,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "ﻗَﻴِّﻤًﺎ ﻟِّﻴُﻨﺬِﺭَ ﺑَﺄْﺳًﺎ ﺷَﺪِﻳﺪًا ﻣِّﻦ ﻟَّﺪُﻧْﻪُ ﻭَﻳُﺒَﺸِّﺮَ ٱﻟْﻤُﺆْﻣِﻨِﻴﻦَ ٱﻟَّﺬِﻳﻦَ ﻳَﻌْﻤَﻠُﻮﻥَ ٱﻟﺼَّٰﻠِﺤَٰﺖِ ﺃَﻥَّ ﻟَﻬُﻢْ ﺃَﺟْﺮًا ﺣَﺴَﻨًﺎ ﴿﻿٢﻿﴾\n2. Qayyiman liyunthira basan shadeedan min ladunhu wayubashshira almumineena allatheena yaAAmaloona alssalihati anna lahum ajran hasanan",
+          "resource-id": "com.bitsmedia.android.muslimpro:id/ayaTextView",
+          "ancestors": [
+            "android.widget.EditText",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.bitsmedia.android.muslimpro.views.SelectableTextView",
+          "bounds": [
+            0,
+            1480,
+            1440,
+            2392
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.bitsmedia.android.muslimpro:id/menuImageView",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            1368,
+            189,
+            1557
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "iconClass": "play",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.bitsmedia.android.muslimpro:id/soundButton",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        576,
+        2224,
+        864,
+        2392
+      ],
+      "componentLabel": "Icon"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.aol.mobile.aolapp:id/settings_detail_toolbar",
+      "children": [
+        {
+          "text": "Weather",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            142,
+            472,
+            235
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            91,
+            196,
+            287
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        294
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Locate Me",
+      "resource-id": "com.aol.mobile.aolapp:id/locate_me_txt",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.aol.mobile.aolapp.commons.ui.widget.AolCustomTextView",
+      "bounds": [
+        981,
+        356,
+        1244,
+        414
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "",
+      "resource-id": "com.aol.mobile.aolapp:id/search_loc_edit_text",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.aol.mobile.aolapp.mail.widget.AolEditText",
+      "bounds": [
+        84,
+        448,
+        1356,
+        588
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.aol.mobile.aolapp:id/cancel_search_weather_loc_btn",
+      "clickable": true,
+      "class": "com.aol.mobile.aolapp.commons.ui.widget.TintableImageView",
+      "bounds": [
+        1216,
+        448,
+        1356,
+        588
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Save Settings",
+      "resource-id": "com.aol.mobile.aolapp:id/save_weather_settings_btn",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.aol.mobile.aolapp.mail.widget.AolButton",
+      "bounds": [
+        84,
+        984,
+        1356,
+        1152
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.aol.mobile.aolapp:id/autolocate",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1258,
+        343,
+        1342,
+        427
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Fahrenheit",
+      "resource-id": "com.aol.mobile.aolapp:id/radio_button_fahrenheit",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.aol.mobile.aolapp.mail.widget.AolRadioButton",
+      "bounds": [
+        84,
+        672,
+        1356,
+        786
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "text": "Celsius",
+      "resource-id": "com.aol.mobile.aolapp:id/radio_button_celsius",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.aol.mobile.aolapp.mail.widget.AolRadioButton",
+      "bounds": [
+        84,
+        786,
+        1356,
+        900
+      ],
+      "componentLabel": "Radio Button"
+    }
+  ]
+}

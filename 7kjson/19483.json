@@ -1,0 +1,152 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "iconClass": "close",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.android.wzdworks.magicday:id/backButton",
+      "clickable": true,
+      "class": "android.widget.ImageButton",
+      "bounds": [
+        16,
+        100,
+        209,
+        293
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Settings",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "net.android.wzdworks.magicday.utility.AutofitTextView",
+      "bounds": [
+        288,
+        84,
+        1409,
+        308
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Password lock",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        64,
+        308,
+        865,
+        532
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Off",
+      "resource-id": "net.android.wzdworks.magicday:id/lockOnTextView",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        736,
+        308,
+        1377,
+        532
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Weight Unit",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        64,
+        532,
+        865,
+        756
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "lb",
+      "resource-id": "net.android.wzdworks.magicday:id/weightTextView",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        736,
+        532,
+        1377,
+        756
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "First day of week",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        64,
+        756,
+        865,
+        980
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Sunday",
+      "resource-id": "net.android.wzdworks.magicday:id/startWeekTextView",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        736,
+        756,
+        1377,
+        980
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

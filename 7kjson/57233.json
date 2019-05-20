@@ -1,0 +1,121 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.facebook.ads.AdView",
+      "bounds": [
+        0,
+        0,
+        1440,
+        175
+      ],
+      "clickable": false,
+      "children": [],
+      "componentLabel": "Advertisement"
+    },
+    {
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "back",
+      "bounds": [
+        0,
+        178,
+        480,
+        346
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "componentLabel": "Text Button",
+      "textButtonClass": "back"
+    },
+    {
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "help",
+      "bounds": [
+        480,
+        178,
+        960,
+        346
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "componentLabel": "Text Button",
+      "textButtonClass": "help"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.just4fun.addghost:id/icon_rotate_left",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        2217,
+        480,
+        2392
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.just4fun.addghost:id/icon_rotate_right",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        480,
+        2217,
+        960,
+        2392
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "volume",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.just4fun.addghost:id/icon_rotate_ready",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        960,
+        2217,
+        1440,
+        2392
+      ],
+      "componentLabel": "Icon"
+    }
+  ]
+}

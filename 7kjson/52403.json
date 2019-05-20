@@ -1,0 +1,490 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.sillens.shapeupclub:id/viewswitcher",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            630,
+            1440,
+            809
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Nuts",
+              "resource-id": "com.sillens.shapeupclub:id/textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+              "bounds": [
+                168,
+                686,
+                1384,
+                753
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            809,
+            1440,
+            988
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Fish",
+              "resource-id": "com.sillens.shapeupclub:id/textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+              "bounds": [
+                168,
+                865,
+                1384,
+                932
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            988,
+            1440,
+            1167
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Shellfish",
+              "resource-id": "com.sillens.shapeupclub:id/textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+              "bounds": [
+                168,
+                1044,
+                1384,
+                1111
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1167,
+            1440,
+            1346
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Egg",
+              "resource-id": "com.sillens.shapeupclub:id/textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+              "bounds": [
+                168,
+                1223,
+                1384,
+                1290
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1346,
+            1440,
+            1525
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Milk",
+              "resource-id": "com.sillens.shapeupclub:id/textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+              "bounds": [
+                168,
+                1402,
+                1384,
+                1469
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1525,
+            1440,
+            1704
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Lactose",
+              "resource-id": "com.sillens.shapeupclub:id/textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+              "bounds": [
+                168,
+                1581,
+                1384,
+                1648
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1704,
+            1440,
+            1883
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Wheat",
+              "resource-id": "com.sillens.shapeupclub:id/textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+              "bounds": [
+                168,
+                1760,
+                1384,
+                1827
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1883,
+            1440,
+            2062
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Gluten",
+              "resource-id": "com.sillens.shapeupclub:id/textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+              "bounds": [
+                168,
+                1939,
+                1384,
+                2006
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            2062,
+            1440,
+            2224
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "None",
+              "resource-id": "com.sillens.shapeupclub:id/textview",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+              "bounds": [
+                168,
+                2118,
+                1384,
+                2185
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "ancestors": [
+        "android.widget.ViewAnimator",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.ViewSwitcher",
+      "bounds": [
+        0,
+        602,
+        1440,
+        2224
+      ],
+      "componentLabel": "On/Off Switch"
+    },
+    {
+      "resource-id": "com.sillens.shapeupclub:id/toolbar",
+      "children": [
+        {
+          "text": "HEALTH TEST",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            117,
+            617,
+            190
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "close",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "QUESTION 2 OF 41",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            190,
+            614,
+            247
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Any allergies?",
+      "resource-id": "com.sillens.shapeupclub:id/textview_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+      "bounds": [
+        495,
+        350,
+        945,
+        443
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Back",
+      "resource-id": "com.sillens.shapeupclub:id/textview_prev",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+      "bounds": [
+        56,
+        2224,
+        319,
+        2392
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "back"
+    },
+    {
+      "text": "Next",
+      "resource-id": "com.sillens.shapeupclub:id/textview_next",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+      "bounds": [
+        1118,
+        2224,
+        1384,
+        2392
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "next"
+    }
+  ]
+}

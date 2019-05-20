@@ -1,0 +1,641 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.nascar.nascarmobile:id/toolbar",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "",
+          "resource-id": "com.nascar.nascarmobile:id/series_1",
+          "ancestors": [
+            "android.widget.RadioButton",
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatRadioButton",
+          "bounds": [
+            294,
+            84,
+            539,
+            280
+          ],
+          "componentLabel": "Radio Button"
+        },
+        {
+          "text": "",
+          "resource-id": "com.nascar.nascarmobile:id/series_2",
+          "ancestors": [
+            "android.widget.RadioButton",
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatRadioButton",
+          "bounds": [
+            623,
+            84,
+            868,
+            280
+          ],
+          "componentLabel": "Radio Button"
+        },
+        {
+          "text": "",
+          "resource-id": "com.nascar.nascarmobile:id/series_3",
+          "ancestors": [
+            "android.widget.RadioButton",
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatRadioButton",
+          "bounds": [
+            952,
+            84,
+            1197,
+            280
+          ],
+          "componentLabel": "Radio Button"
+        },
+        {
+          "text": "Live",
+          "resource-id": "com.nascar.nascarmobile:id/action_live_on",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1240,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "live"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.google.android.gms.ads.doubleclick.PublisherAdView",
+      "bounds": [
+        0,
+        2217,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.google.android.gms.ads.internal.webview.l",
+          "bounds": [
+            160,
+            2217,
+            1280,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.webkit.WebView",
+                "android.widget.AbsoluteLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "bounds": [
+                160,
+                2217,
+                1280,
+                2392
+              ],
+              "clickable": true,
+              "class": "com.google.android.gms.ads.internal.webview.m",
+              "componentLabel": "Web View"
+            }
+          ],
+          "componentLabel": "Web View"
+        }
+      ],
+      "componentLabel": "Advertisement"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        280,
+        1440,
+        1260
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.google.android.gms.ads.doubleclick.PublisherAdView",
+          "bounds": [
+            0,
+            280,
+            1440,
+            385
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.FrameLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "class": "com.google.android.gms.ads.internal.webview.l",
+              "bounds": [
+                352,
+                280,
+                1087,
+                385
+              ],
+              "clickable": false,
+              "children": [
+                {
+                  "ancestors": [
+                    "android.webkit.WebView",
+                    "android.widget.AbsoluteLayout",
+                    "android.view.ViewGroup",
+                    "android.view.View",
+                    "java.lang.Object"
+                  ],
+                  "bounds": [
+                    352,
+                    280,
+                    1087,
+                    385
+                  ],
+                  "clickable": true,
+                  "class": "com.google.android.gms.ads.internal.webview.m",
+                  "componentLabel": "Web View"
+                }
+              ],
+              "componentLabel": "Web View"
+            }
+          ],
+          "componentLabel": "Advertisement"
+        },
+        {
+          "ancestors": [
+            "com.android.volley.toolbox.NetworkImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.nascar.nascarmobile:id/media_thumbnail",
+          "clickable": false,
+          "class": "com.nascar.nascarmobile.view.FadeInNetworkImageView",
+          "bounds": [
+            0,
+            385,
+            1440,
+            931
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "NASCAR, Monster Energy announce premier series entitlement partnership",
+          "resource-id": "com.nascar.nascarmobile:id/media_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            0,
+            707,
+            1440,
+            875
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "com.android.volley.toolbox.NetworkImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.nascar.nascarmobile:id/race_logo",
+          "clickable": false,
+          "class": "com.nascar.nascarmobile.view.FadeInNetworkImageView",
+          "bounds": [
+            35,
+            980,
+            301,
+            1127
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Sprint Cup Series Race",
+          "resource-id": "com.nascar.nascarmobile:id/race_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "net.kianoni.fontloader.TextView",
+          "bounds": [
+            322,
+            984,
+            1128,
+            1033
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Daytona International Speedway",
+          "resource-id": "com.nascar.nascarmobile:id/track_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "net.kianoni.fontloader.TextView",
+          "bounds": [
+            322,
+            1040,
+            1128,
+            1087
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.nascar.nascarmobile:id/event_module_button",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1128,
+            959,
+            1426,
+            1232
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "com.android.volley.toolbox.NetworkImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.nascar.nascarmobile:id/tv_broadcaster",
+          "clickable": false,
+          "class": "com.nascar.nascarmobile.view.FadeInNetworkImageView",
+          "bounds": [
+            945,
+            1152,
+            1110,
+            1228
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Saturday @ 8:00 PM/EST",
+          "resource-id": "com.nascar.nascarmobile:id/race_date",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "net.kianoni.fontloader.TextView",
+          "bounds": [
+            35,
+            1169,
+            607,
+            1222
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1281,
+        1440,
+        1534
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "iconClass": "add",
+          "ancestors": [
+            "com.android.volley.toolbox.NetworkImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.nascar.nascarmobile:id/media_thumbnail",
+          "clickable": false,
+          "class": "com.nascar.nascarmobile.view.FadeInNetworkImageView",
+          "bounds": [
+            18,
+            1285,
+            438,
+            1530
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "'Guy from California' honors legends in title speech",
+          "resource-id": "com.nascar.nascarmobile:id/media_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "net.kianoni.fontloader.TextView",
+          "bounds": [
+            442,
+            1285,
+            1426,
+            1530
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1555,
+        1440,
+        1808
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "com.android.volley.toolbox.NetworkImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.nascar.nascarmobile:id/media_thumbnail",
+          "clickable": false,
+          "class": "com.nascar.nascarmobile.view.FadeInNetworkImageView",
+          "bounds": [
+            18,
+            1559,
+            438,
+            1804
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Stewart's dual legacies honored with speeches, surprises",
+          "resource-id": "com.nascar.nascarmobile:id/media_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "net.kianoni.fontloader.TextView",
+          "bounds": [
+            442,
+            1559,
+            1426,
+            1804
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1829,
+        1440,
+        2082
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "com.android.volley.toolbox.NetworkImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.nascar.nascarmobile:id/media_thumbnail",
+          "clickable": false,
+          "class": "com.nascar.nascarmobile.view.FadeInNetworkImageView",
+          "bounds": [
+            18,
+            1833,
+            438,
+            2078
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Dale Jr. confirms wedding date, gives health update",
+          "resource-id": "com.nascar.nascarmobile:id/media_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "net.kianoni.fontloader.TextView",
+          "bounds": [
+            442,
+            1833,
+            1426,
+            2078
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        2103,
+        1440,
+        2217
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "com.android.volley.toolbox.NetworkImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.nascar.nascarmobile:id/media_thumbnail",
+          "clickable": false,
+          "class": "com.nascar.nascarmobile.view.FadeInNetworkImageView",
+          "bounds": [
+            18,
+            2107,
+            438,
+            2217
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Dale Earnhardt Jr. wins 2016 Most Popular driver award",
+          "resource-id": "com.nascar.nascarmobile:id/media_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "net.kianoni.fontloader.TextView",
+          "bounds": [
+            442,
+            2107,
+            1426,
+            2217
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.nascar.nascarmobile:id/media_icon",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            18,
+            2107,
+            438,
+            2217
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

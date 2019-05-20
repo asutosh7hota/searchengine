@@ -1,0 +1,462 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "Enter locality, developer, project or landmark",
+      "resource-id": "com.locon.housing:id/home_screen_search_box",
+      "ancestors": [
+        "com.locon.housing.views.g",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.locon.housing.views.RobotoRegularTextView",
+      "bounds": [
+        33,
+        112,
+        1407,
+        323
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.nhaarman.listviewanimations.itemmanipulation.c.a.d",
+      "bounds": [
+        0,
+        295,
+        1440,
+        629
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "resource-id": "com.locon.housing:id/card_view_container",
+          "children": [
+            {
+              "text": "View Buying Guide",
+              "resource-id": "com.locon.housing:id/home_card_action_text",
+              "ancestors": [
+                "com.locon.housing.views.g",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.locon.housing.views.RobotoRegularTextView",
+              "bounds": [
+                28,
+                475,
+                950,
+                629
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.locon.housing:id/home_card_right_image",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                950,
+                295,
+                1335,
+                629
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "All you need to know before buying your dream home!",
+              "resource-id": "com.locon.housing:id/info_card_content",
+              "ancestors": [
+                "com.locon.housing.views.g",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.locon.housing.views.RobotoRegularTextView",
+              "bounds": [
+                77,
+                295,
+                950,
+                475
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            295,
+            1440,
+            629
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.nhaarman.listviewanimations.itemmanipulation.c.a.d",
+      "bounds": [
+        0,
+        657,
+        1440,
+        1209
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "resource-id": "com.locon.housing:id/card_view_container",
+          "children": [
+            {
+              "text": "Login Now",
+              "resource-id": "com.locon.housing:id/home_card_action_text",
+              "ancestors": [
+                "com.locon.housing.views.g",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.locon.housing.views.RobotoRegularTextView",
+              "bounds": [
+                28,
+                1055,
+                950,
+                1209
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.locon.housing:id/home_card_right_image",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                950,
+                754,
+                1335,
+                1209
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Login for Benefits",
+              "resource-id": "com.locon.housing:id/info_card_heading",
+              "ancestors": [
+                "com.locon.housing.views.g",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.locon.housing.views.RobotoRegularTextView",
+              "bounds": [
+                77,
+                717,
+                950,
+                802
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Shortlist properties you love, get fresh alerts and view your progress.",
+              "resource-id": "com.locon.housing:id/info_card_content",
+              "ancestors": [
+                "com.locon.housing.views.g",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.locon.housing.views.RobotoRegularTextView",
+              "bounds": [
+                77,
+                841,
+                950,
+                1055
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            657,
+            1440,
+            1209
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.nhaarman.listviewanimations.itemmanipulation.c.a.d",
+      "bounds": [
+        0,
+        1237,
+        1440,
+        1789
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "resource-id": "com.locon.housing:id/card_view_container",
+          "children": [
+            {
+              "text": "Post My Property",
+              "resource-id": "com.locon.housing:id/home_card_action_text",
+              "ancestors": [
+                "com.locon.housing.views.g",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.locon.housing.views.RobotoRegularTextView",
+              "bounds": [
+                28,
+                1635,
+                950,
+                1789
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.locon.housing:id/home_card_right_image",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                950,
+                1334,
+                1335,
+                1789
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Post Your Property",
+              "resource-id": "com.locon.housing:id/info_card_heading",
+              "ancestors": [
+                "com.locon.housing.views.g",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.locon.housing.views.RobotoRegularTextView",
+              "bounds": [
+                77,
+                1297,
+                950,
+                1382
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Looking for buyers? Give us details and we'll do the rest, even take the photos!",
+              "resource-id": "com.locon.housing:id/info_card_content",
+              "ancestors": [
+                "com.locon.housing.views.g",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.locon.housing.views.RobotoRegularTextView",
+              "bounds": [
+                77,
+                1421,
+                950,
+                1635
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1237,
+            1440,
+            1789
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.nhaarman.listviewanimations.itemmanipulation.c.a.d",
+      "bounds": [
+        0,
+        1817,
+        1440,
+        2369
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "resource-id": "com.locon.housing:id/card_view_container",
+          "children": [
+            {
+              "text": "Help Us Improve",
+              "resource-id": "com.locon.housing:id/home_card_action_text",
+              "ancestors": [
+                "com.locon.housing.views.g",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.locon.housing.views.RobotoRegularTextView",
+              "bounds": [
+                28,
+                2215,
+                950,
+                2369
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.locon.housing:id/home_card_right_image",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                950,
+                1914,
+                1335,
+                2369
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Feedback",
+              "resource-id": "com.locon.housing:id/info_card_heading",
+              "ancestors": [
+                "com.locon.housing.views.g",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.locon.housing.views.RobotoRegularTextView",
+              "bounds": [
+                77,
+                1877,
+                950,
+                1962
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Got suggestions for us? We'd love to hear from you.",
+              "resource-id": "com.locon.housing:id/info_card_content",
+              "ancestors": [
+                "com.locon.housing.views.g",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.locon.housing.views.RobotoRegularTextView",
+              "bounds": [
+                77,
+                2001,
+                950,
+                2215
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1817,
+            1440,
+            2369
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

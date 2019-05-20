@@ -1,0 +1,289 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "Members",
+      "resource-id": "mobi.jackd.android:id/tab_0",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        2249,
+        288,
+        2385
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Inbox",
+      "resource-id": "mobi.jackd.android:id/tab_1",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        288,
+        2249,
+        576,
+        2385
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Match",
+      "resource-id": "mobi.jackd.android:id/tab_2",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        576,
+        2249,
+        864,
+        2385
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Favorites",
+      "resource-id": "mobi.jackd.android:id/tab_3",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        864,
+        2249,
+        1152,
+        2385
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "favorites"
+    },
+    {
+      "text": "Account",
+      "resource-id": "mobi.jackd.android:id/tab_4",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        1152,
+        2249,
+        1440,
+        2385
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "",
+      "resource-id": "mobi.jackd.android:id/worldwide",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        91,
+        162,
+        203
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Match Finder",
+      "resource-id": "mobi.jackd.android:id/textView1",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        556,
+        111,
+        884,
+        182
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "",
+      "resource-id": "mobi.jackd.android:id/menu",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        1313,
+        91,
+        1440,
+        203
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "mobi.jackd.android:id/MemberView_ImageView_Image",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        211,
+        1440,
+        2105
+      ],
+      "componentLabel": "Background Image"
+    },
+    {
+      "text": "Interested",
+      "resource-id": "mobi.jackd.android:id/interest_interest",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        201,
+        2131,
+        501,
+        2216
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Skip For Now",
+      "resource-id": "mobi.jackd.android:id/interest_skip",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        501,
+        2131,
+        860,
+        2216
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Not Interested",
+      "resource-id": "mobi.jackd.android:id/interest_not_interest",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        860,
+        2131,
+        1238,
+        2216
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "If both of you are interested in each other, we'll let you know.",
+      "resource-id": "mobi.jackd.android:id/MatchFinder_TextView_Description2",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        1974,
+        1440,
+        2027
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Otherwise he won't be notified of your choice.",
+      "resource-id": "mobi.jackd.android:id/MatchFinder_TextView_Description1",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        2027,
+        1440,
+        2080
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "t a\n\nApprox. 0.0 miles away\nOnline 2 days ago\n\n34 years old\n5'4\"\n127 lbs\nAsian\n\nAbout me:\n友達募集です！\n",
+      "resource-id": "mobi.jackd.android:id/MatchFinder_TextView_MainText",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        495,
+        225,
+        1412,
+        1042
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "mobi.jackd.android:id/MatchFinder_ImageView_Image2",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        70,
+        922,
+        481,
+        1323
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

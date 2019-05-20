@@ -1,0 +1,961 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "iconClass": "sliders",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.hlpth.majorcineplex:id/main_button_menu",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        18,
+        134,
+        270,
+        208
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        672,
+        102,
+        767,
+        241
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "sliders",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.hlpth.majorcineplex:id/main_imageview_change_language",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1296,
+        134,
+        1422,
+        208
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        259,
+        1440,
+        1197
+      ],
+      "clickable": false,
+      "children": [],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        1197,
+        1440,
+        1947
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.hlpth.majorcineplex:id/end_line_showtime",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            1800,
+            1440,
+            1947
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.hlpth.majorcineplex:id/brand_image",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            70,
+            1211,
+            341,
+            1337
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "resource-id": "com.hlpth.majorcineplex:id/background_showtime",
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            59,
+            1785,
+            351,
+            1877
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "buy"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.hlpth.majorcineplex:id/cinema_showtime_poster_image",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            1337,
+            411,
+            1757
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            100,
+            1442,
+            310,
+            1652
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "I-Max",
+          "resource-id": "com.hlpth.majorcineplex:id/thearter_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            418,
+            1218,
+            1440,
+            1282
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Rogue One",
+          "resource-id": "com.hlpth.majorcineplex:id/cinema_showtime_namgeen_text",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            418,
+            1282,
+            1440,
+            1370
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            411,
+            1483,
+            754,
+            1639
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "12:30"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            754,
+            1483,
+            1097,
+            1639
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "15:40"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            1097,
+            1483,
+            1440,
+            1639
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "19:00"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            411,
+            1639,
+            754,
+            1793
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "22:00"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            754,
+            1639,
+            1097,
+            1793
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "TOMORROW"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            411,
+            1405,
+            495,
+            1468
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "133 mins",
+          "resource-id": "com.hlpth.majorcineplex:id/cinema_showtime_duration_text",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            502,
+            1405,
+            751,
+            1469
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.hlpth.majorcineplex:id/cinema_showtime_system_image",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1177,
+            1405,
+            1405,
+            1469
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            836,
+            1405,
+            920,
+            1469
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "ENGLISH",
+          "resource-id": "com.hlpth.majorcineplex:id/cinema_showtime_system_text",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            927,
+            1405,
+            1092,
+            1469
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        1947,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.hlpth.majorcineplex:id/brand_image",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            70,
+            1961,
+            341,
+            2087
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.hlpth.majorcineplex:id/cinema_showtime_poster_image",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            2087,
+            411,
+            2392
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            100,
+            2192,
+            310,
+            2392
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "4DX",
+          "resource-id": "com.hlpth.majorcineplex:id/thearter_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            418,
+            1968,
+            1440,
+            2032
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Rogue One",
+          "resource-id": "com.hlpth.majorcineplex:id/cinema_showtime_namgeen_text",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            418,
+            2032,
+            1440,
+            2120
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            411,
+            2233,
+            754,
+            2389
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "11:10"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            754,
+            2233,
+            1097,
+            2389
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "14:10"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            1097,
+            2233,
+            1440,
+            2389
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "17:10"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            411,
+            2389,
+            754,
+            2392
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "20:10"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            754,
+            2389,
+            1097,
+            2392
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "23:10"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            1097,
+            2389,
+            1440,
+            2392
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "TOMORROW"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            411,
+            2155,
+            495,
+            2218
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "133 mins",
+          "resource-id": "com.hlpth.majorcineplex:id/cinema_showtime_duration_text",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            502,
+            2155,
+            751,
+            2219
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.hlpth.majorcineplex:id/cinema_showtime_system_image",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1177,
+            2155,
+            1405,
+            2219
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            836,
+            2155,
+            920,
+            2219
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "ENGLISH",
+          "resource-id": "com.hlpth.majorcineplex:id/cinema_showtime_system_text",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            927,
+            2155,
+            1092,
+            2219
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "•",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        615,
+        567,
+        650,
+        707
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "•",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        650,
+        567,
+        685,
+        707
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "•",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        685,
+        567,
+        720,
+        707
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "•",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        720,
+        567,
+        755,
+        707
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "•",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        755,
+        567,
+        790,
+        707
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "•",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        790,
+        567,
+        825,
+        707
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Tab to select",
+      "resource-id": "com.hlpth.majorcineplex:id/tvTabToSelect",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        593,
+        868,
+        846,
+        940
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.hlpth.majorcineplex:id/tab_movie",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        0,
+        954,
+        719,
+        1206
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "MOVIE",
+      "resource-id": "com.hlpth.majorcineplex:id/text_movie",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        954,
+        719,
+        1206
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.hlpth.majorcineplex:id/tab_showtime",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        720,
+        954,
+        1440,
+        1206
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "SHOWTIME",
+      "resource-id": "com.hlpth.majorcineplex:id/text_showtime",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        720,
+        954,
+        1440,
+        1206
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.hlpth.majorcineplex:id/image_banner",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        259,
+        1440,
+        707
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "สิ้นสุดการรอคอย!! Rogue One : Star Wars เปิดสงครามอวกาศ มันส์ส่งท้ายปี",
+      "resource-id": "com.hlpth.majorcineplex:id/main_text_speedtext",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.hlpth.view.ScrollTextView",
+      "bounds": [
+        0,
+        259,
+        1440,
+        331
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.hlpth.majorcineplex:id/branch_image_icon",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        334,
+        721,
+        579,
+        868
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Paragon Cineplex",
+      "resource-id": "com.hlpth.majorcineplex:id/main_text_branch",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        597,
+        746,
+        1063,
+        842
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "settings",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1081,
+        768,
+        1124,
+        821
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Icon"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.jiubang.darlingclock:id/back",
+      "clickable": true,
+      "class": "com.jiubang.darlingclock.View.RippleImageView",
+      "bounds": [
+        0,
+        84,
+        189,
+        280
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Scan QR code",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        252,
+        135,
+        686,
+        228
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.jiubang.darlingclock:id/photo",
+      "clickable": true,
+      "class": "com.jiubang.darlingclock.View.RippleImageView",
+      "bounds": [
+        1251,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

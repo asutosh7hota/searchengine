@@ -1,0 +1,181 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.aranoah.healthkart.plus:id/toolbar",
+      "children": [
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "",
+          "resource-id": "com.aranoah.healthkart.plus:id/action_bookmark",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1104,
+            98,
+            1272,
+            266
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "",
+          "resource-id": "com.aranoah.healthkart.plus:id/action_share",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.aranoah.healthkart.plus:id/article_image",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        84,
+        1440,
+        812
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "5 Natural Remedies To Get Your Skin Glowing This Winter",
+      "resource-id": "com.aranoah.healthkart.plus:id/title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        210,
+        868,
+        1230,
+        1026
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Dec 10",
+      "resource-id": "com.aranoah.healthkart.plus:id/date",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        665,
+        1040,
+        774,
+        1096
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "1mg Team",
+      "resource-id": "com.aranoah.healthkart.plus:id/author",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        603,
+        1110,
+        836,
+        1180
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Skin tends to become dry, feels stretched and looks dull during winters.  Even if you are eating healthy, your skin needs extra care during winter months. Here are some effective natural ways to get your skin glowing in winter season:\n\n1 . OLIVE OIL\n\nOlive Oil is an excellent skin moisturizer and renders a natural shine as well. Packed with free radical fighting flavonoids and polyphenols, olive oil also helps prevent skin damage and dryness.\n\nWay To Use\n\nTake 1 teaspoon olive oil in a bowl and apply it all over your face and neck. Massage in upward circles for 2 to 3 minutes. Dip a towel in warm water, remove the excess water and place it on your face for 30 to 40 seconds. Gently wipe away the oil.  Pat your skin dry.\n\n2 . MILK\n\nThis is an age-old formula for a healthy and radiant skin. Raw milk contains skin friendly ingredients such as saturated fat, protein, calcium and vitamin C.  Honey is used mainly for its moisturizing and anti-bacterial properties.\n\nWay To Use\n\nYou will need 2 teaspoons milk, ¼ teaspoon honey & 1 teaspoon gram flour (beasan). Mix all the ingredients to form a paste.Apply and leave it on for 20 minutes or till the pack dries.Rinse off with warm water. Apply this twice a week.\n\n3 . TURMERIC\n\nTurmeric contains cucurmin which has strong anti-oxidant properties which keeps the skin blemish free. It enhances collagen production and this keeps the skin supple and glowing.\n\nWay To Use\n\nMix 3 pinches of turmeric powder along with 1 teaspoon gram flour and add enough water or milk to form a smooth paste. Apply on face and neck and when dry rinse with plain water.\n\n4 . COCONUT OIL\n\nCoconut oil locks the moisture in the skin and also nourishes it. With essential fatty acids. Its phenolic compounds contribute to its antioxidant activity and give you glowing skin.   Suitable for extremely dry skin.\n\nWay To Use\n\nWarm some coconut oil, add some sugar to it and massage your face and neck for a few minutes in gentle circular motions. Use it as a scrub for exfoliation.  Due to the high fat content in the coconut oil, the scrub will leave your skin moisturized and glowing.\n\n5 . ALOE VERA GEL\n\nAloe Vera gel’s healing and nourishing properties rejuvenate the skin to give it a natural glow.\n\nWay To Use\n\nMix together 1 tablespoon aloe vera gel, a pinch of turmeric powder, 1 teaspoon honey and 1 teaspoon milk and apply on your face and neck evenly. Leave it on for about 20 minutes and then rinse with lukewarm water.  Apply this pack twice a week to keep the skin moisturized.\n\n",
+      "resource-id": "com.aranoah.healthkart.plus:id/content",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        56,
+        1299,
+        1384,
+        2392
+      ],
+      "componentLabel": "Text Button"
+    }
+  ]
+}

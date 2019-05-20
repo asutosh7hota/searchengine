@@ -1,0 +1,995 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.isletsystems.android.cricitch.lite:id/nav_view",
+      "children": [
+        {
+          "ancestors": [
+            "android.support.design.internal.a",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            588,
+            980,
+            756
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "Matches"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.a",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            756,
+            980,
+            924
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "Events"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.a",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            924,
+            980,
+            1092
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "news"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.a",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            1092,
+            980,
+            1260
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "about"
+        },
+        {
+          "text": "Settings",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            0,
+            1292,
+            980,
+            1460
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.a",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            1460,
+            980,
+            1628
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "Audio"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.a",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            1628,
+            980,
+            1796
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "Alerts"
+        },
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/imageView",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            56,
+            92,
+            224,
+            316
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "live cricket scores",
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/nameTextView",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            316,
+            924,
+            438
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "cricitch.com",
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/webUrlTextView",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            438,
+            328,
+            504
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.support.design.internal.e",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.design.widget.NavigationView",
+      "bounds": [
+        0,
+        0,
+        980,
+        2392
+      ],
+      "componentLabel": "Drawer"
+    },
+    {
+      "resource-id": "com.isletsystems.android.cricitch.lite:id/toolbar",
+      "children": [
+        {
+          "text": "cricitch",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            135,
+            486,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.isletsystems.android.cricitch.lite:id/adView",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.google.android.gms.ads.internal.webview.l",
+          "bounds": [
+            160,
+            2217,
+            1280,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.webkit.WebView",
+                "android.widget.AbsoluteLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "bounds": [
+                160,
+                2217,
+                1280,
+                2392
+              ],
+              "clickable": true,
+              "class": "com.google.android.gms.ads.internal.webview.m",
+              "componentLabel": "Web View"
+            }
+          ],
+          "componentLabel": "Web View"
+        }
+      ],
+      "ancestors": [
+        "com.google.android.gms.ads.e",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.google.android.gms.ads.AdView",
+      "bounds": [
+        0,
+        2217,
+        1440,
+        2392
+      ],
+      "componentLabel": "Advertisement"
+    },
+    {
+      "resource-id": "com.isletsystems.android.cricitch.lite:id/match_cardview",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/actionIcon",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1265,
+            585,
+            1405,
+            641
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.CardView",
+      "bounds": [
+        28,
+        476,
+        1412,
+        690
+      ],
+      "componentLabel": "Card"
+    },
+    {
+      "resource-id": "com.isletsystems.android.cricitch.lite:id/match_cardview",
+      "children": [
+        {
+          "text": "England vs India | Test #4",
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.isletsystems.android.cricitch.app.widgets.TypefacedTextView",
+          "bounds": [
+            35,
+            711,
+            1405,
+            793
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Wankhede Stadium, Mumbai, 08-12 Dec, 2016",
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/venue",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.isletsystems.android.cricitch.app.widgets.TypefacedTextView",
+          "bounds": [
+            35,
+            793,
+            1405,
+            873
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/vs",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            667,
+            954,
+            772,
+            1059
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/actionIcon",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1265,
+            1464,
+            1405,
+            1520
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "IND",
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/TmAName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.isletsystems.android.cricitch.app.widgets.TypefacedTextView",
+          "bounds": [
+            301,
+            884,
+            511,
+            941
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/tmAFlag",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            301,
+            941,
+            511,
+            1151
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/tossA",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            266,
+            906,
+            301,
+            941
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "check",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/bat_bwl_A",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            220,
+            1056,
+            283,
+            1151
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/tmAWon",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            213,
+            941,
+            283,
+            1011
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "In 4 days",
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/daysToGo",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.isletsystems.android.cricitch.app.widgets.TypefacedTextView",
+          "bounds": [
+            35,
+            1151,
+            1405,
+            1253
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "local time: 10:00 PM",
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/daysToGoInfo",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.isletsystems.android.cricitch.app.widgets.TypefacedTextView",
+          "bounds": [
+            35,
+            1253,
+            1405,
+            1338
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "ENG",
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/TmBName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.isletsystems.android.cricitch.app.widgets.TypefacedTextView",
+          "bounds": [
+            929,
+            884,
+            1139,
+            941
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/tmBFlag",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            929,
+            941,
+            1139,
+            1151
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/tossB",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1139,
+            906,
+            1174,
+            941
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/bat_bwl_B",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1157,
+            1056,
+            1220,
+            1151
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/tmBWon",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1157,
+            941,
+            1227,
+            1011
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.CardView",
+      "bounds": [
+        28,
+        704,
+        1412,
+        1569
+      ],
+      "componentLabel": "Card"
+    },
+    {
+      "resource-id": "com.isletsystems.android.cricitch.lite:id/match_cardview",
+      "children": [
+        {
+          "text": "New Zealand vs Australia | ODI #3",
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.isletsystems.android.cricitch.app.widgets.TypefacedTextView",
+          "bounds": [
+            35,
+            1590,
+            1405,
+            1672
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Melbourne Cricket Ground, Melbourne, 09 Dec, 2016",
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/venue",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.isletsystems.android.cricitch.app.widgets.TypefacedTextView",
+          "bounds": [
+            35,
+            1672,
+            1405,
+            1752
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/vs",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            667,
+            1833,
+            772,
+            1938
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "AUS",
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/TmAName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.isletsystems.android.cricitch.app.widgets.TypefacedTextView",
+          "bounds": [
+            301,
+            1763,
+            511,
+            1820
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/tmAFlag",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            301,
+            1820,
+            511,
+            2030
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/tossA",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            266,
+            1785,
+            301,
+            1820
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/bat_bwl_A",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            220,
+            1935,
+            283,
+            2030
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/tmAWon",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            213,
+            1820,
+            283,
+            1890
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "In 5 days",
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/daysToGo",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.isletsystems.android.cricitch.app.widgets.TypefacedTextView",
+          "bounds": [
+            35,
+            2030,
+            1405,
+            2132
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "local time: 10:20 PM",
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/daysToGoInfo",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.isletsystems.android.cricitch.app.widgets.TypefacedTextView",
+          "bounds": [
+            35,
+            2132,
+            1405,
+            2217
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "NZ",
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/TmBName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.isletsystems.android.cricitch.app.widgets.TypefacedTextView",
+          "bounds": [
+            929,
+            1763,
+            1139,
+            1820
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/tmBFlag",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            929,
+            1820,
+            1139,
+            2030
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/tossB",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1139,
+            1785,
+            1174,
+            1820
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "check",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/bat_bwl_B",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1157,
+            1935,
+            1220,
+            2030
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.isletsystems.android.cricitch.lite:id/tmBWon",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1157,
+            1820,
+            1227,
+            1890
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.CardView",
+      "bounds": [
+        28,
+        1583,
+        1412,
+        2217
+      ],
+      "componentLabel": "Card"
+    },
+    {
+      "text": "RECENT / NOW",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        216,
+        349,
+        504,
+        406
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "UPCOMING",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        971,
+        349,
+        1189,
+        406
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.wyndhamhotelgroup.wyndhamrewards:id/button_container",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.v7.widget.Toolbar",
+          "bounds": [
+            0,
+            2196,
+            1440,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "CONTINUE",
+              "resource-id": "com.wyndhamhotelgroup.wyndhamrewards:id/primary_button",
+              "ancestors": [
+                "android.widget.Button",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "oak.widget.ButtonWithFont",
+              "bounds": [
+                1105,
+                2210,
+                1412,
+                2378
+              ],
+              "componentLabel": "Text Button",
+              "textButtonClass": "continue"
+            },
+            {
+              "text": "SKIP",
+              "resource-id": "com.wyndhamhotelgroup.wyndhamrewards:id/secondary_button",
+              "ancestors": [
+                "android.widget.Button",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "oak.widget.ButtonWithFont",
+              "bounds": [
+                879,
+                2210,
+                1049,
+                2378
+              ],
+              "componentLabel": "Text Button",
+              "textButtonClass": "skip"
+            }
+          ],
+          "componentLabel": "Toolbar"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.wyndham.rewards.view.ButtonBarView",
+      "bounds": [
+        0,
+        2185,
+        1440,
+        2392
+      ],
+      "componentLabel": "Button Bar"
+    },
+    {
+      "resource-id": "com.wyndhamhotelgroup.wyndhamrewards:id/register_toolbar",
+      "children": [
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Book faster!",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            135,
+            592,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "info",
+          "resource-id": "com.wyndhamhotelgroup.wyndhamrewards:id/menu_join_learn_more",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.internal.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Enter your address now and it will help you book rooms faster in the app.",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "oak.widget.TextViewWithFont",
+      "bounds": [
+        56,
+        295,
+        1384,
+        460
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "",
+      "resource-id": "com.wyndhamhotelgroup.wyndhamrewards:id/address",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        56,
+        495,
+        1384,
+        653
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "",
+      "resource-id": "com.wyndhamhotelgroup.wyndhamrewards:id/city",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        56,
+        884,
+        1384,
+        1042
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "resource-id": "com.wyndhamhotelgroup.wyndhamrewards:id/country_toolbar",
+      "children": [
+        {
+          "iconClass": "expand_more",
+          "resource-id": "com.wyndhamhotelgroup.wyndhamrewards:id/dropdown_btn",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.internal.view.menu.ActionMenuItemView",
+          "bounds": [
+            1216,
+            1109,
+            1384,
+            1277
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        56,
+        1095,
+        1384,
+        1291
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Postal Code",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        56,
+        654,
+        263,
+        697
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "94102",
+      "resource-id": "com.wyndhamhotelgroup.wyndhamrewards:id/zipcode",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        56,
+        689,
+        720,
+        847
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "resource-id": "com.wyndhamhotelgroup.wyndhamrewards:id/state_toolbar",
+      "children": [
+        {
+          "iconClass": "expand_more",
+          "resource-id": "com.wyndhamhotelgroup.wyndhamrewards:id/dropdown_btn",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.internal.view.menu.ActionMenuItemView",
+          "bounds": [
+            1216,
+            667,
+            1384,
+            835
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        720,
+        653,
+        1384,
+        849
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "",
+      "resource-id": "com.wyndhamhotelgroup.wyndhamrewards:id/country",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.wyndham.rewards.view.ErrorEditText",
+      "bounds": [
+        56,
+        1100,
+        1384,
+        1250
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "",
+      "resource-id": "com.wyndhamhotelgroup.wyndhamrewards:id/state",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.wyndham.rewards.view.ErrorEditText",
+      "bounds": [
+        720,
+        688,
+        1384,
+        838
+      ],
+      "componentLabel": "Input"
+    }
+  ]
+}

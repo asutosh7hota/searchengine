@@ -1,0 +1,752 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.houzz.app:id/toolbar",
+      "children": [
+        {
+          "text": "",
+          "resource-id": "com.houzz.app:id/searchBox",
+          "ancestors": [
+            "com.houzz.app.views.MyTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.houzz.app.layouts.SearchBoxButton",
+          "bounds": [
+            238,
+            119,
+            1237,
+            245
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.houzz.app:id/back",
+          "clickable": true,
+          "class": "android.support.v7.widget.t",
+          "bounds": [
+            28,
+            98,
+            196,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "resource-id": "com.houzz.app:id/cartButton",
+          "children": [
+            {
+              "iconClass": "cart",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.houzz.app:id/cartImage",
+              "clickable": false,
+              "class": "android.support.v7.widget.v",
+              "bounds": [
+                1296,
+                122,
+                1408,
+                234
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "ancestors": [
+            "com.houzz.app.layouts.base.MyFrameLayout",
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.houzz.app.layouts.CartButtonLayout",
+          "bounds": [
+            1265,
+            101,
+            1440,
+            262
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "com.houzz.app.layouts.base.MyLinearLayout",
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.houzz.app.layouts.ProductsHeaderLayout",
+      "bounds": [
+        0,
+        504,
+        1440,
+        1467
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Lamps Products (40,527)",
+          "resource-id": "com.houzz.app:id/productsHeader",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            0,
+            1373,
+            1440,
+            1467
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Lamps Categories",
+          "resource-id": "com.houzz.app:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            0,
+            560,
+            1440,
+            668
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "com.houzz.app.layouts.base.MyFrameLayout",
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.houzz.app.layouts.ImageWithTextOnBottom",
+          "bounds": [
+            56,
+            696,
+            516,
+            1345
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Table Lamps",
+              "resource-id": "com.houzz.app:id/text",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.houzz.app.views.MyTextView",
+              "bounds": [
+                60,
+                1160,
+                512,
+                1341
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.houzz.app:id/image",
+              "clickable": false,
+              "class": "com.houzz.app.views.MyImageView",
+              "bounds": [
+                116,
+                756,
+                464,
+                1104
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "com.houzz.app.layouts.base.MyFrameLayout",
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.houzz.app.layouts.ImageWithTextOnBottom",
+          "bounds": [
+            572,
+            696,
+            1032,
+            1345
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Floor Lamps",
+              "resource-id": "com.houzz.app:id/text",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.houzz.app.views.MyTextView",
+              "bounds": [
+                576,
+                1160,
+                1028,
+                1341
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.houzz.app:id/image",
+              "clickable": false,
+              "class": "com.houzz.app.views.MyImageView",
+              "bounds": [
+                632,
+                756,
+                980,
+                1104
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "com.houzz.app.layouts.base.MyFrameLayout",
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.houzz.app.layouts.ImageWithTextOnBottom",
+          "bounds": [
+            1088,
+            696,
+            1440,
+            1345
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Desk Lamps",
+              "resource-id": "com.houzz.app:id/text",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.houzz.app.views.MyTextView",
+              "bounds": [
+                1092,
+                1160,
+                1440,
+                1341
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.houzz.app:id/image",
+              "clickable": false,
+              "class": "com.houzz.app.views.MyImageView",
+              "bounds": [
+                1148,
+                756,
+                1440,
+                1104
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "com.houzz.app.layouts.base.MyFrameLayout",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.houzz.app.layouts.ProductEntryLayout",
+      "bounds": [
+        0,
+        1467,
+        720,
+        2388
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "Micah Arched Floor Lamp With Rotatable Shades and Dimmer, Brushed Steel",
+          "resource-id": "com.houzz.app:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            56,
+            2001,
+            664,
+            2137
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "by Artiva",
+          "resource-id": "com.houzz.app:id/createdBy",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            56,
+            2137,
+            219,
+            2201
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.houzz.app:id/image",
+          "clickable": false,
+          "class": "com.houzz.app.views.MyImageView",
+          "bounds": [
+            56,
+            1523,
+            664,
+            1973
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "$184.99",
+          "resource-id": "com.houzz.app:id/price",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            56,
+            2201,
+            238,
+            2267
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "$299",
+          "resource-id": "com.houzz.app:id/listPrice",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            266,
+            2201,
+            378,
+            2267
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "(21)",
+          "resource-id": "com.houzz.app:id/text",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            296,
+            2285,
+            373,
+            2342
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "com.houzz.app.layouts.base.MyFrameLayout",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.houzz.app.layouts.ProductEntryLayout",
+      "bounds": [
+        720,
+        1467,
+        1440,
+        2388
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "SALE",
+          "resource-id": "com.houzz.app:id/banner",
+          "ancestors": [
+            "com.houzz.app.views.MyTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.RatioTextView",
+          "bounds": [
+            776,
+            1523,
+            915,
+            1662
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Sea Breeze Glass Table Lamp",
+          "resource-id": "com.houzz.app:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            776,
+            2001,
+            1384,
+            2137
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "by Wantech International Corporation",
+          "resource-id": "com.houzz.app:id/createdBy",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            776,
+            2137,
+            1384,
+            2205
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.houzz.app:id/image",
+          "clickable": false,
+          "class": "com.houzz.app.views.MyImageView",
+          "bounds": [
+            776,
+            1523,
+            1384,
+            1973
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "$179.14",
+          "resource-id": "com.houzz.app:id/price",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            776,
+            2205,
+            958,
+            2271
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "$209.52",
+          "resource-id": "com.houzz.app:id/listPrice",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            986,
+            2205,
+            1167,
+            2271
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "(4)",
+          "resource-id": "com.houzz.app:id/text",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            1016,
+            2289,
+            1069,
+            2346
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "com.houzz.app.layouts.base.MyFrameLayout",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.houzz.app.layouts.ProductEntryLayout",
+      "bounds": [
+        0,
+        2388,
+        720,
+        2392
+      ],
+      "clickable": true,
+      "componentLabel": "Text Button",
+      "text": "Only 2 Left!"
+    },
+    {
+      "ancestors": [
+        "com.houzz.app.layouts.base.MyFrameLayout",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.houzz.app.layouts.ProductEntryLayout",
+      "bounds": [
+        720,
+        2388,
+        1440,
+        2392
+      ],
+      "clickable": true,
+      "componentLabel": "Text Button",
+      "text": "Versanora Arquer 66.93\" Arc Floor Lamp, Copper Shade and Black Marble Base"
+    },
+    {
+      "ancestors": [
+        "com.houzz.app.layouts.base.MyLinearLayout",
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.houzz.app.layouts.FilterSelectorLayout",
+      "bounds": [
+        56,
+        325,
+        439,
+        458
+      ],
+      "clickable": true,
+      "componentLabel": "Text Button",
+      "text": "All Filters"
+    },
+    {
+      "ancestors": [
+        "com.houzz.app.layouts.base.MyLinearLayout",
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.houzz.app.layouts.FilterSelectorLayout",
+      "bounds": [
+        762,
+        325,
+        1012,
+        458
+      ],
+      "clickable": true,
+      "componentLabel": "Text Button",
+      "textButtonClass": "sort"
+    },
+    {
+      "ancestors": [
+        "com.houzz.app.layouts.base.MyLinearLayout",
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.houzz.app.layouts.FilterSelectorLayout",
+      "bounds": [
+        1040,
+        325,
+        1311,
+        458
+      ],
+      "clickable": true,
+      "componentLabel": "Text Button",
+      "textButtonClass": "price"
+    },
+    {
+      "text": "Style",
+      "resource-id": "com.houzz.app:id/title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.houzz.app.views.MyTextView",
+      "bounds": [
+        467,
+        330,
+        618,
+        452
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "arrow_downward",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.houzz.app:id/icon",
+      "clickable": false,
+      "class": "android.support.v7.widget.v",
+      "bounds": [
+        660,
+        381,
+        692,
+        402
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Buying Options",
+      "resource-id": "com.houzz.app:id/title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.houzz.app.views.MyTextView",
+      "bounds": [
+        1339,
+        330,
+        1440,
+        452
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

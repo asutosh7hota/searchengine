@@ -1,0 +1,377 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.stitcher.app:id/wa_background_view",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        84,
+        1440,
+        2392
+      ],
+      "componentLabel": "Background Image"
+    },
+    {
+      "iconClass": "volume",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        510,
+        185,
+        930,
+        255
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "1 items selected.",
+      "resource-id": "com.stitcher.app:id/wizard_changing_text_view_number_items_selected",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        2224,
+        1440,
+        2392
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.support.design.widget.TabLayout$g",
+      "bounds": [
+        1080,
+        357,
+        1440,
+        532
+      ],
+      "clickable": true,
+      "componentLabel": "Text Button",
+      "textButtonClass": "search"
+    },
+    {
+      "text": "Topics",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        113,
+        418,
+        246,
+        471
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Sources",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        455,
+        418,
+        624,
+        471
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Top Shows",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        790,
+        418,
+        1010,
+        471
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Try the most popular content.",
+      "resource-id": "com.stitcher.app:id/top_text_view",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.stitcher.ux.StitcherTextView",
+      "bounds": [
+        52,
+        567,
+        1388,
+        741
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "resource-id": "com.stitcher.app:id/wizard_tile_root_layout",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.stitcher.app:id/wizard_tile_network_image",
+          "clickable": false,
+          "class": "com.android.volley.toolbox.NetworkImageView",
+          "bounds": [
+            40,
+            773,
+            680,
+            1413
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "WTF with Marc Maron Podcast",
+          "resource-id": "com.stitcher.app:id/wizard_tile_title_textview",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.stitcher.ux.StitcherTextView",
+          "bounds": [
+            40,
+            1415,
+            680,
+            1631
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.stitcher.app.WizardTileDrawable",
+      "bounds": [
+        40,
+        773,
+        680,
+        1631
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.stitcher.app:id/wizard_tile_root_layout",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.stitcher.app:id/wizard_tile_network_image",
+          "clickable": false,
+          "class": "com.android.volley.toolbox.NetworkImageView",
+          "bounds": [
+            760,
+            773,
+            1400,
+            1413
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "This American Life",
+          "resource-id": "com.stitcher.app:id/wizard_tile_title_textview",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.stitcher.ux.StitcherTextView",
+          "bounds": [
+            760,
+            1415,
+            1400,
+            1631
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.stitcher.app.WizardTileDrawable",
+      "bounds": [
+        760,
+        773,
+        1400,
+        1631
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.stitcher.app:id/wizard_tile_root_layout",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.stitcher.app:id/wizard_tile_network_image",
+          "clickable": false,
+          "class": "com.android.volley.toolbox.NetworkImageView",
+          "bounds": [
+            40,
+            1673,
+            680,
+            2313
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "The Joe Rogan Experience",
+          "resource-id": "com.stitcher.app:id/wizard_tile_title_textview",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.stitcher.ux.StitcherTextView",
+          "bounds": [
+            40,
+            2315,
+            680,
+            2392
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.stitcher.app.WizardTileDrawable",
+      "bounds": [
+        40,
+        1673,
+        680,
+        2392
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.stitcher.app:id/wizard_tile_root_layout",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.stitcher.app:id/wizard_tile_network_image",
+          "clickable": false,
+          "class": "com.android.volley.toolbox.NetworkImageView",
+          "bounds": [
+            760,
+            1673,
+            1400,
+            2313
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Radiolab",
+          "resource-id": "com.stitcher.app:id/wizard_tile_title_textview",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.stitcher.ux.StitcherTextView",
+          "bounds": [
+            760,
+            2315,
+            1400,
+            2392
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.stitcher.app.WizardTileDrawable",
+      "bounds": [
+        760,
+        1673,
+        1400,
+        2392
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

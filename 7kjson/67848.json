@@ -1,0 +1,218 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "in.plackal.lovecyclesfree:id/about_page_image_view",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        84,
+        1440,
+        2392
+      ],
+      "componentLabel": "Background Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "in.plackal.lovecyclesfree:id/image_divider",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        294,
+        1440,
+        308
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "close",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "in.plackal.lovecyclesfree:id/back_button",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1253,
+        122,
+        1387,
+        256
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "About",
+      "resource-id": "in.plackal.lovecyclesfree:id/txt_about_header",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        542,
+        106,
+        746,
+        272
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "favorite",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "in.plackal.lovecyclesfree:id/img_logo_splash",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        642,
+        378,
+        797,
+        511
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Version: 3.5.3.3",
+      "resource-id": "in.plackal.lovecyclesfree:id/version_text",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        545,
+        546,
+        895,
+        614
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "in.plackal.lovecyclesfree:id/doodle_chat",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        53,
+        932,
+        1387,
+        1023
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "© Plackal 2011 - 2016",
+      "resource-id": "in.plackal.lovecyclesfree:id/bottom_text",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        490,
+        2040,
+        950,
+        2135
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "What’s New",
+      "resource-id": "in.plackal.lovecyclesfree:id/txt_whats_new",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        370,
+        1023,
+        1070,
+        1175
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Visit Website",
+      "resource-id": "in.plackal.lovecyclesfree:id/txt_visit_web_site",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        370,
+        1263,
+        1070,
+        1415
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "in.plackal.lovecyclesfree:id/doodle_wifi",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        53,
+        1415,
+        1387,
+        1517
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Terms",
+      "resource-id": "in.plackal.lovecyclesfree:id/txt_terms",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        370,
+        1517,
+        1070,
+        1669
+      ],
+      "componentLabel": "Text Button"
+    }
+  ]
+}

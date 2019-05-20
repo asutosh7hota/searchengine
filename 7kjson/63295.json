@@ -1,0 +1,428 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.jacobsmedia.wgr:id/toolbar",
+      "children": [
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "globe",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            362,
+            84,
+            1079,
+            280
+          ],
+          "clickable": true,
+          "class": "com.android.volley.toolbox.NetworkImageView",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.webkit.WebView",
+        "android.widget.AbsoluteLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.jacobsmedia.wgr:id/webLinkWebView",
+      "clickable": true,
+      "class": "com.jacapps.view.NoZoomControlWebView",
+      "bounds": [
+        0,
+        280,
+        1440,
+        2210
+      ],
+      "componentLabel": "Web View"
+    },
+    {
+      "iconClass": "arrow_backward",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.jacobsmedia.wgr:id/webLinkBackButton",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        0,
+        2210,
+        196,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "arrow_forward",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.jacobsmedia.wgr:id/webLinkForwardButton",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        196,
+        2210,
+        392,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "share",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.jacobsmedia.wgr:id/webLinkShareButton",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        1244,
+        2210,
+        1440,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.jacobsmedia.wgr:id/staticImageImage",
+      "clickable": true,
+      "class": "com.android.volley.toolbox.NetworkImageView",
+      "bounds": [
+        0,
+        280,
+        1440,
+        455
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.jacobsmedia.wgr:id/staticImageImage",
+      "clickable": true,
+      "class": "com.android.volley.toolbox.NetworkImageView",
+      "bounds": [
+        0,
+        1937,
+        1440,
+        2112
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Press Play To Listen",
+      "resource-id": "com.jacobsmedia.wgr:id/audioPlayerTextView",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        56,
+        2112,
+        1384,
+        2252
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.jacobsmedia.wgr:id/audioPlayerPlayButton",
+      "clickable": true,
+      "class": "com.jacapps.view.ColorableImageButton",
+      "bounds": [
+        662,
+        2266,
+        775,
+        2378
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        469,
+        1440,
+        1099
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.jacobsmedia.wgr:id/feedItemImage",
+          "clickable": false,
+          "class": "com.android.volley.toolbox.NetworkImageView",
+          "bounds": [
+            0,
+            469,
+            1440,
+            1099
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.jacobsmedia.wgr:id/feedItemOverlay",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            796,
+            1440,
+            1099
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "For Kyle Williams, returning to play was \"an easy sell\" after talking with McDermott",
+          "resource-id": "com.jacobsmedia.wgr:id/feedItemTitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            796,
+            1384,
+            853
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Immediately after the 2016 season ended, Bills defensive tackle Kyle Williams openly discussed that he would contemplate retirement in the coming months.A few weeks later the Bills hired Sean McDermott as their new head coach, who announced at the NFL Combine just over a month later that the veteran and team leader would be returning for a twelfth season in Buffalo.  Turns out, the decision didn’t take long for Williams once he spoke to McDermott for the first time.“I would say it didn’t take much,” the longest-tenured member of the Bills said Monday after the team’s first offseason workout. “We talked for a couple minutes and I was like, ‘hey I’m in, lets do it.’ I wasn’t a hard sell or anything like that because I think you guys know how passionate I am about playing the game, my teammates, this organization, and this community. To have a guy that speaks to a lot of the things that I like, it was really kind of an easy sell.”It was never a question if Williams wanted to continue play football.  He did.  What he didn’t want to do was put his 34-year old mind and body on the line every week for another season on a rebuilding team.  He wanted to know what the short-term vision was for McDermott and the organization before making that commitment again.He liked what he heard almost immediately.“Well I wouldn’t say I needed to be lured or massaged or anything like that because I have never grown tired of playing,\" he said.  \"I love to play and I love to compete. My main thing was ‘what is our plan, and what is our view?’ Just his ‘hey we have some really good pieces in place we feel like we can win. We want to win now, we want to go for it now, we want to keep pushing and keep working to be the best organization we can be.’ That has been the only thing I have ever wanted here.”Williams is entering the final year of a contract that will pay him $8.3 million, all of which will count against the team’s 2017 salary cap.  Even after another outstanding season in which he collected 5 sacks, 64 tackles, and earned a fifth trip to the Pro Bowl, if the Bills had decided to strip the roster down and rebuild, Williams could very well have been one of the first to go in order to save money.  And he understood that side of the business.“I wanted to be told that we weren’t going to disassemble the roster and start from ground zero, which if we’re disassembling the roster I might be the first guy in the cross-hairs, I don’t know.  Maybe, maybe not,\" Williams acknowledged.  \"But if we were going to try to win, if that’s what we were going to do, there’s nowhere else I’d want to be than here.  And (McDermott) was very clear about that.  The first thing he said was ‘hey, we’re going to go and win, and we need you to help us win.’  And that kind of sealed the deal.”Williams has played 151 games in a Bills uniform.  He ranks 6th on all-time in franchise history in sacks (40.5) and 8th all-time in total tackles (535).  He’ll almost definitely be on the team’s Wall of Fame some day.  But for now, he just wants to help his organization get to the playoffs for the first time in 18 years, and in the process, get there for the first time himself.“It’s more than about me just coming back just to play,\" he said.  \"It’s really the vision for this football team, the vision for this organization, and really coming back to do what I’ve always done.  To play as hard as I possibly can to make us a winning, championship football team, and play with my teammates.” Follow me on Twitter @SalSports",
+          "resource-id": "com.jacobsmedia.wgr:id/feedItemSubtitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            853,
+            1384,
+            957
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        1099,
+        1440,
+        1729
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.jacobsmedia.wgr:id/feedItemImage",
+          "clickable": false,
+          "class": "com.android.volley.toolbox.NetworkImageView",
+          "bounds": [
+            0,
+            1099,
+            1440,
+            1729
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.jacobsmedia.wgr:id/feedItemOverlay",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            1426,
+            1440,
+            1729
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Hamilton: Okposo Admitted to Buffalo General",
+          "resource-id": "com.jacobsmedia.wgr:id/feedItemTitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            1426,
+            932,
+            1483
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "As WGR's Paul Hamilton first reported on Tuesday, Kyle Okposo has been admitted to Buffalo General Hospital and is undergoing testing at the facility's Neuro Intensive Care Unit.  Okposo has been in the hospital undergoing multiple tests to see what is wrong with him. So far they have not been able to pinpoint it— Paul Hamilton (@pham1717) April 4, 2017The exact nature of Okposo's illness is unknown. According to Dan Bylsma, \"Doctors have not come up with any answers. He’s sick and ill.”Okposo hasn't played since March 27. Hear Paul's appearance on the Sabres postgame show with Brian Koziol following Buffalo's 2-1 win over Montreal on Wednesday.",
+          "resource-id": "com.jacobsmedia.wgr:id/feedItemSubtitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            1483,
+            1384,
+            1587
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        1729,
+        1440,
+        1937
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.jacobsmedia.wgr:id/feedItemImage",
+          "clickable": false,
+          "class": "com.android.volley.toolbox.NetworkImageView",
+          "bounds": [
+            0,
+            1729,
+            1440,
+            1937
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

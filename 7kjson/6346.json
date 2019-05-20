@@ -1,0 +1,676 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "Weather Options",
+      "resource-id": "android:id/title",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        84,
+        1440,
+        206
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        210,
+        1440,
+        434
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "MinuteCast®",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            237,
+            507,
+            340
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Enable MinuteCast zones",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            340,
+            605,
+            406
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "android:id/checkbox",
+          "ancestors": [
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.CheckBox",
+          "bounds": [
+            1293,
+            266,
+            1405,
+            378
+          ],
+          "componentLabel": "Checkbox"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        438,
+        1440,
+        662
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Weather Forecast Zones",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            465,
+            886,
+            568
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Enable weather forecast zones",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            568,
+            724,
+            634
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "android:id/checkbox",
+          "ancestors": [
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.CheckBox",
+          "bounds": [
+            1293,
+            494,
+            1405,
+            606
+          ],
+          "componentLabel": "Checkbox"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        666,
+        1440,
+        890
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Live Weather Stations",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            693,
+            796,
+            796
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Enable all live weather stations",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            796,
+            725,
+            862
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "android:id/checkbox",
+          "ancestors": [
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.CheckBox",
+          "bounds": [
+            1293,
+            722,
+            1405,
+            834
+          ],
+          "componentLabel": "Checkbox"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        894,
+        1440,
+        1118
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Tide Prediction Stations",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            921,
+            870,
+            1024
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Enable all tide stations",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            1024,
+            545,
+            1090
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "android:id/checkbox",
+          "ancestors": [
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.CheckBox",
+          "bounds": [
+            1293,
+            950,
+            1405,
+            1062
+          ],
+          "componentLabel": "Checkbox"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1122,
+        1440,
+        1346
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Current Prediction Stations",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            1149,
+            972,
+            1252
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Enable all current stations",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            1252,
+            619,
+            1318
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "android:id/checkbox",
+          "ancestors": [
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.CheckBox",
+          "bounds": [
+            1293,
+            1178,
+            1405,
+            1290
+          ],
+          "componentLabel": "Checkbox"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1350,
+        1440,
+        1574
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Sun Rise/Set",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            1377,
+            493,
+            1480
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Long press anywhere on the map",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            1480,
+            772,
+            1546
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "android:id/checkbox",
+          "ancestors": [
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.CheckBox",
+          "bounds": [
+            1293,
+            1406,
+            1405,
+            1518
+          ],
+          "componentLabel": "Checkbox"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1578,
+        1440,
+        1747
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Radar",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            1578,
+            253,
+            1681
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Enable radar images",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            1681,
+            499,
+            1747
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "Pages",
+      "resource-id": "android:id/title",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        1751,
+        1440,
+        1873
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1877,
+        1440,
+        2022
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Sea Surface Temperature Maps",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            1898,
+            1129,
+            2001
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2026,
+        1440,
+        2171
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Tropical Maps",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            2047,
+            539,
+            2150
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2175,
+        1440,
+        2320
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "About",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            2196,
+            257,
+            2299
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2324,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Help",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            53,
+            2345,
+            211,
+            2392
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

@@ -1,0 +1,904 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.jackthreads.android:id/navigation_drawer_container",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.jackthreads.android:id/imageAvatarDefault",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            56,
+            161,
+            280,
+            385
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            56,
+            161,
+            280,
+            385
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Log In / Sign Up",
+          "resource-id": "com.jackthreads.android:id/textUsername",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            476,
+            1064,
+            542
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            588,
+            1120,
+            756
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "home"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            756,
+            1120,
+            760
+          ],
+          "clickable": true,
+          "children": [],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            760,
+            1120,
+            928
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "Shop",
+              "resource-id": "com.jackthreads.android:id/textTitle",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                56,
+                760,
+                167,
+                928
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            928,
+            1120,
+            1096
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.jackthreads.android:id/imageToggle",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1001,
+                977,
+                1071,
+                1047
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Clothing",
+              "resource-id": "com.jackthreads.android:id/textTitle",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                56,
+                928,
+                468,
+                1096
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1096,
+            1120,
+            1264
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.jackthreads.android:id/imageToggle",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1001,
+                1145,
+                1071,
+                1215
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Shoes",
+              "resource-id": "com.jackthreads.android:id/textTitle",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                56,
+                1096,
+                422,
+                1264
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1264,
+            1120,
+            1432
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.jackthreads.android:id/imageToggle",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1001,
+                1313,
+                1071,
+                1383
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Accessories",
+              "resource-id": "com.jackthreads.android:id/textTitle",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                56,
+                1264,
+                555,
+                1432
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1432,
+            1120,
+            1600
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Sale",
+              "resource-id": "com.jackthreads.android:id/textTitle",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                56,
+                1432,
+                381,
+                1600
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1600,
+            1120,
+            1604
+          ],
+          "clickable": true,
+          "children": [],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1604,
+            1120,
+            1772
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Introducing TryOuts",
+              "resource-id": "com.jackthreads.android:id/textTitle",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                56,
+                1604,
+                485,
+                1772
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1772,
+            1120,
+            1940
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.jackthreads.android:id/imageToggle",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1001,
+                1821,
+                1071,
+                1891
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Customer Service",
+              "resource-id": "com.jackthreads.android:id/textTitle",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                56,
+                1772,
+                442,
+                1940
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            1940,
+            1120,
+            2108
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.jackthreads.android:id/imageToggle",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1001,
+                1989,
+                1071,
+                2059
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "App Info",
+              "resource-id": "com.jackthreads.android:id/textTitle",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                56,
+                1940,
+                239,
+                2108
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "ancestors": [
+        "android.support.design.internal.ScrimInsetsFrameLayout",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.design.widget.NavigationView",
+      "bounds": [
+        0,
+        0,
+        1120,
+        2392
+      ],
+      "componentLabel": "Drawer"
+    },
+    {
+      "resource-id": "com.jackthreads.android:id/toolbar",
+      "children": [
+        {
+          "text": "Sale",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            148,
+            351,
+            216
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "search",
+          "resource-id": "com.jackthreads.android:id/actionbar_search",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1096,
+            98,
+            1268,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "shop",
+          "resource-id": "com.jackthreads.android:id/actionbar_cart",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1268,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.jackthreads.android.views.HeaderGridView$b",
+      "bounds": [
+        0,
+        280,
+        1440,
+        455
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "resource-id": "com.jackthreads.android:id/frameBanner",
+          "children": [
+            {
+              "ancestors": [
+                "com.google.android.gms.ads.BaseAdView",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "class": "com.google.android.gms.ads.AdView",
+              "bounds": [
+                0,
+                280,
+                1440,
+                455
+              ],
+              "clickable": false,
+              "children": [
+                {
+                  "ancestors": [
+                    "android.widget.FrameLayout",
+                    "android.view.ViewGroup",
+                    "android.view.View",
+                    "java.lang.Object"
+                  ],
+                  "class": "com.google.android.gms.ads.internal.webview.l",
+                  "bounds": [
+                    160,
+                    280,
+                    1280,
+                    455
+                  ],
+                  "clickable": false,
+                  "children": [
+                    {
+                      "ancestors": [
+                        "android.webkit.WebView",
+                        "android.widget.AbsoluteLayout",
+                        "android.view.ViewGroup",
+                        "android.view.View",
+                        "java.lang.Object"
+                      ],
+                      "bounds": [
+                        160,
+                        280,
+                        1280,
+                        455
+                      ],
+                      "clickable": true,
+                      "class": "com.google.android.gms.ads.internal.webview.m",
+                      "componentLabel": "Web View"
+                    }
+                  ],
+                  "componentLabel": "Web View"
+                }
+              ],
+              "componentLabel": "Advertisement"
+            }
+          ],
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.FrameLayout",
+          "bounds": [
+            0,
+            280,
+            1440,
+            455
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.jackthreads.android:id/saleContainer",
+      "children": [
+        {
+          "resource-id": "com.jackthreads.android:id/saleCardView",
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.jackthreads.android:id/image",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                28,
+                487,
+                1412,
+                1323
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Up To 75% Off",
+              "resource-id": "com.jackthreads.android:id/txtSaleName",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.jackthreads.android.views.CustomTextView",
+              "bounds": [
+                84,
+                1199,
+                1356,
+                1267
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            21,
+            476,
+            1419,
+            1334
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        476,
+        1440,
+        1334
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.jackthreads.android:id/saleContainer",
+      "children": [
+        {
+          "resource-id": "com.jackthreads.android:id/saleCardView",
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.jackthreads.android:id/image",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                28,
+                1366,
+                1412,
+                2202
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Outerwear From $29.99",
+              "resource-id": "com.jackthreads.android:id/txtSaleName",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.jackthreads.android.views.CustomTextView",
+              "bounds": [
+                84,
+                2078,
+                1356,
+                2146
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            21,
+            1355,
+            1419,
+            2213
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1355,
+        1440,
+        2213
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.jackthreads.android:id/saleContainer",
+      "children": [
+        {
+          "resource-id": "com.jackthreads.android:id/saleCardView",
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.jackthreads.android:id/image",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                28,
+                2245,
+                1412,
+                2392
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            21,
+            2234,
+            1419,
+            2392
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        2234,
+        1440,
+        2392
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

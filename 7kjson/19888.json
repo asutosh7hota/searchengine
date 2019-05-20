@@ -1,0 +1,425 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "Reservations",
+      "resource-id": "com.usablenet.android.ritzcarlton:id/menu_reservations",
+      "ancestors": [
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.CheckBox",
+      "bounds": [
+        0,
+        92,
+        1230,
+        280
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Hotel Information",
+      "resource-id": "com.usablenet.android.ritzcarlton:id/menu_hotel_info",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.usablenet.android.ritzcarlton.views.component.CustomButton",
+      "bounds": [
+        0,
+        284,
+        1230,
+        472
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "The Ritz-Carlton Rewards",
+      "resource-id": "com.usablenet.android.ritzcarlton:id/menu_rewards",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.usablenet.android.ritzcarlton.views.component.CustomButton",
+      "bounds": [
+        0,
+        476,
+        1230,
+        664
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Offers",
+      "resource-id": "com.usablenet.android.ritzcarlton:id/menu_offers",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.usablenet.android.ritzcarlton.views.component.CustomButton",
+      "bounds": [
+        0,
+        668,
+        1230,
+        856
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "resource-id": "com.usablenet.android.ritzcarlton:id/menu_messages",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        860,
+        1230,
+        1048
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "message"
+    },
+    {
+      "text": "Contact Us",
+      "resource-id": "com.usablenet.android.ritzcarlton:id/menu_contact_us",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.usablenet.android.ritzcarlton.views.component.CustomButton",
+      "bounds": [
+        0,
+        1052,
+        1230,
+        1240
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "rate"
+    },
+    {
+      "text": "Meetings",
+      "resource-id": "com.usablenet.android.ritzcarlton:id/menu_meetings",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.usablenet.android.ritzcarlton.views.component.CustomButton",
+      "bounds": [
+        0,
+        1244,
+        1230,
+        1432
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Weddings",
+      "resource-id": "com.usablenet.android.ritzcarlton:id/menu_weddings",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.usablenet.android.ritzcarlton.views.component.CustomButton",
+      "bounds": [
+        0,
+        1436,
+        1230,
+        1624
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Spa",
+      "resource-id": "com.usablenet.android.ritzcarlton:id/menu_spa",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.usablenet.android.ritzcarlton.views.component.CustomButton",
+      "bounds": [
+        0,
+        1628,
+        1230,
+        1816
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Residences",
+      "resource-id": "com.usablenet.android.ritzcarlton:id/menu_residences_clubs",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.usablenet.android.ritzcarlton.views.component.CustomButton",
+      "bounds": [
+        0,
+        1820,
+        1230,
+        2008
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Terms of Use",
+      "resource-id": "com.usablenet.android.ritzcarlton:id/menu_terms_conditions",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.usablenet.android.ritzcarlton.views.component.CustomButton",
+      "bounds": [
+        0,
+        2012,
+        1230,
+        2200
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "terms of use"
+    },
+    {
+      "text": "Privacy and Cookie Statement",
+      "resource-id": "com.usablenet.android.ritzcarlton:id/menu_privacy_policy",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.usablenet.android.ritzcarlton.views.component.CustomButton",
+      "bounds": [
+        0,
+        2204,
+        1230,
+        2392
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "",
+      "resource-id": "com.usablenet.android.ritzcarlton:id/btn_menu",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        1265,
+        182,
+        1363,
+        266
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.usablenet.android.ritzcarlton:id/logo",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1327,
+        119,
+        1440,
+        329
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "resource-id": "com.usablenet.android.ritzcarlton:id/image_view",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1230,
+            84,
+            1440,
+            889
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.ImageSwitcher",
+        "android.widget.ViewSwitcher",
+        "android.widget.ViewAnimator",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.usablenet.android.ritzcarlton.views.UninterceptableImageSwitcher",
+      "bounds": [
+        1230,
+        84,
+        1440,
+        889
+      ],
+      "componentLabel": "On/Off Switch"
+    },
+    {
+      "text": "HOTEL INFORMATION",
+      "resource-id": "com.usablenet.android.ritzcarlton:id/btn_locations",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.usablenet.android.ritzcarlton.views.component.CustomButton",
+      "bounds": [
+        1300,
+        1251,
+        1440,
+        1391
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "resource-id": "com.usablenet.android.ritzcarlton:id/btn_messages",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        1300,
+        1451,
+        1440,
+        1591
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "message"
+    },
+    {
+      "text": "TRAVEL POSTERS",
+      "resource-id": "com.usablenet.android.ritzcarlton:id/btn_travel_posters_home_alt",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.usablenet.android.ritzcarlton.views.component.CustomButton",
+      "bounds": [
+        1300,
+        1651,
+        1440,
+        1791
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.usablenet.android.ritzcarlton:id/travel_posters_img",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1328,
+        1879,
+        1440,
+        2229
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "TRAVEL POSTERS",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.usablenet.android.ritzcarlton.views.component.CustomTextView",
+      "bounds": [
+        1328,
+        2264,
+        1440,
+        2338
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.usablenet.android.ritzcarlton:id/image_g_s",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1342,
+        1016,
+        1440,
+        1156
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

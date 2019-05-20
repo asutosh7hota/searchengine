@@ -1,0 +1,412 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    84,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "Selecting the city\nYou agree to the Terms and conditions",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.br",
+      "bounds": [
+        56,
+        140,
+        1384,
+        358
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        386,
+        1384,
+        582
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Białystok",
+          "resource-id": "com.citynav.jakdojade.pl.android:id/act_sett_dialog_city_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.br",
+          "bounds": [
+            280,
+            437,
+            1181,
+            530
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.citynav.jakdojade.pl.android:id/act_sett_city_dialog_live",
+          "clickable": false,
+          "class": "android.support.v7.widget.az",
+          "bounds": [
+            1237,
+            464,
+            1328,
+            504
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        582,
+        1384,
+        778
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Bydgoszcz",
+          "resource-id": "com.citynav.jakdojade.pl.android:id/act_sett_dialog_city_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.br",
+          "bounds": [
+            280,
+            633,
+            1272,
+            726
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        778,
+        1384,
+        974
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Gniezno",
+          "resource-id": "com.citynav.jakdojade.pl.android:id/act_sett_dialog_city_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.br",
+          "bounds": [
+            280,
+            829,
+            1272,
+            922
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        974,
+        1384,
+        1170
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "GOP",
+          "resource-id": "com.citynav.jakdojade.pl.android:id/act_sett_dialog_city_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.br",
+          "bounds": [
+            280,
+            1025,
+            1272,
+            1118
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        1170,
+        1384,
+        1366
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Gorzów Wlkp.",
+          "resource-id": "com.citynav.jakdojade.pl.android:id/act_sett_dialog_city_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.br",
+          "bounds": [
+            280,
+            1221,
+            1272,
+            1314
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        1366,
+        1384,
+        1562
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Grudziądz",
+          "resource-id": "com.citynav.jakdojade.pl.android:id/act_sett_dialog_city_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.br",
+          "bounds": [
+            280,
+            1417,
+            1272,
+            1510
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        1562,
+        1384,
+        1758
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Inowrocław",
+          "resource-id": "com.citynav.jakdojade.pl.android:id/act_sett_dialog_city_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.br",
+          "bounds": [
+            280,
+            1613,
+            1272,
+            1706
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        1758,
+        1384,
+        1954
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Jelenia Góra",
+          "resource-id": "com.citynav.jakdojade.pl.android:id/act_sett_dialog_city_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.br",
+          "bounds": [
+            280,
+            1809,
+            1272,
+            1902
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        1954,
+        1384,
+        2150
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Kraków",
+          "resource-id": "com.citynav.jakdojade.pl.android:id/act_sett_dialog_city_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.br",
+          "bounds": [
+            280,
+            2005,
+            1272,
+            2098
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        2150,
+        1384,
+        2336
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Leszno",
+          "resource-id": "com.citynav.jakdojade.pl.android:id/act_sett_dialog_city_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.br",
+          "bounds": [
+            280,
+            2201,
+            1272,
+            2294
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

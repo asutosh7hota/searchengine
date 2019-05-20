@@ -1,0 +1,287 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "iconClass": "close",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.giinger.onedollar:id/dialog_select_payment_paypall_imageview_close",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1195,
+        84,
+        1405,
+        280
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Top-up your balance",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        437,
+        280,
+        1003,
+        365
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Terms of Service apply\nOneDollar uses Dollar Coins",
+      "resource-id": "com.giinger.onedollar:id/dialog_select_payment_paypall_term_and_service",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        417,
+        1667,
+        1023,
+        1790
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Your balance :",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        487,
+        453,
+        838,
+        529
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "$2",
+      "resource-id": "com.giinger.onedollar:id/dialog_select_payment_paypall_textview_your_balance",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        856,
+        435,
+        952,
+        547
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.giinger.onedollar:id/dialog_select_payment_paypall_imageview_number_10",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        70,
+        617,
+        1370,
+        897
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "USD5           ",
+      "resource-id": "com.giinger.onedollar:id/dialog_select_payment_paypall_tv_10dolar",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        1012,
+        803,
+        1265,
+        869
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "$5",
+      "resource-id": "com.giinger.onedollar:id/tv_credit_package_1",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        105,
+        757,
+        201,
+        869
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.giinger.onedollar:id/dialog_select_payment_paypall_imageview_number_50",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        70,
+        967,
+        1370,
+        1247
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "USD10 only",
+      "resource-id": "com.giinger.onedollar:id/dialog_select_payment_paypall_tv_50dolar",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        1014,
+        1153,
+        1265,
+        1219
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "$12",
+      "resource-id": "com.giinger.onedollar:id/tv_credit_package_2",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        105,
+        1107,
+        249,
+        1219
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.giinger.onedollar:id/dialog_select_payment_paypall_imageview_number_100",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        70,
+        1317,
+        1370,
+        1597
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "USD50 only",
+      "resource-id": "com.giinger.onedollar:id/dialog_select_payment_paypall_tv_100dolar",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        1014,
+        1503,
+        1265,
+        1569
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "$60",
+      "resource-id": "com.giinger.onedollar:id/tv_credit_package_3",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        105,
+        1457,
+        249,
+        1569
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "",
+      "resource-id": "com.giinger.onedollar:id/rb_paypal",
+      "ancestors": [
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.RadioButton",
+      "bounds": [
+        524,
+        1860,
+        636,
+        1972
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.giinger.onedollar:id/iv_paypal",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        636,
+        1881,
+        986,
+        1951
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

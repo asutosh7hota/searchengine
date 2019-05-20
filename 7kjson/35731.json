@@ -1,0 +1,521 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "android:id/action_bar_container",
+      "children": [
+        {
+          "text": "Rap Beats",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            135,
+            373,
+            228
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.internal.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        280,
+        1440,
+        448
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "iconClass": "music",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.adamcox.rapbeats:id/itemlogo",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            280,
+            168,
+            448
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Make a Rap",
+          "resource-id": "com.adamcox.rapbeats:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            203,
+            280,
+            1440,
+            356
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        452,
+        1440,
+        620
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "iconClass": "follow",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.adamcox.rapbeats:id/itemlogo",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            452,
+            168,
+            620
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Freestyle",
+          "resource-id": "com.adamcox.rapbeats:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            203,
+            452,
+            1440,
+            528
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        624,
+        1440,
+        792
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "iconClass": "save",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.adamcox.rapbeats:id/itemlogo",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            624,
+            168,
+            792
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "My Saved Raps",
+          "resource-id": "com.adamcox.rapbeats:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            203,
+            624,
+            1440,
+            700
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        796,
+        1440,
+        964
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "iconClass": "edit",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.adamcox.rapbeats:id/itemlogo",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            796,
+            168,
+            964
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Leave Review",
+          "resource-id": "com.adamcox.rapbeats:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            203,
+            796,
+            1440,
+            872
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        968,
+        1440,
+        1136
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "iconClass": "arrow_upward",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.adamcox.rapbeats:id/itemlogo",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            968,
+            168,
+            1136
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Publish Beats",
+          "resource-id": "com.adamcox.rapbeats:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            203,
+            968,
+            1440,
+            1044
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1140,
+        1440,
+        1308
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "iconClass": "arrow_downward",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.adamcox.rapbeats:id/itemlogo",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            1140,
+            168,
+            1308
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Import Beats",
+          "resource-id": "com.adamcox.rapbeats:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            203,
+            1140,
+            1440,
+            1216
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1312,
+        1440,
+        1480
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "iconClass": "globe",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.adamcox.rapbeats:id/itemlogo",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            1312,
+            168,
+            1480
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "www.8d8Apps.com",
+          "resource-id": "com.adamcox.rapbeats:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            203,
+            1312,
+            1440,
+            1388
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1484,
+        1440,
+        1652
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "iconClass": "add",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.adamcox.rapbeats:id/itemlogo",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            1484,
+            168,
+            1652
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Earn Credits",
+          "resource-id": "com.adamcox.rapbeats:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            203,
+            1484,
+            1440,
+            1560
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1656,
+        1440,
+        1824
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.adamcox.rapbeats:id/itemlogo",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            1656,
+            168,
+            1824
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Upgrade",
+          "resource-id": "com.adamcox.rapbeats:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            203,
+            1656,
+            1440,
+            1732
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

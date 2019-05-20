@@ -1,0 +1,306 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.parkwhiz.driverApp:id/toolbar",
+      "children": [
+        {
+          "text": "Account Settings",
+          "resource-id": "com.parkwhiz.driverApp:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.parkwhiz.driverApp.ui.widgets.RobotoTextView",
+          "bounds": [
+            196,
+            135,
+            830,
+            229
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            126,
+            196,
+            238
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Payment Methods",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.parkwhiz.driverApp.ui.widgets.RobotoTextView",
+      "bounds": [
+        0,
+        1315,
+        720,
+        1409
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Vehicles",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.parkwhiz.driverApp.ui.widgets.RobotoTextView",
+      "bounds": [
+        0,
+        1963,
+        361,
+        2057
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Account Info",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.parkwhiz.driverApp.ui.widgets.RobotoTextView",
+      "bounds": [
+        56,
+        336,
+        1131,
+        430
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "SIGN OUT",
+      "resource-id": "com.parkwhiz.driverApp:id/log_out",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.parkwhiz.driverApp.ui.widgets.RobotoTextView",
+      "bounds": [
+        1131,
+        336,
+        1384,
+        448
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "You haven't added any payment methods yet. Add one below.",
+      "resource-id": "com.parkwhiz.driverApp:id/cards_empty",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.parkwhiz.driverApp.ui.widgets.RobotoTextView",
+      "bounds": [
+        84,
+        1493,
+        1356,
+        1599
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "add card",
+      "resource-id": "com.parkwhiz.driverApp:id/add_card",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.parkwhiz.driverApp.ui.widgets.RobotoTextView",
+      "bounds": [
+        1106,
+        1711,
+        1384,
+        1823
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "add"
+    },
+    {
+      "text": "You haven't added any vehicles yet. Add one below.",
+      "resource-id": "com.parkwhiz.driverApp:id/vehicles_empty",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.parkwhiz.driverApp.ui.widgets.RobotoTextView",
+      "bounds": [
+        84,
+        2141,
+        1217,
+        2197
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Add new vehicle",
+      "resource-id": "com.parkwhiz.driverApp:id/add_vehicle",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.parkwhiz.driverApp.ui.widgets.RobotoTextView",
+      "bounds": [
+        911,
+        2309,
+        1384,
+        2392
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Reset Password",
+      "resource-id": "com.parkwhiz.driverApp:id/change_password",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.parkwhiz.driverApp.ui.widgets.RobotoTextView",
+      "bounds": [
+        722,
+        1063,
+        1179,
+        1175
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "SAVE",
+      "resource-id": "com.parkwhiz.driverApp:id/save",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.parkwhiz.driverApp.ui.widgets.RobotoTextView",
+      "bounds": [
+        1235,
+        1063,
+        1384,
+        1175
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "save"
+    },
+    {
+      "text": "App Crawler",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        56,
+        542,
+        1384,
+        681
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "appcrawler3@gmail.com",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        56,
+        719,
+        1384,
+        858
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        56,
+        896,
+        1384,
+        1035
+      ],
+      "componentLabel": "Input"
+    }
+  ]
+}

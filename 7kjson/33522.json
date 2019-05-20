@@ -1,0 +1,145 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.android.browser.TitleBar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        298
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.android.browser:id/progress",
+          "clickable": false,
+          "class": "com.android.browser.PageProgressView",
+          "bounds": [
+            0,
+            228,
+            1440,
+            298
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "switcher",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.android.browser:id/tab_switcher",
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "bounds": [
+            1104,
+            84,
+            1272,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.android.browser:id/more",
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "bounds": [
+            1272,
+            84,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "globe",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.android.browser:id/stop",
+          "clickable": true,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            33,
+            119,
+            187,
+            231
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "www.getsamplesonlinenow.com/default.aspx?flow=AE7861C4-37EC-1E6A-524E-D11477C359651A11161A&1=1&email=appcrawler5@gmail.com&firstname=Sam&lastname=Brown&gender=True&dobmonth=2&dobday=13&dobyear=1989&phonecode=415&phoneprefix=579&phonesuffix=1543&address1=1234%20sesame%20st&city=Urbana&state=IL&zippost=61801&fdc=Y&fdn=False&isuserlookup=False&1=1&reward=fallbeauty&o=207929&pubsrc1=//www.cdn925.com/CampImg/3866/redesigned/promoimg/462x270_summerbeauty.png&pubsrc2=FREE%20Samples&SubAff=85_201957_52547_SamplesSavingsfallbeauty_Valid&AffSecID=&EntranceVID=zwlo48epgUIDaCkDjif0Pw2",
+          "resource-id": "com.android.browser:id/url",
+          "ancestors": [
+            "android.widget.AutoCompleteTextView",
+            "android.widget.EditText",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.android.browser.UrlInputView",
+          "bounds": [
+            187,
+            84,
+            1072,
+            266
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.webkit.WebView",
+        "android.widget.AbsoluteLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        266,
+        1440,
+        2392
+      ],
+      "clickable": true,
+      "class": "com.android.browser.BrowserWebView",
+      "componentLabel": "Web View"
+    }
+  ]
+}

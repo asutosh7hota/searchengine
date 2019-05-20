@@ -1,0 +1,898 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.busuu.android.es:id/toolbar",
+      "children": [
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Beginner A1 - 0%",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            252,
+            135,
+            785,
+            228
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.busuu.android.es:id/root_layout",
+      "children": [
+        {
+          "iconClass": "email",
+          "clickable": true,
+          "children": [
+            {
+              "iconClass": "thumbs_up",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/iconView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                410,
+                506,
+                522,
+                597
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.busuu.android.ui.course.ComponentIconView",
+          "bounds": [
+            340,
+            448,
+            593,
+            678
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "flash",
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/iconView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                695,
+                502,
+                744,
+                600
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.busuu.android.ui.course.ComponentIconView",
+          "bounds": [
+            593,
+            448,
+            846,
+            678
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "check",
+          "clickable": true,
+          "children": [
+            {
+              "iconClass": "check",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/iconView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                927,
+                516,
+                1018,
+                586
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "iconClass": "lock",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/premiumStatusView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1001,
+                580,
+                1057,
+                636
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.busuu.android.ui.course.ComponentIconView",
+          "bounds": [
+            846,
+            448,
+            1099,
+            678
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        448,
+        1440,
+        706
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.busuu.android.es:id/root_layout",
+      "children": [
+        {
+          "text": "What do you look like?",
+          "resource-id": "com.busuu.android.es:id/unit_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            304,
+            790,
+            1136,
+            880
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/iconView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                284,
+                989,
+                396,
+                1080
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.busuu.android.ui.course.ComponentIconView",
+          "bounds": [
+            214,
+            908,
+            467,
+            1161
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "flash",
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/iconView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                569,
+                985,
+                618,
+                1083
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.busuu.android.ui.course.ComponentIconView",
+          "bounds": [
+            467,
+            908,
+            720,
+            1161
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/iconView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                799,
+                987,
+                894,
+                1082
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.busuu.android.ui.course.ComponentIconView",
+          "bounds": [
+            720,
+            908,
+            973,
+            1161
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "check",
+          "clickable": true,
+          "children": [
+            {
+              "iconClass": "check",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/iconView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1054,
+                999,
+                1145,
+                1069
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/premiumStatusView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1128,
+                1063,
+                1184,
+                1119
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.busuu.android.ui.course.ComponentIconView",
+          "bounds": [
+            973,
+            908,
+            1226,
+            1161
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        706,
+        1440,
+        1189
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.busuu.android.es:id/root_layout",
+      "children": [
+        {
+          "text": "Gender and number",
+          "resource-id": "com.busuu.android.es:id/unit_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            340,
+            1273,
+            1099,
+            1363
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/iconView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                415,
+                1482,
+                517,
+                1552
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "iconClass": "lock",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/premiumStatusView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                495,
+                1546,
+                551,
+                1602
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.busuu.android.ui.course.ComponentIconView",
+          "bounds": [
+            340,
+            1391,
+            593,
+            1644
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "font",
+          "clickable": true,
+          "children": [
+            {
+              "iconClass": "pause",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/iconView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                675,
+                1477,
+                763,
+                1558
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "iconClass": "lock",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/premiumStatusView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                748,
+                1546,
+                804,
+                1602
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.busuu.android.ui.course.ComponentIconView",
+          "bounds": [
+            593,
+            1391,
+            846,
+            1644
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "clickable": true,
+          "children": [
+            {
+              "iconClass": "check",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/iconView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                934,
+                1472,
+                1011,
+                1563
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "iconClass": "lock",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/premiumStatusView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1001,
+                1546,
+                1057,
+                1602
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.busuu.android.ui.course.ComponentIconView",
+          "bounds": [
+            846,
+            1391,
+            1099,
+            1644
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1189,
+        1440,
+        1672
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.busuu.android.es:id/root_layout",
+      "children": [
+        {
+          "text": "To be: ser",
+          "resource-id": "com.busuu.android.es:id/unit_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            489,
+            1756,
+            950,
+            1846
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/iconView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                415,
+                1965,
+                517,
+                2035
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/premiumStatusView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                495,
+                2029,
+                551,
+                2085
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.busuu.android.ui.course.ComponentIconView",
+          "bounds": [
+            340,
+            1874,
+            593,
+            2127
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "font",
+          "clickable": true,
+          "children": [
+            {
+              "iconClass": "pause",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/iconView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                675,
+                1960,
+                763,
+                2041
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "iconClass": "lock",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/premiumStatusView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                748,
+                2029,
+                804,
+                2085
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.busuu.android.ui.course.ComponentIconView",
+          "bounds": [
+            593,
+            1874,
+            846,
+            2127
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "clickable": true,
+          "children": [
+            {
+              "iconClass": "check",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/iconView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                934,
+                1955,
+                1011,
+                2046
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "iconClass": "lock",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.busuu.android.es:id/premiumStatusView",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1001,
+                2029,
+                1057,
+                2085
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.busuu.android.ui.course.ComponentIconView",
+          "bounds": [
+            846,
+            1874,
+            1099,
+            2127
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1672,
+        1440,
+        2155
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.busuu.android.es:id/root_layout",
+      "children": [
+        {
+          "text": "Writing",
+          "resource-id": "com.busuu.android.es:id/unit_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            531,
+            2239,
+            909,
+            2329
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "clickable": true,
+          "children": [],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.busuu.android.ui.course.ComponentIconView",
+          "bounds": [
+            593,
+            2357,
+            846,
+            2392
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2155,
+        1440,
+        2392
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "Unlock all features",
+      "resource-id": "com.busuu.android.es:id/button_upgrade_to_premium",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        0,
+        280,
+        1440,
+        448
+      ],
+      "componentLabel": "Text Button"
+    }
+  ]
+}

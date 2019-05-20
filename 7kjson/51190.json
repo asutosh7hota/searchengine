@@ -1,0 +1,140 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.grapplemobile.skynewsarabia:id/hints_more",
+      "clickable": false,
+      "class": "com.skynewsarabia.android.view.OOMImageView",
+      "bounds": [
+        848,
+        1195,
+        1328,
+        1675
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.grapplemobile.skynewsarabia:id/hints_search",
+      "clickable": false,
+      "class": "com.skynewsarabia.android.view.OOMImageView",
+      "bounds": [
+        490,
+        434,
+        578,
+        571
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.grapplemobile.skynewsarabia:id/hints_search_box",
+      "clickable": false,
+      "class": "com.skynewsarabia.android.view.OOMImageView",
+      "bounds": [
+        656,
+        311,
+        1405,
+        434
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "البحث في ا��محتوى",
+      "resource-id": "com.grapplemobile.skynewsarabia:id/search_text",
+      "ancestors": [
+        "com.skynewsarabia.android.view.BaseCustomTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.skynewsarabia.android.view.RegularCustomTextView",
+      "bounds": [
+        656,
+        311,
+        1405,
+        434
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "iconClass": "close",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.grapplemobile.skynewsarabia:id/hints_search_clear",
+      "clickable": false,
+      "class": "com.skynewsarabia.android.view.OOMImageView",
+      "bounds": [
+        523,
+        311,
+        656,
+        434
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.grapplemobile.skynewsarabia:id/hints_radio_1",
+      "clickable": false,
+      "class": "com.skynewsarabia.android.view.OOMImageView",
+      "bounds": [
+        1296,
+        641,
+        1328,
+        683
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.grapplemobile.skynewsarabia:id/hints_radio_2",
+      "clickable": false,
+      "class": "com.skynewsarabia.android.view.OOMImageView",
+      "bounds": [
+        638,
+        620,
+        1247,
+        956
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

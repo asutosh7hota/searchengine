@@ -1,0 +1,222 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "iconClass": "home",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "mcc.news.radio.radioScanner:id/icon",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        70,
+        2217,
+        217,
+        2362
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "favorite",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "mcc.news.radio.radioScanner:id/icon",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        358,
+        2217,
+        505,
+        2362
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "mcc.news.radio.radioScanner:id/icon",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        646,
+        2217,
+        793,
+        2362
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "settings",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "mcc.news.radio.radioScanner:id/icon",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        934,
+        2217,
+        1081,
+        2362
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "music",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "mcc.news.radio.radioScanner:id/icon",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1222,
+        2217,
+        1369,
+        2362
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "  ",
+      "resource-id": "mcc.news.radio.radioScanner:id/CurrentRadio",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "mcc.news.radio.radioScanner.AutoScrollTextView",
+      "bounds": [
+        0,
+        84,
+        1440,
+        154
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "",
+      "bounds": [
+        45,
+        174,
+        180,
+        308
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "",
+      "bounds": [
+        1260,
+        174,
+        1395,
+        308
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "",
+      "bounds": [
+        120,
+        1350,
+        342,
+        1571
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "",
+      "bounds": [
+        1020,
+        1350,
+        1242,
+        1571
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "",
+      "bounds": [
+        1020,
+        1649,
+        1224,
+        1744
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.AbsSeekBar",
+        "android.widget.ProgressBar",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        153,
+        1649,
+        903,
+        1750
+      ],
+      "clickable": false,
+      "class": "android.widget.SeekBar",
+      "componentLabel": "Slider"
+    }
+  ]
+}

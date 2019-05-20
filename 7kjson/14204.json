@@ -1,0 +1,104 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        855,
+        1790,
+        1335,
+        2112
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.AbsoluteLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        84,
+        1440,
+        2217
+      ],
+      "clickable": true,
+      "class": "android.webkit.WebView",
+      "componentLabel": "Web View"
+    },
+    {
+      "text": "",
+      "resource-id": "com.unbound.android.cqtal:id/find_in_page_b",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        357,
+        2250,
+        480,
+        2359
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "",
+      "resource-id": "com.unbound.android.cqtal:id/favorite_b",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        658,
+        2250,
+        781,
+        2359
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "",
+      "resource-id": "com.unbound.android.cqtal:id/sections_b",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        959,
+        2250,
+        1082,
+        2359
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

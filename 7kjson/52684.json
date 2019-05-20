@@ -1,0 +1,836 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "android:id/action_bar_container",
+      "children": [
+        {
+          "iconClass": "menu",
+          "clickable": false,
+          "children": [
+            {
+              "iconClass": "menu",
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "android:id/home",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                43,
+                126,
+                127,
+                210
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.android.internal.widget.ActionBarView$HomeView",
+          "bounds": [
+            29,
+            84,
+            141,
+            252
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.digitaloutcrop.mixology:id/logo",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            421,
+            84,
+            823,
+            238
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.internal.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        252
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.digitaloutcrop.mixology:id/left_drawer",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            252,
+            1128,
+            532
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "iconClass": "folder",
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.digitaloutcrop.mixology:id/imageView",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                32,
+                278,
+                256,
+                474
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "text": "Search By Category",
+              "resource-id": "com.digitaloutcrop.mixology:id/textView",
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.widget.TextView",
+              "bounds": [
+                287,
+                278,
+                1128,
+                460
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            531,
+            1128,
+            842
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.digitaloutcrop.mixology:id/imageView",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                32,
+                588,
+                256,
+                784
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Search By Ingredient",
+              "resource-id": "com.digitaloutcrop.mixology:id/textView",
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.widget.TextView",
+              "bounds": [
+                287,
+                588,
+                1128,
+                770
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            841,
+            1128,
+            1152
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "iconClass": "favorite",
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.digitaloutcrop.mixology:id/imageView",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                32,
+                898,
+                256,
+                1094
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "text": "Favorite Drinks",
+              "resource-id": "com.digitaloutcrop.mixology:id/textView",
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.widget.TextView",
+              "bounds": [
+                287,
+                898,
+                1128,
+                1080
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1151,
+            1128,
+            1462
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.digitaloutcrop.mixology:id/imageView",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                32,
+                1208,
+                256,
+                1404
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Liquor Cabinet",
+              "resource-id": "com.digitaloutcrop.mixology:id/textView",
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.widget.TextView",
+              "bounds": [
+                287,
+                1208,
+                1128,
+                1390
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1461,
+            1128,
+            1772
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.digitaloutcrop.mixology:id/imageView",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                32,
+                1518,
+                256,
+                1714
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Random Drinks",
+              "resource-id": "com.digitaloutcrop.mixology:id/textView",
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.widget.TextView",
+              "bounds": [
+                287,
+                1518,
+                1128,
+                1700
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1771,
+            1128,
+            2082
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.digitaloutcrop.mixology:id/imageView",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                32,
+                1828,
+                256,
+                2024
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Bartending Tips & Tricks",
+              "resource-id": "com.digitaloutcrop.mixology:id/textView",
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.widget.TextView",
+              "bounds": [
+                287,
+                1828,
+                1128,
+                2010
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            2081,
+            1128,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.digitaloutcrop.mixology:id/imageView",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                32,
+                2138,
+                256,
+                2334
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Settings & More",
+              "resource-id": "com.digitaloutcrop.mixology:id/textView",
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.widget.TextView",
+              "bounds": [
+                287,
+                2138,
+                1128,
+                2320
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "ancestors": [
+        "android.widget.AbsListView",
+        "android.widget.AdapterView",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.ListView",
+      "bounds": [
+        0,
+        252,
+        1216,
+        2392
+      ],
+      "componentLabel": "Drawer"
+    },
+    {
+      "resource-id": "com.digitaloutcrop.mixology:id/displayRecipeListCellLinearLayout",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.digitaloutcrop.mixology:id/imageListCell",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            252,
+            350,
+            672
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Bourbon Ball",
+          "resource-id": "com.digitaloutcrop.mixology:id/displayRecipeListTextView",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            371,
+            273,
+            751,
+            363
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Whipped Cream, Heavy Cream, Makers Mark Bourbon, DeKuyper Hazelnut Liqueur, Dekuyper® Crème de Cocoa White",
+          "resource-id": "com.digitaloutcrop.mixology:id/displayIngredientListTextView",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            364,
+            398,
+            1426,
+            578
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        252,
+        1440,
+        672
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.digitaloutcrop.mixology:id/displayRecipeListCellLinearLayout",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.digitaloutcrop.mixology:id/imageListCell",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            676,
+            350,
+            1096
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Broken Leg",
+          "resource-id": "com.digitaloutcrop.mixology:id/displayRecipeListTextView",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            371,
+            697,
+            706,
+            787
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Jim Beam® Bourbon Whiskey, Hot Apple Cider",
+          "resource-id": "com.digitaloutcrop.mixology:id/displayIngredientListTextView",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            364,
+            822,
+            1375,
+            888
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        676,
+        1440,
+        1096
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.digitaloutcrop.mixology:id/displayRecipeListCellLinearLayout",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.digitaloutcrop.mixology:id/imageListCell",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            1100,
+            350,
+            1520
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Ghost Old Fashioned",
+          "resource-id": "com.digitaloutcrop.mixology:id/displayRecipeListTextView",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            371,
+            1121,
+            992,
+            1211
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Club Soda, Orange(s), Angostura Bitters, Cherry, Sugar Cubes, Jacob’s Ghost® White Whiskey",
+          "resource-id": "com.digitaloutcrop.mixology:id/displayIngredientListTextView",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            364,
+            1246,
+            1426,
+            1369
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1100,
+        1440,
+        1520
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.digitaloutcrop.mixology:id/displayRecipeListCellLinearLayout",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.digitaloutcrop.mixology:id/imageListCell",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            1524,
+            350,
+            1944
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Mexican Mule",
+          "resource-id": "com.digitaloutcrop.mixology:id/displayRecipeListTextView",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            371,
+            1545,
+            788,
+            1635
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Ginger Beer, Lime, Sauza® 901® Tequila",
+          "resource-id": "com.digitaloutcrop.mixology:id/displayIngredientListTextView",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            364,
+            1670,
+            1245,
+            1736
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1524,
+        1440,
+        1944
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.digitaloutcrop.mixology:id/displayRecipeListCellLinearLayout",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.digitaloutcrop.mixology:id/imageListCell",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            1948,
+            350,
+            2217
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Pinnacle® Peachy Keen",
+          "resource-id": "com.digitaloutcrop.mixology:id/displayRecipeListTextView",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            371,
+            1969,
+            1081,
+            2059
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Lemon Lime Soda, Pinnacle® Peach Vodka",
+          "resource-id": "com.digitaloutcrop.mixology:id/displayIngredientListTextView",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            364,
+            2094,
+            1305,
+            2160
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1948,
+        1440,
+        2217
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "com.mopub.mobileads.BaseHtmlWebView",
+        "com.mopub.mobileads.BaseWebView",
+        "android.webkit.WebView",
+        "android.widget.AbsoluteLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        2217,
+        1120,
+        2392
+      ],
+      "clickable": true,
+      "class": "com.mopub.mobileads.HtmlBannerWebView",
+      "componentLabel": "Advertisement"
+    }
+  ]
+}

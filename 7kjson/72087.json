@@ -1,0 +1,269 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.univision.noticias:id/appBar",
+      "children": [
+        {
+          "text": "CONFIGURACIONES",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            150,
+            850,
+            246
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            100,
+            196,
+            296
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        312
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        312,
+        1440,
+        490
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "El Tiempo",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.univision.android.lib.views.TypefaceTextView",
+          "bounds": [
+            53,
+            363,
+            1030,
+            436
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Sin Ubicación",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.univision.android.lib.views.TypefaceTextView",
+          "bounds": [
+            1065,
+            363,
+            1387,
+            436
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        490,
+        1440,
+        668
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Elegir Ciudad",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.univision.android.lib.views.TypefaceTextView",
+          "bounds": [
+            53,
+            541,
+            1029,
+            614
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "San Francisco",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.univision.android.lib.views.TypefaceTextView",
+          "bounds": [
+            1064,
+            541,
+            1387,
+            614
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        668,
+        1440,
+        846
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Esta Aplicación",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.univision.android.lib.views.TypefaceTextView",
+          "bounds": [
+            53,
+            719,
+            1352,
+            792
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        846,
+        1440,
+        1063
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.univision.noticias:id/prefDropShadow",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            1021,
+            1440,
+            1035
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Accede con tu proveedor de TV",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.univision.android.lib.views.TypefaceTextView",
+          "bounds": [
+            53,
+            897,
+            1352,
+            970
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

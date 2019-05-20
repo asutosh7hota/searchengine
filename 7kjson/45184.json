@@ -1,0 +1,429 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.hilton.android.hhonors:id/toolbar",
+      "children": [
+        {
+          "text": "Choose a Hotel",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            135,
+            690,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "filter",
+          "resource-id": "com.hilton.android.hhonors:id/action_filter",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1104,
+            98,
+            1272,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "call",
+          "resource-id": "com.hilton.android.hhonors:id/overflow_item_call_us",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.hilton.android.hhonors:id/map_list_tabs",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            280,
+            720,
+            476
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "list"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            720,
+            280,
+            1440,
+            476
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "map"
+        }
+      ],
+      "ancestors": [
+        "android.widget.HorizontalScrollView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.google.view.SlidingTabLayout",
+      "bounds": [
+        0,
+        280,
+        1440,
+        476
+      ],
+      "componentLabel": "Multi-Tab"
+    },
+    {
+      "iconClass": "arrow_forward",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.hilton.android.hhonors:id/fab",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        1188,
+        1580,
+        1398,
+        1790
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.hilton.android.hhonors:id/iv_hotelimage",
+      "clickable": false,
+      "class": "com.android.volley.toolbox.NetworkImageView",
+      "bounds": [
+        0,
+        1684,
+        420,
+        2216
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "San Francisco, CA",
+      "resource-id": "com.hilton.android.hhonors:id/summary_location",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        2276,
+        456,
+        2333
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "10 Dec - 11 Dec",
+      "resource-id": "com.hilton.android.hhonors:id/summary_dates",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        460,
+        2276,
+        860,
+        2333
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Hilton San Francisco Financial District",
+      "resource-id": "com.hilton.android.hhonors:id/tv_hotel_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        476,
+        1940,
+        1412,
+        2104
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "750 Kearny Street, San Francisco, CA 94108",
+      "resource-id": "com.hilton.android.hhonors:id/tv_hotel_address",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        476,
+        2118,
+        1298,
+        2175
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "group",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        917,
+        2269,
+        987,
+        2339
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "1 Adult, 0 Children",
+      "resource-id": "com.hilton.android.hhonors:id/summary_occupants",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        987,
+        2275,
+        1387,
+        2332
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "From",
+      "resource-id": "com.hilton.android.hhonors:id/tv_from",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        476,
+        1740,
+        573,
+        1789
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "search",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.hilton.android.hhonors:id/iv_key_bg",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        616,
+        1718,
+        728,
+        1830
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "search",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.hilton.android.hhonors:id/iv_key_icon",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        616,
+        1718,
+        728,
+        1830
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "$",
+      "resource-id": "com.hilton.android.hhonors:id/tv_price_symbol",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        448,
+        1817,
+        468,
+        1858
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "185",
+      "resource-id": "com.hilton.android.hhonors:id/tv_price",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        468,
+        1789,
+        588,
+        1871
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "per night",
+      "resource-id": "com.hilton.android.hhonors:id/tv_per_night",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        616,
+        1830,
+        755,
+        1871
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        18,
+        1590,
+        228,
+        1667
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    }
+  ]
+}

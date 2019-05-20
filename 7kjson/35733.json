@@ -1,0 +1,463 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.aetn.lifetime.watch:id/collapsing_toolbar",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.aetn.lifetime.watch:id/image_view",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            84,
+            1440,
+            280
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "info",
+          "resource-id": "com.aetn.lifetime.watch:id/menu_info",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1048,
+            98,
+            1244,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "share",
+          "resource-id": "com.aetn.lifetime.watch:id/menu_share",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1244,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.design.widget.CollapsingToolbarLayout",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.aetn.lifetime.watch:id/season_spinner",
+      "ancestors": [
+        "android.widget.Spinner",
+        "android.widget.AbsSpinner",
+        "android.widget.AdapterView",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatSpinner",
+      "bounds": [
+        28,
+        280,
+        452,
+        469
+      ],
+      "componentLabel": "Text Button",
+      "text": "All Seasons"
+    },
+    {
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.support.design.widget.TabLayout$SlidingTabStrip",
+      "bounds": [
+        774,
+        280,
+        1440,
+        469
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "EPISODES",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            827,
+            341,
+            1054,
+            407
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "CLIPS",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1206,
+            341,
+            1340,
+            407
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "Multi-Tab"
+    },
+    {
+      "ancestors": [
+        "com.aetn.watch.widget.GridAsset",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.aetn.watch.widget.ShowDetailAsset",
+      "bounds": [
+        22,
+        469,
+        1418,
+        1207
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "resource-id": "com.aetn.lifetime.watch:id/content_wrapper",
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.lifetime.watch:id/episode_image_view",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                33,
+                469,
+                1407,
+                930
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageButton",
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.lifetime.watch:id/login_btn",
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatImageButton",
+              "bounds": [
+                89,
+                988,
+                229,
+                1128
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "S1 E14 ",
+              "resource-id": "com.aetn.lifetime.watch:id/season_episode_number",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                285,
+                987,
+                450,
+                1053
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "The Ring Bear-er",
+              "resource-id": "com.aetn.lifetime.watch:id/asset_name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                285,
+                1053,
+                695,
+                1129
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            22,
+            469,
+            1418,
+            1207
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "com.aetn.watch.widget.GridAsset",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.aetn.watch.widget.ShowDetailAsset",
+      "bounds": [
+        22,
+        1229,
+        1418,
+        2289
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "resource-id": "com.aetn.lifetime.watch:id/content_wrapper",
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.lifetime.watch:id/episode_image_view",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                33,
+                1243,
+                1407,
+                2012
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageButton",
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.lifetime.watch:id/login_btn",
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatImageButton",
+              "bounds": [
+                89,
+                2070,
+                229,
+                2210
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "S1 E13 ",
+              "resource-id": "com.aetn.lifetime.watch:id/season_episode_number",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                285,
+                2069,
+                450,
+                2135
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "The Bet",
+              "resource-id": "com.aetn.lifetime.watch:id/asset_name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                285,
+                2135,
+                476,
+                2211
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            22,
+            1229,
+            1418,
+            2289
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "com.aetn.watch.widget.GridAsset",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.aetn.watch.widget.ShowDetailAsset",
+      "bounds": [
+        22,
+        2311,
+        1418,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "resource-id": "com.aetn.lifetime.watch:id/content_wrapper",
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.aetn.lifetime.watch:id/episode_image_view",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                33,
+                2325,
+                1407,
+                2392
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            22,
+            2311,
+            1418,
+            2392
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

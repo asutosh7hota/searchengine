@@ -1,0 +1,696 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.mobdub.channel.WRCB:id/frn_nav_view",
+      "children": [
+        {
+          "ancestors": [
+            "android.support.design.internal.ForegroundLinearLayout",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            0,
+            1120,
+            120
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "video"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.ForegroundLinearLayout",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            120,
+            1120,
+            288
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "SPORTS"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.ForegroundLinearLayout",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            288,
+            1120,
+            456
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "SPECIAL SECTIONS"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.ForegroundLinearLayout",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            456,
+            1120,
+            624
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "TN HEADLINES"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.ForegroundLinearLayout",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            624,
+            1120,
+            792
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "GA HEADLINES"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.ForegroundLinearLayout",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            792,
+            1120,
+            960
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "AL HEADLINES"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.ForegroundLinearLayout",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            960,
+            1120,
+            1128
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "US HEADLINES"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.ForegroundLinearLayout",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            1128,
+            1120,
+            1296
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "WORLD HEADLINES"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.ForegroundLinearLayout",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            1296,
+            1120,
+            1464
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "STRANGE NEWS"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.ForegroundLinearLayout",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            1464,
+            1120,
+            1632
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "ENTERTAINMENT"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.ForegroundLinearLayout",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            1632,
+            1120,
+            1800
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "HEALTH"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.ForegroundLinearLayout",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            1800,
+            1120,
+            1968
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "business"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.ForegroundLinearLayout",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            1968,
+            1120,
+            2136
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "text": "POLITICS"
+        },
+        {
+          "ancestors": [
+            "android.support.design.internal.ForegroundLinearLayout",
+            "android.support.v7.widget.LinearLayoutCompat",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.internal.NavigationMenuItemView",
+          "bounds": [
+            0,
+            2196,
+            1120,
+            2364
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "settings"
+        }
+      ],
+      "ancestors": [
+        "android.support.design.internal.ScrimInsetsFrameLayout",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.design.widget.NavigationView",
+      "bounds": [
+        0,
+        0,
+        1120,
+        2392
+      ],
+      "componentLabel": "Drawer"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.google.android.gms.ads.doubleclick.PublisherAdView",
+      "bounds": [
+        160,
+        2217,
+        1280,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.google.android.gms.ads.internal.webview.n",
+          "bounds": [
+            160,
+            2217,
+            1280,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.webkit.WebView",
+                "android.widget.AbsoluteLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "bounds": [
+                160,
+                2217,
+                1280,
+                2392
+              ],
+              "clickable": true,
+              "class": "com.google.android.gms.ads.internal.webview.o",
+              "componentLabel": "Web View"
+            }
+          ],
+          "componentLabel": "Web View"
+        }
+      ],
+      "componentLabel": "Advertisement"
+    },
+    {
+      "resource-id": "com.mobdub.channel.WRCB:id/frn_toolbar",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.mobdub.channel.WRCB:id/frn_image_logo",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            496,
+            98,
+            916,
+            266
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.mobdub.channel.WRCB:id/frn_weather_icon",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1117,
+            119,
+            1243,
+            245
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "67°",
+          "resource-id": "com.mobdub.channel.WRCB:id/frn_weather_temperature",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.frankly.news.widget.CustomTextView",
+          "bounds": [
+            1264,
+            126,
+            1391,
+            237
+          ],
+          "componentLabel": "Text Button"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.support.design.widget.aq",
+      "bounds": [
+        334,
+        280,
+        586,
+        448
+      ],
+      "clickable": true,
+      "componentLabel": "Text Button",
+      "textButtonClass": "video"
+    },
+    {
+      "text": "Top Stories",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        331,
+        292,
+        397
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Sports",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        628,
+        331,
+        813,
+        397
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Special Sections",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        897,
+        331,
+        1336,
+        397
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "TN Headlines",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        1420,
+        331,
+        1440,
+        397
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "resource-id": "com.mobdub.channel.WRCB:id/frn_layout_root",
+      "children": [
+        {
+          "text": "Davenport on UT's future, Lady Vols and divisive AD hire",
+          "resource-id": "com.mobdub.channel.WRCB:id/frn_text_story_headline",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.frankly.news.widget.CustomTextView",
+          "bounds": [
+            0,
+            1528,
+            1440,
+            1777
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.mobdub.channel.WRCB:id/frn_image_story",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            448,
+            1440,
+            1528
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "13hr",
+          "resource-id": "com.mobdub.channel.WRCB:id/frn_text_updated_at",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.frankly.news.widget.CustomTextView",
+          "bounds": [
+            63,
+            1780,
+            138,
+            1830
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": " ago",
+          "resource-id": "com.mobdub.channel.WRCB:id/frn_ago",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.frankly.news.widget.CustomTextView",
+          "bounds": [
+            138,
+            1777,
+            226,
+            1830
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        448,
+        1440,
+        1886
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.mobdub.channel.WRCB:id/frn_layout_root",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.mobdub.channel.WRCB:id/frn_image_story",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            63,
+            1921,
+            469,
+            2201
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Dalton State removes interim tag on AD Jon Jaudon",
+          "resource-id": "com.mobdub.channel.WRCB:id/frn_text_story_headline",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.frankly.news.widget.CustomTextView",
+          "bounds": [
+            522,
+            1921,
+            1377,
+            2084
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "April 10, 2017 at 3:58 PM CDT",
+          "resource-id": "com.mobdub.channel.WRCB:id/frn_text_updated_at",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.frankly.news.widget.CustomTextView",
+          "bounds": [
+            522,
+            2084,
+            1051,
+            2134
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1886,
+        1440,
+        2217
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

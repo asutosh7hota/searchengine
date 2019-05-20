@@ -1,0 +1,980 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "iconClass": "menu",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.naturalistapp.app:id/menu_btn",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        112,
+        123,
+        228
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "TUTO/STYLES",
+      "resource-id": "com.naturalistapp.app:id/header",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        141,
+        123,
+        1028,
+        216
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "resource-id": "com.naturalistapp.app:id/left_drawer",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            310,
+            172,
+            357
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Flow",
+          "resource-id": "com.naturalistapp.app:id/menu_flow_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            256,
+            864,
+            411
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "iconClass": "microphone",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            455,
+            172,
+            522
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "My Profile",
+          "resource-id": "com.naturalistapp.app:id/menu_profile_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            411,
+            864,
+            566
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            601,
+            172,
+            685
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "My Recipes",
+          "resource-id": "com.naturalistapp.app:id/menu_recipes_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            566,
+            864,
+            721
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "iconClass": "pause",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            754,
+            172,
+            842
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "My Products",
+          "resource-id": "com.naturalistapp.app:id/menu_products_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            721,
+            864,
+            876
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            909,
+            172,
+            997
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "My Planner",
+          "resource-id": "com.naturalistapp.app:id/menu_care_plan_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            876,
+            864,
+            1031
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            1070,
+            172,
+            1147
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "My Media",
+          "resource-id": "com.naturalistapp.app:id/menu_media_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            1031,
+            864,
+            1186
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            1226,
+            172,
+            1300
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "My Posts",
+          "resource-id": "com.naturalistapp.app:id/menu_posts_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            1186,
+            864,
+            1341
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            1388,
+            172,
+            1449
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "My Buddies",
+          "resource-id": "com.naturalistapp.app:id/menu_community_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            1341,
+            864,
+            1496
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "iconClass": "expand_more",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            1547,
+            172,
+            1600
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "My Messages",
+          "resource-id": "com.naturalistapp.app:id/menu_messages_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            1496,
+            864,
+            1651
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "iconClass": "sliders",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            1691,
+            172,
+            1765
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Settings",
+          "resource-id": "com.naturalistapp.app:id/menu_setting_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            172,
+            1651,
+            864,
+            1806
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "settings"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        256,
+        864,
+        2392
+      ],
+      "componentLabel": "Drawer"
+    },
+    {
+      "iconClass": "edit",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.naturalistapp.app:id/whatson_img",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1028,
+        118,
+        1124,
+        214
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "search",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.naturalistapp.app:id/search_img",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1124,
+        118,
+        1223,
+        222
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "email",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.naturalistapp.app:id/msg_img",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1223,
+        125,
+        1327,
+        215
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "chat",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.naturalistapp.app:id/chat_img",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1327,
+        118,
+        1433,
+        222
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "ADD PHOTOS",
+      "resource-id": "com.naturalistapp.app:id/add_photo_tv",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        2181,
+        718,
+        2392
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        718,
+        2188,
+        722,
+        2374
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "text": "ADD VIDEOS",
+      "resource-id": "com.naturalistapp.app:id/add_video_tv",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        722,
+        2170,
+        1440,
+        2392
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "All media",
+      "resource-id": "com.naturalistapp.app:id/all_media_tv",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        160,
+        274,
+        533,
+        367
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "My media",
+      "resource-id": "com.naturalistapp.app:id/my_media_tv",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        533,
+        274,
+        906,
+        367
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "My Favorites",
+      "resource-id": "com.naturalistapp.app:id/my_favorites_tv",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        906,
+        274,
+        1280,
+        367
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "resource-id": "com.naturalistapp.app:id/panel_content",
+      "children": [
+        {
+          "text": "#HSN #hsnchallenge #loyalcustomer",
+          "resource-id": "com.naturalistapp.app:id/photo_name_tv",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.etsy.android.grid.util.DynamicHeightTextView",
+          "bounds": [
+            28,
+            1161,
+            706,
+            1284
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naturalistapp.app:id/divider",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            28,
+            1399,
+            706,
+            1403
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naturalistapp.app:id/media_iv",
+          "clickable": true,
+          "class": "com.etsy.android.grid.util.DynamicHeightImageView",
+          "bounds": [
+            46,
+            431,
+            688,
+            1143
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "",
+          "resource-id": "com.naturalistapp.app:id/like_count_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            63,
+            1284,
+            137,
+            1364
+          ],
+          "componentLabel": "Input"
+        },
+        {
+          "text": "1",
+          "resource-id": "com.naturalistapp.app:id/comment_count_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            207,
+            1284,
+            309,
+            1364
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naturalistapp.app:id/pic_iv",
+          "clickable": true,
+          "class": "de.hdodenhof.circleimageview.CircleImageView",
+          "bounds": [
+            63,
+            1438,
+            238,
+            1613
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Lenora Evans",
+          "resource-id": "com.naturalistapp.app:id/name_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            238,
+            1438,
+            582,
+            1613
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naturalistapp.app:id/report_iv",
+          "clickable": true,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            582,
+            1438,
+            671,
+            1613
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        28,
+        413,
+        706,
+        1648
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.naturalistapp.app:id/panel_content",
+      "children": [
+        {
+          "text": "#NaturalHair #hairtips #teamnatural #hair #haircare #oilingscalp",
+          "resource-id": "com.naturalistapp.app:id/photo_name_tv",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.etsy.android.grid.util.DynamicHeightTextView",
+          "bounds": [
+            734,
+            930,
+            1412,
+            1110
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naturalistapp.app:id/divider",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            734,
+            1225,
+            1412,
+            1229
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naturalistapp.app:id/media_iv",
+          "clickable": true,
+          "class": "com.etsy.android.grid.util.DynamicHeightImageView",
+          "bounds": [
+            752,
+            431,
+            1394,
+            912
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "play",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naturalistapp.app:id/video_icon_iv",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            1003,
+            603,
+            1143,
+            740
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "1",
+          "resource-id": "com.naturalistapp.app:id/like_count_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            769,
+            1110,
+            871,
+            1190
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "",
+          "resource-id": "com.naturalistapp.app:id/comment_count_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            941,
+            1110,
+            1015,
+            1190
+          ],
+          "componentLabel": "Input"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naturalistapp.app:id/pic_iv",
+          "clickable": true,
+          "class": "de.hdodenhof.circleimageview.CircleImageView",
+          "bounds": [
+            769,
+            1264,
+            944,
+            1439
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "DiscoveringNatural",
+          "resource-id": "com.naturalistapp.app:id/name_tv",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            944,
+            1264,
+            1288,
+            1439
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "iconClass": "expand_less",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naturalistapp.app:id/report_iv",
+          "clickable": true,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            1288,
+            1264,
+            1377,
+            1439
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        734,
+        413,
+        1412,
+        1474
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.naturalistapp.app:id/panel_content",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naturalistapp.app:id/media_iv",
+          "clickable": true,
+          "class": "com.etsy.android.grid.util.DynamicHeightImageView",
+          "bounds": [
+            46,
+            1694,
+            688,
+            2170
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naturalistapp.app:id/video_icon_iv",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            297,
+            1866,
+            437,
+            2003
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        28,
+        1676,
+        706,
+        2170
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.naturalistapp.app:id/panel_content",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.naturalistapp.app:id/media_iv",
+          "clickable": true,
+          "class": "com.etsy.android.grid.util.DynamicHeightImageView",
+          "bounds": [
+            752,
+            1520,
+            1394,
+            2170
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        734,
+        1502,
+        1412,
+        2170
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

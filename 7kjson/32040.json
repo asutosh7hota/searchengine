@@ -1,0 +1,67 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "clickable": false,
+      "class": "com.kobobooks.android.reading.epub3.EPub3WebViewController$LinkView",
+      "componentLabel": "Web View"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.kobobooks.android:id/dogEar",
+      "clickable": false,
+      "class": "com.kobobooks.android.reading.dogear.DogEarView",
+      "bounds": [
+        1282,
+        0,
+        1440,
+        158
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "1 of 2",
+      "resource-id": "com.kobobooks.android:id/chapter_page_info_header",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        1105,
+        2424,
+        1230,
+        2490
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

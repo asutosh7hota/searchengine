@@ -1,0 +1,131 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "Continue",
+      "resource-id": "si.simplabs.diet2go:id/btn_submit",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        53,
+        2171,
+        1387,
+        2339
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "continue"
+    },
+    {
+      "text": "WATER HELPS WEIGHT LOSS",
+      "resource-id": "si.simplabs.diet2go:id/tv_title",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        70,
+        154,
+        1370,
+        273
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Do you often forget to drink 8 glasses of water throughout the day?",
+      "resource-id": "si.simplabs.diet2go:id/tv_subtitle",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        70,
+        308,
+        1370,
+        450
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "No, I always remember to drink",
+      "resource-id": "si.simplabs.diet2go:id/rb_no",
+      "ancestors": [
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.RadioButton",
+      "bounds": [
+        279,
+        590,
+        1160,
+        702
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "text": "Yes, I often forget to drink",
+      "resource-id": "si.simplabs.diet2go:id/rb_yes",
+      "ancestors": [
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.RadioButton",
+      "bounds": [
+        279,
+        772,
+        1029,
+        884
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "text": "I really don't know",
+      "resource-id": "si.simplabs.diet2go:id/rb_dunno",
+      "ancestors": [
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.RadioButton",
+      "bounds": [
+        279,
+        954,
+        834,
+        1066
+      ],
+      "componentLabel": "Radio Button"
+    }
+  ]
+}

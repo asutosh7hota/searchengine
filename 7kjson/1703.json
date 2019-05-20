@@ -1,0 +1,351 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.fivemobile.thescore:id/adview",
+      "children": [
+        {
+          "resource-id": "com.fivemobile.thescore:id/mopub_adview",
+          "children": [
+            {
+              "ancestors": [
+                "com.mopub.mobileads.BaseHtmlWebView",
+                "com.mopub.mobileads.BaseWebView",
+                "android.webkit.WebView",
+                "android.widget.AbsoluteLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "bounds": [
+                160,
+                2217,
+                1280,
+                2392
+              ],
+              "clickable": true,
+              "class": "com.mopub.mobileads.HtmlBannerWebView",
+              "componentLabel": "Advertisement"
+            }
+          ],
+          "ancestors": [
+            "com.fivemobile.thescore.ads.view.ScoreMoPubView",
+            "com.mopub.mobileads.MoPubView",
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.fivemobile.thescore.ads.view.ScoreAmazonDtbAdView",
+          "bounds": [
+            0,
+            2217,
+            1440,
+            2392
+          ],
+          "componentLabel": "Advertisement"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.fivemobile.thescore.ads.view.ScoreAdView",
+      "bounds": [
+        0,
+        2217,
+        1440,
+        2392
+      ],
+      "componentLabel": "Advertisement"
+    },
+    {
+      "resource-id": "com.fivemobile.thescore:id/toolbar",
+      "children": [
+        {
+          "text": "NCAAB",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            252,
+            135,
+            486,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "star",
+          "resource-id": "com.fivemobile.thescore:id/follow_action_id",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1104,
+            98,
+            1272,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "share",
+          "resource-id": "com.fivemobile.thescore:id/menu_share",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.fivemobile.thescore:id/item_top_news_header_image",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.fivemobile.thescore:id/image",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            84,
+            1440,
+            280
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.fivemobile.thescore.view.ActionBarBlendingImageView",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.AbsoluteLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.fivemobile.thescore:id/item_row_top_news_detail_webview",
+      "clickable": false,
+      "class": "android.webkit.WebView",
+      "bounds": [
+        0,
+        280,
+        1440,
+        1725
+      ],
+      "componentLabel": "Web View"
+    },
+    {
+      "text": "Tagged in this article:",
+      "resource-id": "com.fivemobile.thescore:id/tags_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        70,
+        1869,
+        602,
+        1945
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "ChiSt",
+      "resource-id": "com.fivemobile.thescore:id/tag_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        74,
+        1998,
+        235,
+        2158
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "star",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.fivemobile.thescore:id/follow_status",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        235,
+        1998,
+        403,
+        2158
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "T. Palmer",
+      "resource-id": "com.fivemobile.thescore:id/tag_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        439,
+        1998,
+        688,
+        2158
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "star",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.fivemobile.thescore:id/follow_status",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        688,
+        1998,
+        856,
+        2158
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "NCAAB",
+      "resource-id": "com.fivemobile.thescore:id/tag_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        892,
+        1998,
+        1098,
+        2158
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "star",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.fivemobile.thescore:id/follow_status",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1098,
+        1998,
+        1266,
+        2158
+      ],
+      "componentLabel": "Icon"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.ebooks.android:id/headerImg",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        84,
+        1440,
+        277
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.ebooks.android:id/footerImg",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        2185,
+        1440,
+        2392
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Register",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.lib.typeface.TextViewTF",
+      "bounds": [
+        380,
+        312,
+        637,
+        390
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": " your account",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.lib.typeface.TextViewTF",
+      "bounds": [
+        637,
+        312,
+        1060,
+        391
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Or Sign UP with Facebook",
+      "resource-id": "com.ebooks.android:id/btn_signup_with_facebook_btn",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.android.lib.typeface.ButtonTF",
+      "bounds": [
+        272,
+        496,
+        1167,
+        618
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "appcrawler6@gmail.com",
+      "resource-id": "com.ebooks.android:id/ed_email",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.android.lib.typeface.EditTextTF",
+      "bounds": [
+        272,
+        688,
+        1167,
+        798
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Grace Chan",
+      "resource-id": "com.ebooks.android:id/ed_first_name",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.android.lib.typeface.EditTextTF",
+      "bounds": [
+        272,
+        833,
+        1167,
+        943
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Crowd3116",
+      "resource-id": "com.ebooks.android:id/ed_password",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.android.lib.typeface.EditTextTF",
+      "bounds": [
+        272,
+        978,
+        1167,
+        1088
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Join NOW!",
+      "resource-id": "com.ebooks.android:id/btn_joinnow",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.android.lib.typeface.ButtonTF",
+      "bounds": [
+        272,
+        1634,
+        1167,
+        1756
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Choose Your Membership",
+      "resource-id": "com.ebooks.android:id/choose_your_membership",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.lib.typeface.TextViewTF",
+      "bounds": [
+        322,
+        1123,
+        875,
+        1178
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "",
+      "resource-id": "com.ebooks.android:id/radio_btn1",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.android.lib.typeface.RadioButtonTF",
+      "bounds": [
+        322,
+        1248,
+        422,
+        1360
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "text": "",
+      "resource-id": "com.ebooks.android:id/radio_btn2",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.android.lib.typeface.RadioButtonTF",
+      "bounds": [
+        322,
+        1430,
+        422,
+        1542
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "text": "Standard Account: Free",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.lib.typeface.TextViewTF",
+      "bounds": [
+        457,
+        1248,
+        972,
+        1303
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Limited to 5 Books/Month",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.lib.typeface.TextViewTF",
+      "bounds": [
+        457,
+        1303,
+        1014,
+        1358
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Lifetime V.I.P. Access: only $20",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.lib.typeface.TextViewTF",
+      "bounds": [
+        457,
+        1430,
+        1117,
+        1485
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Unlimited Books for Life:",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.lib.typeface.TextViewTF",
+      "bounds": [
+        457,
+        1485,
+        987,
+        1540
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Never Pay Again",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.lib.typeface.TextViewTF",
+      "bounds": [
+        457,
+        1540,
+        791,
+        1599
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

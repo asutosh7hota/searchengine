@@ -1,0 +1,953 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.goibibo:id/navigation_drawer",
+      "children": [
+        {
+          "text": "Hotels",
+          "resource-id": "com.goibibo:id/sideHotelBooking",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.goibibo.utility.GoTextView",
+          "bounds": [
+            35,
+            119,
+            1181,
+            289
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "Certified Stays",
+          "resource-id": "com.goibibo:id/sideBudgetHotel",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.goibibo.utility.GoTextView",
+          "bounds": [
+            35,
+            289,
+            1181,
+            459
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "Flights",
+          "resource-id": "com.goibibo:id/sideFlightBooking",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.goibibo.utility.GoTextView",
+          "bounds": [
+            35,
+            459,
+            1181,
+            629
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "Buses",
+          "resource-id": "com.goibibo:id/sideBusBooking",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.goibibo.utility.GoTextView",
+          "bounds": [
+            35,
+            629,
+            1181,
+            799
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "resource-id": "com.goibibo:id/sidegoCarBooking",
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            35,
+            799,
+            1181,
+            969
+          ],
+          "componentLabel": "Text Button",
+          "text": "goCars"
+        },
+        {
+          "text": "Flight + Hotel",
+          "resource-id": "com.goibibo:id/sideFlighthotel",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.goibibo.utility.GoTextView",
+          "bounds": [
+            35,
+            969,
+            1181,
+            1139
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "resource-id": "com.goibibo:id/side_trains",
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            35,
+            1139,
+            1181,
+            1309
+          ],
+          "componentLabel": "Text Button",
+          "text": "Trains"
+        },
+        {
+          "text": "Travel Guide",
+          "resource-id": "com.goibibo:id/sideTravelGuide",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.goibibo.utility.GoTextView",
+          "bounds": [
+            35,
+            1309,
+            1181,
+            1482
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "Sign-in / Sign-up",
+          "resource-id": "com.goibibo:id/sideSignIn",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.goibibo.utility.GoTextView",
+          "bounds": [
+            35,
+            1522,
+            1181,
+            1692
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            70,
+            1752,
+            170,
+            1852
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            70,
+            1973,
+            170,
+            2073
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "emoji",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            70,
+            2169,
+            170,
+            2269
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            70,
+            2379,
+            170,
+            2392
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "goContacts",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.goibibo.utility.GoTextView",
+          "bounds": [
+            170,
+            2386,
+            646,
+            2392
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "My Account",
+          "resource-id": "com.goibibo:id/sideGuestName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.goibibo.utility.GoTextView",
+          "bounds": [
+            205,
+            1727,
+            1146,
+            1812
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Guest User",
+          "resource-id": "com.goibibo:id/sideGuestUser",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.goibibo.utility.GoTextView",
+          "bounds": [
+            205,
+            1812,
+            1146,
+            1878
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "My Bookings",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.goibibo.utility.GoTextView",
+          "bounds": [
+            205,
+            1948,
+            1146,
+            2033
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "No Upcoming booking",
+          "resource-id": "com.goibibo:id/sideUpcoming",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.goibibo.utility.GoTextView",
+          "bounds": [
+            205,
+            2033,
+            1146,
+            2099
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "My goCash",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.goibibo.utility.GoTextView",
+          "bounds": [
+            205,
+            2176,
+            1146,
+            2261
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        84,
+        1216,
+        2392
+      ],
+      "componentLabel": "Drawer"
+    },
+    {
+      "resource-id": "com.goibibo:id/toolbar",
+      "children": [
+        {
+          "text": "Flights",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            252,
+            135,
+            464,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        280,
+        1440,
+        2049
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Add hotels for great savings in the review screen",
+          "resource-id": "com.goibibo:id/addHotelsText",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            191,
+            1948,
+            1248,
+            2014
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            28,
+            1757,
+            1412,
+            1948
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "SEARCH",
+              "resource-id": "com.goibibo:id/buttonSearchFlight",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "com.goibibo.utility.GoTextView",
+              "bounds": [
+                39,
+                1771,
+                1401,
+                1934
+              ],
+              "componentLabel": "Text Button",
+              "textButtonClass": "search"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "bounds": [
+                1188,
+                1824,
+                1366,
+                1881
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "Card"
+        },
+        {
+          "ancestors": [
+            "android.support.design.widget.VisibilityAwareImageButton",
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.goibibo:id/flight_image",
+          "clickable": true,
+          "class": "android.support.design.widget.FloatingActionButton",
+          "bounds": [
+            622,
+            525,
+            818,
+            721
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "resource-id": "com.goibibo:id/rdate",
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            722,
+            784,
+            1440,
+            1079
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "back"
+        },
+        {
+          "text": "Passengers",
+          "resource-id": "com.goibibo:id/textTravellers",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            70,
+            1101,
+            1440,
+            1158
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "1 Adult, 0 Children, 0 Infants",
+          "resource-id": "com.goibibo:id/passengers_selected",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            70,
+            1158,
+            766,
+            1234
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "CLASS",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            70,
+            1291,
+            197,
+            1348
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Economy",
+          "resource-id": "com.goibibo:id/textClass",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            70,
+            1348,
+            301,
+            1424
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Non Stop flights only",
+          "resource-id": "com.goibibo:id/non_stop_flight",
+          "ancestors": [
+            "android.widget.CheckBox",
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatCheckBox",
+          "bounds": [
+            35,
+            1463,
+            1440,
+            1575
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "Register for fare alerts",
+          "resource-id": "com.goibibo:id/check_fa_setting",
+          "ancestors": [
+            "android.widget.CheckBox",
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatCheckBox",
+          "bounds": [
+            35,
+            1575,
+            1440,
+            1687
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "DEL",
+          "resource-id": "com.goibibo:id/textFlightFrom",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            70,
+            501,
+            622,
+            670
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Delhi ",
+          "resource-id": "com.goibibo:id/textFlightFromName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            77,
+            670,
+            622,
+            727
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "BOM",
+          "resource-id": "com.goibibo:id/textFlightTo",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            818,
+            501,
+            1370,
+            670
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Mumbai ",
+          "resource-id": "com.goibibo:id/textFlightToName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            818,
+            670,
+            1370,
+            727
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Depart",
+          "resource-id": "com.goibibo:id/textView7",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            70,
+            819,
+            718,
+            876
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "One Way",
+          "resource-id": "com.goibibo:id/onward_selector",
+          "ancestors": [
+            "android.widget.RadioButton",
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatRadioButton",
+          "bounds": [
+            193,
+            315,
+            525,
+            427
+          ],
+          "componentLabel": "Radio Button"
+        },
+        {
+          "text": "Round Trip",
+          "resource-id": "com.goibibo:id/return_selector",
+          "ancestors": [
+            "android.widget.RadioButton",
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatRadioButton",
+          "bounds": [
+            890,
+            315,
+            1271,
+            427
+          ],
+          "componentLabel": "Radio Button"
+        },
+        {
+          "text": "12 Dec' 16",
+          "resource-id": "com.goibibo:id/textFlightOnwDate",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            70,
+            904,
+            351,
+            980
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Today, Monday",
+          "resource-id": "com.goibibo:id/textFlightOnwDay",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            70,
+            987,
+            351,
+            1044
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2053,
+        1440,
+        2287
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.goibibo:id/fwdIcon",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            35,
+            2135,
+            105,
+            2205
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "New Delhi",
+          "resource-id": "com.goibibo:id/txtFrom",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            158,
+            2106,
+            395,
+            2177
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.goibibo:id/one_round",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            395,
+            2119,
+            488,
+            2163
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Mumbai",
+          "resource-id": "com.goibibo:id/txtTo",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            488,
+            2106,
+            681,
+            2177
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "`30,144",
+          "resource-id": "com.goibibo:id/recentFare",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            681,
+            2110,
+            1387,
+            2176
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Mon,12 Dec",
+          "resource-id": "com.goibibo:id/recentOnwDate",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            158,
+            2177,
+            380,
+            2234
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

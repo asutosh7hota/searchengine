@@ -1,0 +1,682 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "android:id/action_bar_container",
+      "children": [
+        {
+          "iconClass": "menu",
+          "clickable": false,
+          "children": [
+            {
+              "iconClass": "menu",
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "android:id/up",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                0,
+                122,
+                93,
+                215
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "android:id/home",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                80,
+                168,
+                81,
+                169
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.android.internal.widget.ActionBarView$HomeView",
+          "bounds": [
+            0,
+            84,
+            95,
+            252
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "18 120 ONLINE",
+          "resource-id": "com.m123.tchatche.android:id/textViewTitle",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            136,
+            84,
+            1304,
+            252
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "more",
+          "resource-id": "com.m123.tchatche.android:id/menu_overflow",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.android.internal.view.menu.ActionMenuItemView",
+          "bounds": [
+            1304,
+            84,
+            1440,
+            252
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.internal.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        252
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.google.android.gms.ads.AdView",
+      "bounds": [
+        0,
+        2213,
+        1440,
+        2388
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.google.android.gms.ads.internal.webview.n",
+          "bounds": [
+            0,
+            2213,
+            1440,
+            2388
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.webkit.WebView",
+                "android.widget.AbsoluteLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "bounds": [
+                0,
+                2213,
+                1440,
+                2388
+              ],
+              "clickable": true,
+              "class": "com.google.android.gms.ads.internal.webview.o",
+              "componentLabel": "Web View"
+            }
+          ],
+          "componentLabel": "Web View"
+        }
+      ],
+      "componentLabel": "Advertisement"
+    },
+    {
+      "text": "",
+      "resource-id": "com.m123.tchatche.android:id/buttonTop",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        650,
+        270,
+        790,
+        410
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        270,
+        1440,
+        2178
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewPhoto",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            45,
+            391,
+            710,
+            916
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewStatus",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            604,
+            810,
+            692,
+            898
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewPhoto",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            765,
+            391,
+            1430,
+            916
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewStatus",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            1324,
+            810,
+            1412,
+            898
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewPhoto",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            45,
+            1097,
+            710,
+            1622
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "favorite",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewStatus",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            604,
+            1516,
+            692,
+            1604
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewPhoto",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            765,
+            1097,
+            1430,
+            1622
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "favorite",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewStatus",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            1324,
+            1516,
+            1412,
+            1604
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewPhoto",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            45,
+            1803,
+            710,
+            2178
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewPhoto",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            765,
+            1803,
+            1430,
+            2178
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Jeandemolle11",
+          "resource-id": "com.m123.tchatche.android:id/textViewLogin",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            10,
+            270,
+            570,
+            297
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewVip",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            570,
+            270,
+            710,
+            297
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewSearch",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            570,
+            301,
+            710,
+            359
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Marly1512",
+          "resource-id": "com.m123.tchatche.android:id/textViewLogin",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            730,
+            270,
+            1290,
+            297
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Poulet29",
+          "resource-id": "com.m123.tchatche.android:id/textViewLogin",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            10,
+            916,
+            570,
+            1003
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewVip",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            570,
+            916,
+            710,
+            1003
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "microphone",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewSearch",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            570,
+            1007,
+            710,
+            1065
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Naturelle4573",
+          "resource-id": "com.m123.tchatche.android:id/textViewLogin",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            730,
+            916,
+            1290,
+            1003
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Biman29200",
+          "resource-id": "com.m123.tchatche.android:id/textViewLogin",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            10,
+            1622,
+            570,
+            1709
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Elena1961",
+          "resource-id": "com.m123.tchatche.android:id/textViewLogin",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            730,
+            1622,
+            1290,
+            1709
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewVip",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            1290,
+            1622,
+            1430,
+            1709
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "microphone",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.m123.tchatche.android:id/imageViewSearch",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            1290,
+            1713,
+            1430,
+            1771
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "38 years, Sweden",
+          "resource-id": "com.m123.tchatche.android:id/textViewCountry",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            10,
+            301,
+            363,
+            359
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "49 years, France (22)",
+          "resource-id": "com.m123.tchatche.android:id/textViewCountry",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            730,
+            301,
+            1149,
+            359
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "35 years, France (29)",
+          "resource-id": "com.m123.tchatche.android:id/textViewCountry",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            10,
+            1007,
+            429,
+            1065
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "40 years, France (22)",
+          "resource-id": "com.m123.tchatche.android:id/textViewCountry",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            730,
+            1007,
+            1149,
+            1065
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "40 years, France (29)",
+          "resource-id": "com.m123.tchatche.android:id/textViewCountry",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            10,
+            1713,
+            429,
+            1771
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "55 years, France (22)",
+          "resource-id": "com.m123.tchatche.android:id/textViewCountry",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            730,
+            1713,
+            1149,
+            1771
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "us.zoom.videomeetings:id/panelTitleBar",
+      "children": [
+        {
+          "text": "",
+          "resource-id": "us.zoom.videomeetings:id/btnBack",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.Button",
+          "bounds": [
+            11,
+            102,
+            120,
+            239
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "About Zoom",
+          "resource-id": "us.zoom.videomeetings:id/txtTitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "us.zoom.androidlib.widget.ZMDynTextSizeTextView",
+          "bounds": [
+            508,
+            124,
+            932,
+            217
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "us.zoom.androidlib.widget.ZMIOSStyleTitlebarLayout",
+      "bounds": [
+        0,
+        84,
+        1440,
+        259
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Version",
+      "resource-id": "us.zoom.videomeetings:id/txtVersion",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        366,
+        954,
+        524
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "3.6.11580.1109",
+      "resource-id": "us.zoom.videomeetings:id/txtVersionName",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        954,
+        416,
+        1251,
+        473
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "us.zoom.videomeetings:id/imgIndicatorNewVersion",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1286,
+        413,
+        1349,
+        476
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "arrow_forward",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1349,
+        417,
+        1405,
+        473
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Send Feedback",
+      "resource-id": "us.zoom.videomeetings:id/txtSendFeedBack",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        526,
+        1349,
+        684
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "arrow_forward",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1349,
+        577,
+        1405,
+        633
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Tell Others about Zoom",
+      "bounds": [
+        0,
+        686,
+        1349,
+        844
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "arrow_forward",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1349,
+        737,
+        1405,
+        793
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Privacy Policy",
+      "bounds": [
+        0,
+        846,
+        1349,
+        1004
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "arrow_forward",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1349,
+        897,
+        1405,
+        953
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Icon"
+    }
+  ]
+}

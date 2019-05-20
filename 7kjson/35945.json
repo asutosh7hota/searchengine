@@ -1,0 +1,591 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "android:id/action_bar_container",
+      "children": [
+        {
+          "iconClass": "arrow_backward",
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "android:id/up",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                0,
+                152,
+                56,
+                208
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "iconClass": "arrow_backward",
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "android:id/home",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                43,
+                112,
+                180,
+                249
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.android.internal.widget.ActionBarView$HomeView",
+          "bounds": [
+            0,
+            84,
+            194,
+            277
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "arrow_forward",
+          "resource-id": "com.sparkpeople.androidtracker:id/action_save",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.android.internal.view.menu.ActionMenuItemView",
+          "bounds": [
+            1244,
+            96,
+            1440,
+            264
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Food Detail",
+          "resource-id": "android:id/action_bar_title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            194,
+            138,
+            511,
+            223
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.internal.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        277
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.sparkpeople.androidtracker:id/widDatePicker",
+      "children": [
+        {
+          "text": "",
+          "resource-id": "com.sparkpeople.androidtracker:id/btnDateBack",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.Button",
+          "bounds": [
+            35,
+            298,
+            298,
+            403
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "TODAY",
+          "resource-id": "com.sparkpeople.androidtracker:id/td_boxdatelabel",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            637,
+            298,
+            803,
+            369
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "today"
+        },
+        {
+          "text": "",
+          "resource-id": "com.sparkpeople.androidtracker:id/btnDateForward",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.Button",
+          "bounds": [
+            1146,
+            298,
+            1405,
+            403
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.sparkpeople.android.widget.DatePickerControl",
+      "bounds": [
+        0,
+        277,
+        1440,
+        424
+      ],
+      "componentLabel": "Date Picker"
+    },
+    {
+      "text": "Banana, fresh",
+      "resource-id": "com.sparkpeople.androidtracker:id/fd_foodnamelabel",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        56,
+        445,
+        1384,
+        526
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Add:",
+      "resource-id": "com.sparkpeople.androidtracker:id/fd_servinglabel",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        56,
+        777,
+        156,
+        864
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "1",
+      "resource-id": "com.sparkpeople.androidtracker:id/fd_servingvalue",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.EditText",
+      "bounds": [
+        191,
+        777,
+        366,
+        906
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "resource-id": "com.sparkpeople.androidtracker:id/fd_servingspinner",
+      "ancestors": [
+        "android.widget.AbsSpinner",
+        "android.widget.AdapterView",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Spinner",
+      "bounds": [
+        366,
+        777,
+        1229,
+        906
+      ],
+      "componentLabel": "Text Button",
+      "text": "extra small (less than 6\" long)"
+    },
+    {
+      "text": "Add to favorites",
+      "resource-id": "com.sparkpeople.androidtracker:id/fd_favoritelabel",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        56,
+        941,
+        404,
+        1007
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "",
+      "resource-id": "com.sparkpeople.androidtracker:id/swFavorite",
+      "ancestors": [
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Switch",
+      "bounds": [
+        474,
+        941,
+        952,
+        1039
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Add Food & Search Again",
+      "resource-id": "com.sparkpeople.androidtracker:id/btnSaveSearch",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        56,
+        1095,
+        1384,
+        1247
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Nutrition Facts",
+      "bounds": [
+        70,
+        2014,
+        816,
+        2080
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Amount Per Serving",
+      "bounds": [
+        816,
+        2024,
+        1404,
+        2077
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Calories",
+      "bounds": [
+        70,
+        2155,
+        816,
+        2221
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "text": "72.4  ",
+      "resource-id": "com.sparkpeople.androidtracker:id/nid_calories",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        816,
+        2140,
+        1404,
+        2225
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Total Fat",
+      "bounds": [
+        70,
+        2272,
+        816,
+        2338
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "text": "0.3 g  ",
+      "resource-id": "com.sparkpeople.androidtracker:id/nid_totalfat",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        816,
+        2272,
+        1404,
+        2338
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Breakfast",
+      "bounds": [
+        58,
+        579,
+        386,
+        719
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "componentLabel": "Text Button",
+      "textButtonClass": "breakfast"
+    },
+    {
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Lunch",
+      "bounds": [
+        390,
+        579,
+        718,
+        719
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Dinner",
+      "bounds": [
+        722,
+        579,
+        1050,
+        719
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Snack",
+      "bounds": [
+        1054,
+        579,
+        1382,
+        719
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "You May Like",
+      "bounds": [
+        56,
+        1317,
+        1384,
+        1380
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "QuickBooks Self-Employed",
+      "bounds": [
+        98,
+        1417,
+        1342,
+        1491
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Start deducting now",
+      "bounds": [
+        98,
+        1474,
+        1342,
+        1548
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        91,
+        1590,
+        406,
+        1893
+      ],
+      "clickable": true,
+      "class": "android.widget.ImageButton",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Give yourself a raise! Find deductions & save today.",
+      "bounds": [
+        441,
+        1590,
+        1349,
+        1730
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "text": "Free App",
+      "bounds": [
+        964,
+        1790,
+        1349,
+        1893
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "componentLabel": "Text Button"
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.djit.bassboostforandroidfree:id/activity_main_tool_bar",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            196,
+            84,
+            803,
+            280
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.q",
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "",
+          "resource-id": "com.djit.bassboostforandroidfree:id/action_no_pub",
+          "ancestors": [
+            "android.support.v7.widget.ab",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1104,
+            98,
+            1272,
+            266
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "edit",
+          "resource-id": "com.djit.bassboostforandroidfree:id/action_color",
+          "ancestors": [
+            "android.support.v7.widget.ab",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.djit.bassboostforandroidfree:id/sliding_tabs",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "BASSBOOST",
+          "bounds": [
+            0,
+            280,
+            480,
+            448
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "WAVE",
+          "bounds": [
+            480,
+            280,
+            960,
+            448
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "DOOPER",
+          "bounds": [
+            960,
+            280,
+            1440,
+            448
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text Button"
+        }
+      ],
+      "ancestors": [
+        "android.widget.HorizontalScrollView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.astuetz.pagerslidingtabstrip.PagerSlidingTabStrip",
+      "bounds": [
+        0,
+        280,
+        1440,
+        448
+      ],
+      "componentLabel": "Multi-Tab"
+    },
+    {
+      "resource-id": "com.djit.bassboostforandroidfree:id/player_container_info_track",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2140,
+        902,
+        2392
+      ],
+      "componentLabel": "Text Button",
+      "text": "Recording001"
+    },
+    {
+      "iconClass": "skip_previous",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.djit.bassboostforandroidfree:id/player_previous_button",
+      "clickable": true,
+      "class": "android.support.v7.widget.o",
+      "bounds": [
+        902,
+        2140,
+        1070,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "play",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.djit.bassboostforandroidfree:id/player_play_pause_button",
+      "clickable": true,
+      "class": "android.support.v7.widget.o",
+      "bounds": [
+        1070,
+        2140,
+        1272,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "skip_next",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.djit.bassboostforandroidfree:id/player_next_button",
+      "clickable": true,
+      "class": "android.support.v7.widget.o",
+      "bounds": [
+        1272,
+        2140,
+        1440,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "",
+      "resource-id": "com.djit.bassboostforandroidfree:id/bassboost_button",
+      "ancestors": [
+        "android.widget.ToggleButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.djit.bassboost.ui.views.effectbutton.BassboostButton",
+      "bounds": [
+        56,
+        581,
+        1384,
+        1772
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.google.android.gms.ads.internal.webview.l",
+      "bounds": [
+        1,
+        1877,
+        1439,
+        2139
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.webkit.WebView",
+            "android.widget.AbsoluteLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1,
+            1877,
+            1439,
+            2139
+          ],
+          "clickable": true,
+          "class": "com.google.android.gms.ads.internal.webview.m",
+          "componentLabel": "Web View"
+        }
+      ],
+      "componentLabel": "Web View"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.sirius:id/splashBG",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2392
+      ],
+      "componentLabel": "Background Image"
+    },
+    {
+      "text": "Customer Agreement",
+      "resource-id": "com.sirius:id/cust_agree",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.sirius.ui.CustomTextView",
+      "bounds": [
+        255,
+        2294,
+        692,
+        2357
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Privacy",
+      "resource-id": "com.sirius:id/privacy_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.sirius.ui.CustomTextView",
+      "bounds": [
+        732,
+        2294,
+        881,
+        2357
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Locating You",
+      "resource-id": "com.sirius:id/locating_you",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.sirius.ui.CustomTextView",
+      "bounds": [
+        921,
+        2294,
+        1184,
+        2357
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.sirius:id/logo",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        70,
+        70,
+        1370,
+        200
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Get Started",
+      "resource-id": "com.sirius:id/btngetstarted",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.sirius.ui.CustomButton",
+      "bounds": [
+        70,
+        1333,
+        1370,
+        1491
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "go"
+    },
+    {
+      "text": "Log In to SiriusXM Internet Radio",
+      "resource-id": "com.sirius:id/fbLabel",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.sirius.ui.CustomTextView",
+      "bounds": [
+        70,
+        288,
+        1370,
+        371
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Log In",
+      "resource-id": "com.sirius:id/authenticateUser",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.sirius.ui.CustomButton",
+      "bounds": [
+        70,
+        913,
+        1370,
+        1071
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "login"
+    },
+    {
+      "text": "Forgot Username/Password?",
+      "resource-id": "com.sirius:id/forgot_username_password",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.sirius.ui.CustomTextView",
+      "bounds": [
+        70,
+        1099,
+        1370,
+        1162
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Don't have a SiriusXM Username/Password?",
+      "resource-id": "com.sirius:id/register",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.sirius.ui.CustomTextView",
+      "bounds": [
+        70,
+        1215,
+        1370,
+        1298
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "",
+      "resource-id": "com.sirius:id/screenName",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.EditText",
+      "bounds": [
+        122,
+        441,
+        1353,
+        599
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "",
+      "resource-id": "com.sirius:id/password",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.sirius.ui.CustomEditText",
+      "bounds": [
+        122,
+        668,
+        1353,
+        826
+      ],
+      "componentLabel": "Input"
+    }
+  ]
+}

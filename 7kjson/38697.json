@@ -1,0 +1,217 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.taptrip:id/toolbar",
+      "children": [
+        {
+          "text": "Profile Input",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            135,
+            439,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "more",
+          "clickable": false,
+          "children": [
+            {
+              "text": "Save",
+              "resource-id": "com.taptrip:id/btn_actionbar",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                1096,
+                84,
+                1440,
+                280
+              ],
+              "componentLabel": "Text Button",
+              "textButtonClass": "save"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.taptrip.ui.RightBtnActionBar",
+          "bounds": [
+            1092,
+            84,
+            1440,
+            280
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.taptrip:id/img_user_photo",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        552,
+        420,
+        888,
+        756
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.taptrip:id/img_user_photo_clicker",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        552,
+        420,
+        888,
+        756
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Photo",
+      "resource-id": "com.taptrip:id/img_user_photo_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        546,
+        756,
+        893,
+        850
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Name",
+      "resource-id": "com.taptrip:id/user_name_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        28,
+        934,
+        159,
+        1000
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Place of residence",
+      "resource-id": "com.taptrip:id/txt_residence_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        28,
+        1253,
+        432,
+        1319
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "resource-id": "com.taptrip:id/txt_residence_selector",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        28,
+        1333,
+        1412,
+        1508
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "united states"
+    },
+    {
+      "text": "Raphael Tan",
+      "resource-id": "com.taptrip:id/text_user_name",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        28,
+        1014,
+        1412,
+        1169
+      ],
+      "componentLabel": "Input"
+    }
+  ]
+}

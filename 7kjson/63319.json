@@ -1,0 +1,557 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        84,
+        1440,
+        85
+      ],
+      "clickable": false,
+      "children": [],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        89,
+        1440,
+        343
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "CSV separator",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            145,
+            411,
+            221
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Choose separator for CSV filetype.",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            221,
+            803,
+            287
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        347,
+        1440,
+        601
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Weight unit",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            403,
+            337,
+            479
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Choose your weight unit.",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            479,
+            593,
+            545
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        605,
+        1440,
+        859
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Glucose unit",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            661,
+            367,
+            737
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Choose glucose unit",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            737,
+            499,
+            803
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        863,
+        1440,
+        1117
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Algorithm for trend",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            919,
+            528,
+            995
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Here you can choose algorithm for trend calculation.",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            995,
+            1200,
+            1061
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "Miscellaneous",
+      "resource-id": "android:id/title",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        1121,
+        1440,
+        1243
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1247,
+        1440,
+        1501
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Theme",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            1303,
+            229,
+            1379
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Choose a look of the application",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            1379,
+            757,
+            1445
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "android:id/widget_frame",
+      "children": [
+        {
+          "text": "Scrollers speed",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            63,
+            1505,
+            1377,
+            1590
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Adjust sensitivity of number scrollers.",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            63,
+            1590,
+            1377,
+            1656
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "20",
+          "resource-id": "com.szyk.diabetes:id/seekBarPrefValue",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            1349,
+            1590,
+            1405,
+            1656
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.AbsSeekBar",
+            "android.widget.ProgressBar",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            35,
+            1656,
+            1405,
+            1719
+          ],
+          "clickable": false,
+          "class": "android.widget.SeekBar",
+          "componentLabel": "Slider"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        1505,
+        1440,
+        1737
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1741,
+        1440,
+        1995
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Choose language",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            1797,
+            488,
+            1873
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Here you can switch application language.",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            1873,
+            975,
+            1939
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1999,
+        1440,
+        2253
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Google Analytics",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            2055,
+            476,
+            2131
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Collects anonymous data about application usage.",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            2131,
+            1157,
+            2197
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "android:id/checkbox",
+          "ancestors": [
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.CheckBox",
+          "bounds": [
+            1272,
+            2070,
+            1384,
+            2182
+          ],
+          "componentLabel": "Checkbox"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "Home page",
+      "resource-id": "android:id/title",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        2257,
+        1440,
+        2379
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2383,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [],
+      "componentLabel": "List Item"
+    }
+  ]
+}

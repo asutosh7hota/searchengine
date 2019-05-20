@@ -1,0 +1,268 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.ftw_and_co.happn:id/base_profile_pictures_dots_indicator",
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "me.relex.circleindicator.CircleIndicator",
+      "bounds": [
+        0,
+        1457,
+        1440,
+        1478
+      ],
+      "componentLabel": "Pager Indicator"
+    },
+    {
+      "iconClass": "arrow_backward",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.ftw_and_co.happn:id/base_profile_activity_arrow_back_button",
+      "clickable": true,
+      "class": "com.ftw_and_co.happn.ui.view.AlphaImageView",
+      "bounds": [
+        0,
+        84,
+        180,
+        280
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "more",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.ftw_and_co.happn:id/base_profile_activity_more_action_button",
+      "clickable": true,
+      "class": "com.ftw_and_co.happn.ui.view.AlphaImageView",
+      "bounds": [
+        1296,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.ftw_and_co.happn:id/base_profile_activity_action_button_icon",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        522,
+        2280,
+        592,
+        2350
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Charm sent",
+      "resource-id": "com.ftw_and_co.happn:id/base_profile_activity_action_button_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        627,
+        2277,
+        917,
+        2353
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.ftw_and_co.happn:id/profile_picture",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        0,
+        1440,
+        1955
+      ],
+      "componentLabel": "Background Image"
+    },
+    {
+      "text": "EA at Online ? Company",
+      "resource-id": "com.ftw_and_co.happn:id/base_profile_activity_job",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        53,
+        1712,
+        1387,
+        1769
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Studied at UC Davis",
+      "resource-id": "com.ftw_and_co.happn:id/base_profile_activity_studies",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        53,
+        1774,
+        1387,
+        1831
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Active a few weeks ago",
+      "resource-id": "com.ftw_and_co.happn:id/base_profile_activity_last_connection_time",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        53,
+        1835,
+        1387,
+        1892
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Now about 2 mi away",
+      "resource-id": "com.ftw_and_co.happn:id/base_profile_activity_distance_away_from",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        53,
+        1897,
+        1387,
+        1954
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "About Sharon",
+      "resource-id": "com.ftw_and_co.happn:id/base_profile_activity_description_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        53,
+        2058,
+        1387,
+        2115
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "A fatty who appreciates good food ?\nAnimals ❤️\nNature ?\nAdventure seeker \nDancer ??",
+      "resource-id": "com.ftw_and_co.happn:id/base_profile_activity_description_content",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        53,
+        2150,
+        1387,
+        2392
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Sharon, ",
+      "resource-id": "com.ftw_and_co.happn:id/base_profile_activity_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        49,
+        1572,
+        399,
+        1687
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "24",
+      "resource-id": "com.ftw_and_co.happn:id/base_profile_activity_age",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        399,
+        1572,
+        507,
+        1687
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

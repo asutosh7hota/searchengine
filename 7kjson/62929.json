@@ -1,0 +1,364 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.eightd.android.spotcycle:id/action_bar_toolbar",
+      "children": [
+        {
+          "text": "Route",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            135,
+            394,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "iconClass": "zoom_out",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.eightd.android.spotcycle:id/directions_fit_to_screen_btn",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        0,
+        1526,
+        168,
+        1694
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.support.design.widget.FloatingActionButton",
+        "android.support.design.widget.VisibilityAwareImageButton",
+        "android.support.v7.widget.AppCompatImageButton",
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.eightd.android.spotcycle:id/fab_bikes_docks",
+      "clickable": true,
+      "class": "com.eightd.core.widgets.BikeDockFab",
+      "bounds": [
+        622,
+        2168,
+        818,
+        2364
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.google.android.gms.maps.MapView",
+      "bounds": [
+        0,
+        84,
+        1440,
+        2392
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            18,
+            1711,
+            228,
+            1788
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "Map View"
+    },
+    {
+      "resource-id": "com.eightd.android.spotcycle:id/toolbar",
+      "children": [
+        {
+          "iconClass": "location_crosshair",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.eightd.android.spotcycle:id/mylocation_btn",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            0,
+            2196,
+            288,
+            2392
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "refresh",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.eightd.android.spotcycle:id/refresh_btn",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            288,
+            2196,
+            576,
+            2392
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.eightd.android.spotcycle:id/bikes_docks_placeholder_btn",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            576,
+            2196,
+            864,
+            2392
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "time",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.eightd.android.spotcycle:id/rental_timer_btn",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            864,
+            2196,
+            1152,
+            2392
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "settings",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.eightd.android.spotcycle:id/map_settings_btn",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            1152,
+            2196,
+            1440,
+            2392
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        2196,
+        1440,
+        2392
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Estimated time:",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        56,
+        1834,
+        398,
+        1900
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "207:07:43 | 4001.95 km",
+      "resource-id": "com.eightd.android.spotcycle:id/time_distance_txt",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        426,
+        1834,
+        1384,
+        1900
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "arrow_backward",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.eightd.android.spotcycle:id/left_arrow_img",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        28,
+        2015,
+        112,
+        2099
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "arrow_forward",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.eightd.android.spotcycle:id/right_arrow_img",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1328,
+        2015,
+        1412,
+        2099
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Turn right onto 8th St/San Francisco Bicycle Rte 23",
+      "resource-id": "com.eightd.android.spotcycle:id/direction_step_instructions_lbl",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        161,
+        1953,
+        1279,
+        2076
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Time: 02:09 - Distance: 584 m",
+      "resource-id": "com.eightd.android.spotcycle:id/direction_step_time_distance_lbl",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        161,
+        2104,
+        716,
+        2161
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.mangoplate:id/back_button",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        144,
+        151,
+        230
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Additional Information",
+      "resource-id": "com.mangoplate:id/title_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        169,
+        147,
+        1440,
+        228
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.mangoplate:id/done_button_background",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        2196,
+        1440,
+        2392
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Done",
+      "resource-id": "com.mangoplate:id/done_button",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        2196,
+        1440,
+        2392
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "finish"
+    },
+    {
+      "text": "Please enter your email address. For notices\nor customer service related communication.",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        406,
+        1440,
+        535
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Email",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        77,
+        693,
+        199,
+        759
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "appcrawler1@gmail.com",
+      "resource-id": "com.mangoplate:id/email_edit",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        234,
+        689,
+        1363,
+        760
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "*",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        77,
+        967,
+        94,
+        1020
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "subscribe to get restaurant recommendations, updates on events and other exciting mangoplate news.",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        108,
+        967,
+        1363,
+        1066
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "*",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        77,
+        1066,
+        94,
+        1119
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "mangoplate will not use your email for purposes other than what is stated above.",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        108,
+        1066,
+        1363,
+        1165
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.mangoplate:id/check_image",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        77,
+        816,
+        130,
+        991
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Newsletter Subscription",
+      "resource-id": "com.mangoplate:id/main_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        165,
+        872,
+        653,
+        934
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "(Optional)",
+      "resource-id": "com.mangoplate:id/additional_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        667,
+        872,
+        870,
+        934
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

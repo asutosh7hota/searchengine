@@ -1,0 +1,500 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    677,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        677,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "resource-id": "com.houzz.app:id/headerToobar",
+          "children": [
+            {
+              "text": "Room",
+              "resource-id": "com.houzz.app:id/title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.houzz.app.views.MyTextView",
+              "bounds": [
+                196,
+                728,
+                380,
+                821
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "bounds": [
+                0,
+                677,
+                196,
+                873
+              ],
+              "clickable": true,
+              "class": "android.widget.ImageButton",
+              "componentLabel": "Image"
+            },
+            {
+              "ancestors": [
+                "com.houzz.app.layouts.base.MyRelativeLayout",
+                "android.widget.RelativeLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "class": "com.houzz.app.layouts.ik",
+              "bounds": [
+                1199,
+                677,
+                1440,
+                873
+              ],
+              "clickable": true,
+              "componentLabel": "Text Button",
+              "textButtonClass": "finish"
+            }
+          ],
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.Toolbar",
+          "bounds": [
+            0,
+            677,
+            1440,
+            873
+          ],
+          "componentLabel": "Toolbar"
+        },
+        {
+          "text": "Reset Room",
+          "resource-id": "com.houzz.app:id/clear",
+          "ancestors": [
+            "com.houzz.app.views.MyCheckedTextView",
+            "com.houzz.app.views.MyTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.houzz.app.views.MyButton",
+          "bounds": [
+            0,
+            2217,
+            1440,
+            2392
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "com.houzz.app.layouts.base.MyRelativeLayout",
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.houzz.app.layouts.FilterParamEntryLayout",
+          "bounds": [
+            0,
+            873,
+            1440,
+            1041
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Kitchen",
+              "resource-id": "com.houzz.app:id/name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.houzz.app.views.MyTextView",
+              "bounds": [
+                56,
+                915,
+                244,
+                991
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "com.houzz.app.layouts.base.MyRelativeLayout",
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.houzz.app.layouts.FilterParamEntryLayout",
+          "bounds": [
+            0,
+            1041,
+            1440,
+            1209
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Bath",
+              "resource-id": "com.houzz.app:id/name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.houzz.app.views.MyTextView",
+              "bounds": [
+                56,
+                1083,
+                170,
+                1159
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.houzz.app:id/caret",
+              "clickable": false,
+              "class": "android.support.v7.widget.v",
+              "bounds": [
+                1300,
+                1083,
+                1384,
+                1167
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "com.houzz.app.layouts.base.MyRelativeLayout",
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.houzz.app.layouts.FilterParamEntryLayout",
+          "bounds": [
+            0,
+            1209,
+            1440,
+            1377
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Bedroom",
+              "resource-id": "com.houzz.app:id/name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.houzz.app.views.MyTextView",
+              "bounds": [
+                56,
+                1251,
+                284,
+                1327
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "com.houzz.app.layouts.base.MyRelativeLayout",
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.houzz.app.layouts.FilterParamEntryLayout",
+          "bounds": [
+            0,
+            1377,
+            1440,
+            1545
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Living",
+              "resource-id": "com.houzz.app:id/name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.houzz.app.views.MyTextView",
+              "bounds": [
+                56,
+                1419,
+                203,
+                1495
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.houzz.app:id/caret",
+              "clickable": false,
+              "class": "android.support.v7.widget.v",
+              "bounds": [
+                1300,
+                1419,
+                1384,
+                1503
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "com.houzz.app.layouts.base.MyRelativeLayout",
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.houzz.app.layouts.FilterParamEntryLayout",
+          "bounds": [
+            0,
+            1545,
+            1440,
+            1713
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Dining",
+              "resource-id": "com.houzz.app:id/name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.houzz.app.views.MyTextView",
+              "bounds": [
+                56,
+                1587,
+                214,
+                1663
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "com.houzz.app.layouts.base.MyRelativeLayout",
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.houzz.app.layouts.FilterParamEntryLayout",
+          "bounds": [
+            0,
+            1713,
+            1440,
+            1881
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Outdoor",
+              "resource-id": "com.houzz.app:id/name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.houzz.app.views.MyTextView",
+              "bounds": [
+                56,
+                1755,
+                259,
+                1831
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.houzz.app:id/caret",
+              "clickable": false,
+              "class": "android.support.v7.widget.v",
+              "bounds": [
+                1300,
+                1755,
+                1384,
+                1839
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "com.houzz.app.layouts.base.MyRelativeLayout",
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.houzz.app.layouts.FilterParamEntryLayout",
+          "bounds": [
+            0,
+            1881,
+            1440,
+            2049
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Baby & Kids",
+              "resource-id": "com.houzz.app:id/name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.houzz.app.views.MyTextView",
+              "bounds": [
+                56,
+                1923,
+                352,
+                1999
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.houzz.app:id/caret",
+              "clickable": false,
+              "class": "android.support.v7.widget.v",
+              "bounds": [
+                1300,
+                1923,
+                1384,
+                2007
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "com.houzz.app.layouts.base.MyRelativeLayout",
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.houzz.app.layouts.FilterParamEntryLayout",
+          "bounds": [
+            0,
+            2049,
+            1440,
+            2217
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "text": "Home Office",
+              "resource-id": "com.houzz.app:id/name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.houzz.app.views.MyTextView",
+              "bounds": [
+                56,
+                2091,
+                369,
+                2167
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "componentLabel": "Modal"
+    }
+  ]
+}

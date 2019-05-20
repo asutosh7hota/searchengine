@@ -1,0 +1,52 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "MailDroid is an Email client and it requires a few permissions for it to work correctly.\n\nContacts permission is required for auto-suggesting local email addresses stored in your address book when you hit compose in an email. \n\nStorage permission is required for the app to work so that it can store email locally. It also allows for the ability to save attachments and for importing/exporting settings. \n\nWithout these permissions, the app will not be able to function properly.\n\n",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        84,
+        1440,
+        2112
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Continue",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        1061,
+        2168,
+        1384,
+        2336
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "continue"
+    }
+  ]
+}

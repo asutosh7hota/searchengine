@@ -1,0 +1,699 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.touchtalent.bobbleapp:id/toolbar",
+      "children": [
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Enable Keyboard",
+          "resource-id": "com.touchtalent.bobbleapp:id/newKeyboardText",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            773,
+            139,
+            1240,
+            224
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.touchtalent.bobbleapp:id/menuOption",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1300,
+            147,
+            1398,
+            217
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Heads",
+      "resource-id": "com.touchtalent.bobbleapp:id/radioBtnHead",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatRadioButton",
+      "bounds": [
+        18,
+        298,
+        342,
+        414
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "text": "Stickers",
+      "resource-id": "com.touchtalent.bobbleapp:id/radioBtnSticker",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatRadioButton",
+      "bounds": [
+        378,
+        298,
+        702,
+        414
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "text": "Stories",
+      "resource-id": "com.touchtalent.bobbleapp:id/radioBtnStory",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatRadioButton",
+      "bounds": [
+        1098,
+        298,
+        1422,
+        414
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "iconClass": "arrow_downward",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        140,
+        1921,
+        219,
+        2063
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "GIF",
+      "resource-id": "com.touchtalent.bobbleapp:id/radioBtnGif",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatRadioButton",
+      "bounds": [
+        756,
+        298,
+        1044,
+        414
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "text": "Got it",
+      "resource-id": "com.touchtalent.bobbleapp:id/gotIt",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        1072,
+        1753,
+        1405,
+        1921
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "ok"
+    },
+    {
+      "text": "Type your mind bobbling message here...",
+      "resource-id": "com.touchtalent.bobbleapp:id/educationOtfView",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        21,
+        2077,
+        1405,
+        2210
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Type something here",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        35,
+        1727,
+        685,
+        1820
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "to create your own stickers",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        70,
+        1855,
+        659,
+        1921
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Type your mind bobbling message here...",
+      "resource-id": "com.touchtalent.bobbleapp:id/textView",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        32,
+        2091,
+        1408,
+        2223
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "resource-id": "com.touchtalent.bobbleapp:id/tabs",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            14,
+            2245,
+            154,
+            2385
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "globe",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            182,
+            2245,
+            322,
+            2385
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            350,
+            2245,
+            490,
+            2385
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "edit",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            518,
+            2245,
+            658,
+            2385
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            686,
+            2245,
+            826,
+            2385
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "star",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            854,
+            2245,
+            994,
+            2385
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1022,
+            2245,
+            1162,
+            2385
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1190,
+            2245,
+            1250,
+            2385
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.HorizontalScrollView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.touchtalent.bobbleapp.custom.PagerSlidingTabStrip",
+      "bounds": [
+        0,
+        2245,
+        1250,
+        2385
+      ],
+      "componentLabel": "Multi-Tab"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.touchtalent.bobbleapp:id/fab",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1226,
+        1865,
+        1422,
+        2052
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        443,
+        720,
+        1111
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.touchtalent.bobbleapp:id/itemImageView",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            53,
+            496,
+            668,
+            1111
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        720,
+        443,
+        1440,
+        1111
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.touchtalent.bobbleapp:id/itemImageView",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            773,
+            496,
+            1388,
+            1111
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1111,
+        720,
+        1779
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.touchtalent.bobbleapp:id/itemImageView",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            53,
+            1164,
+            668,
+            1779
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        720,
+        1111,
+        1440,
+        1779
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.touchtalent.bobbleapp:id/itemImageView",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            773,
+            1164,
+            1388,
+            1779
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1779,
+        720,
+        2070
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.touchtalent.bobbleapp:id/itemImageView",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            53,
+            1832,
+            668,
+            2070
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        720,
+        1779,
+        1440,
+        2070
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.touchtalent.bobbleapp:id/itemImageView",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            773,
+            1832,
+            1388,
+            2070
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.touchtalent.bobbleapp:id/btnAddNewPack",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        1259,
+        2252,
+        1434,
+        2392
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.touchtalent.bobbleapp:id/openStoreBadge",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1360,
+        2256,
+        1430,
+        2326
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

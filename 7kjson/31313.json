@@ -1,0 +1,105 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "iconClass": "arrow_backward",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.instagram.android:id/button_back",
+      "clickable": true,
+      "class": "com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView",
+      "bounds": [
+        0,
+        0,
+        168,
+        168
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "New Post",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.instagram.ui.text.TitleTextView",
+      "bounds": [
+        168,
+        39,
+        1272,
+        128
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "arrow_forward",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.instagram.android:id/save",
+      "clickable": true,
+      "class": "com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView",
+      "bounds": [
+        1272,
+        0,
+        1440,
+        168
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Crop Your Photo",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        1610,
+        1440,
+        2392
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "com.instagram.creation.photo.crop.y",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.instagram.android:id/crop_image_view",
+      "clickable": false,
+      "class": "com.instagram.creation.photo.crop.CropImageView",
+      "bounds": [
+        0,
+        169,
+        1440,
+        1609
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

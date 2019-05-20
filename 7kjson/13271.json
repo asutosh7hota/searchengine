@@ -1,0 +1,109 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "Get Started",
+      "resource-id": "com.evilduck.musiciankit:id/button_get_started",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.v",
+      "bounds": [
+        521,
+        2049,
+        918,
+        2217
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "go"
+    },
+    {
+      "resource-id": "com.evilduck.musiciankit:id/page_indicator",
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "me.relex.circleindicator.CircleIndicator",
+      "bounds": [
+        0,
+        2273,
+        1440,
+        2308
+      ],
+      "componentLabel": "Pager Indicator"
+    },
+    {
+      "text": "Ear training, unlimited.",
+      "resource-id": "com.evilduck.musiciankit:id/onboarding_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.au",
+      "bounds": [
+        0,
+        1692,
+        1440,
+        1804
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "A wide range of exercises to build essential skills: intervals, scales, chords.",
+      "resource-id": "com.evilduck.musiciankit:id/onboarding_subtitle",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.au",
+      "bounds": [
+        0,
+        1832,
+        1440,
+        1965
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.evilduck.musiciankit:id/image",
+      "clickable": false,
+      "class": "android.support.v7.widget.ae",
+      "bounds": [
+        112,
+        185,
+        1328,
+        1506
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "uk.ecfowler.binauralbeatbuilder:id/action_bar_container",
+      "children": [
+        {
+          "text": "Sessions",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            135,
+            495,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        280,
+        1440,
+        872
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "A 10 minute entrainment to theta waves, to aid hypnotic induction, followed by 60 minutes of constant theta waves, before a 5 minute return to normal consciousness, at which point the session fades to silence.",
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_description",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.bp",
+          "bounds": [
+            35,
+            497,
+            1405,
+            837
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "lock",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_edit_button",
+          "clickable": true,
+          "class": "android.support.v7.widget.ax",
+          "bounds": [
+            1321,
+            302,
+            1405,
+            386
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "1 Hour Hypnotic Session",
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_session_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.bp",
+          "bounds": [
+            35,
+            302,
+            1321,
+            421
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "1 hour and 15 minutes",
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_session_length",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.bp",
+          "bounds": [
+            35,
+            421,
+            1021,
+            497
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Preset",
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_example",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.bp",
+          "bounds": [
+            1021,
+            421,
+            1321,
+            497
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        876,
+        1440,
+        1481
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "A 10 minute entrainment to theta waves, to aid hypnotic induction, followed by 30 minutes of constant theta waves, before a 5 minute return to normal consciousness, at which point the session fades to silence.",
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_description",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.bp",
+          "bounds": [
+            35,
+            1106,
+            1405,
+            1446
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "lock",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_edit_button",
+          "clickable": true,
+          "class": "android.support.v7.widget.ax",
+          "bounds": [
+            1321,
+            911,
+            1405,
+            995
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "30 Minute Hypnotic Session",
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_session_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.bp",
+          "bounds": [
+            35,
+            911,
+            1321,
+            1030
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "45 minutes",
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_session_length",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.bp",
+          "bounds": [
+            35,
+            1030,
+            1021,
+            1106
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Preset",
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_example",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.bp",
+          "bounds": [
+            1021,
+            1030,
+            1321,
+            1106
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1485,
+        1440,
+        2090
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "A 10 minute entrainment to theta waves, to aid hypnotic induction, followed by 45 minutes of constant theta waves, before a 5 minute return to normal consciousness, at which point the session fades to silence.",
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_description",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.bp",
+          "bounds": [
+            35,
+            1715,
+            1405,
+            2055
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "lock",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_edit_button",
+          "clickable": true,
+          "class": "android.support.v7.widget.ax",
+          "bounds": [
+            1321,
+            1520,
+            1405,
+            1604
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "45 Minute Hypnotic Session",
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_session_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.bp",
+          "bounds": [
+            35,
+            1520,
+            1321,
+            1639
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "1 hour",
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_session_length",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.bp",
+          "bounds": [
+            35,
+            1639,
+            1021,
+            1715
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Preset",
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_example",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.bp",
+          "bounds": [
+            1021,
+            1639,
+            1321,
+            1715
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2094,
+        1440,
+        2217
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Psychology",
+          "resource-id": "uk.ecfowler.binauralbeatbuilder:id/session_list_category_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.bp",
+          "bounds": [
+            0,
+            2094,
+            1440,
+            2217
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.google.android.gms.ads.internal.webview.n",
+      "bounds": [
+        160,
+        2217,
+        1280,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.webkit.WebView",
+            "android.widget.AbsoluteLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            160,
+            2217,
+            1280,
+            2392
+          ],
+          "clickable": true,
+          "class": "com.google.android.gms.ads.internal.webview.o",
+          "componentLabel": "Web View"
+        }
+      ],
+      "componentLabel": "Web View"
+    }
+  ]
+}

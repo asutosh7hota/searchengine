@@ -1,0 +1,712 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.opera.browser.beta:id/action_bar",
+      "children": [
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.opera.browser.beta:id/action_menu",
+          "clickable": true,
+          "class": "com.opera.android.custom_views.StylingImageView",
+          "bounds": [
+            1282,
+            112,
+            1440,
+            252
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "",
+          "resource-id": "com.opera.browser.beta:id/url_field",
+          "ancestors": [
+            "czv",
+            "com.opera.android.custom_views.OperaEditText",
+            "acf",
+            "android.widget.EditText",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.opera.android.custom_views.PrivateEditText",
+          "bounds": [
+            56,
+            119,
+            1282,
+            245
+          ],
+          "componentLabel": "Input"
+        }
+      ],
+      "ancestors": [
+        "y",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.opera.android.bar.ActionBar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "iconClass": "arrow_backward",
+      "ancestors": [
+        "com.opera.android.custom_views.StylingImageButton",
+        "com.opera.android.custom_views.StylingImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.opera.browser.beta:id/bottom_navigation_bar_back_button",
+      "clickable": true,
+      "class": "com.opera.android.custom_views.OrientationButton",
+      "bounds": [
+        0,
+        2234,
+        252,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "resource-id": "com.opera.browser.beta:id/bottom_navigation_bar_forward_reload_button",
+      "children": [
+        {
+          "iconClass": "refresh",
+          "ancestors": [
+            "com.opera.android.custom_views.StylingImageButton",
+            "com.opera.android.custom_views.StylingImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.opera.browser.beta:id/bottom_navigation_bar_reload_button",
+          "clickable": true,
+          "class": "com.opera.android.custom_views.OrientationButton",
+          "bounds": [
+            297,
+            2234,
+            549,
+            2392
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.ViewSwitcher",
+        "android.widget.ViewAnimator",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageSwitcher",
+      "bounds": [
+        297,
+        2234,
+        549,
+        2392
+      ],
+      "componentLabel": "On/Off Switch"
+    },
+    {
+      "iconClass": "home",
+      "ancestors": [
+        "com.opera.android.custom_views.StylingImageButton",
+        "com.opera.android.custom_views.StylingImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.opera.browser.beta:id/bottom_navigation_bar_home_button",
+      "clickable": true,
+      "class": "com.opera.android.custom_views.OrientationButton",
+      "bounds": [
+        594,
+        2234,
+        846,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "avatar",
+      "ancestors": [
+        "com.opera.android.custom_views.StylingImageButton",
+        "com.opera.android.custom_views.StylingImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.opera.browser.beta:id/bottom_navigation_bar_profile_page_button",
+      "clickable": true,
+      "class": "com.opera.android.custom_views.OrientationButton",
+      "bounds": [
+        1188,
+        2234,
+        1440,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "add",
+      "ancestors": [
+        "com.opera.android.custom_views.StylingImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.opera.browser.beta:id/subscribe_more",
+      "clickable": true,
+      "class": "com.opera.android.custom_views.StylingImageButton",
+      "bounds": [
+        1300,
+        280,
+        1440,
+        385
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "com.opera.android.custom_views.OrientationButton",
+        "com.opera.android.custom_views.StylingImageButton",
+        "com.opera.android.custom_views.StylingImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.opera.browser.beta:id/bottom_navigation_bar_tab_count_button",
+      "clickable": true,
+      "class": "com.opera.android.custom_views.TabCountButton",
+      "bounds": [
+        891,
+        2234,
+        1143,
+        2392
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "ct",
+      "bounds": [
+        760,
+        280,
+        1043,
+        385
+      ],
+      "clickable": true,
+      "componentLabel": "Text Button",
+      "textButtonClass": "business"
+    },
+    {
+      "text": "Entertainment",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        299,
+        214,
+        365
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Tech",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        328,
+        299,
+        435,
+        365
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Crime",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        568,
+        299,
+        699,
+        365
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Fashion",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        1085,
+        299,
+        1258,
+        365
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.opera.android.custom_views.LayoutDirectionRelativeLayout",
+      "bounds": [
+        0,
+        385,
+        1440,
+        758
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "Malia Obama Wears Nothing But A Shirt To Work — Where Are Her Pants? Pics",
+          "resource-id": "com.opera.browser.beta:id/title",
+          "ancestors": [
+            "dae",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingTextView",
+          "bounds": [
+            56,
+            434,
+            995,
+            632
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.opera.browser.beta:id/image",
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingImageView",
+          "bounds": [
+            1051,
+            442,
+            1384,
+            701
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "45",
+          "resource-id": "com.opera.browser.beta:id/shared",
+          "ancestors": [
+            "dae",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingTextView",
+          "bounds": [
+            56,
+            653,
+            152,
+            709
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "hollywoodlife.com",
+          "resource-id": "com.opera.browser.beta:id/url",
+          "ancestors": [
+            "dae",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingTextView",
+          "bounds": [
+            201,
+            657,
+            995,
+            704
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.opera.android.custom_views.LayoutDirectionRelativeLayout",
+      "bounds": [
+        0,
+        759,
+        1440,
+        1132
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "Alicia Machado strips down for PETA ad",
+          "resource-id": "com.opera.browser.beta:id/title",
+          "ancestors": [
+            "dae",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingTextView",
+          "bounds": [
+            56,
+            808,
+            995,
+            1006
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.opera.browser.beta:id/image",
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingImageView",
+          "bounds": [
+            1051,
+            816,
+            1384,
+            1075
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "53",
+          "resource-id": "com.opera.browser.beta:id/shared",
+          "ancestors": [
+            "dae",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingTextView",
+          "bounds": [
+            56,
+            1027,
+            152,
+            1083
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "nydailynews.com",
+          "resource-id": "com.opera.browser.beta:id/url",
+          "ancestors": [
+            "dae",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingTextView",
+          "bounds": [
+            201,
+            1031,
+            995,
+            1078
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.opera.android.custom_views.LayoutDirectionRelativeLayout",
+      "bounds": [
+        0,
+        1133,
+        1440,
+        1670
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "Taylor Hill just proved VS babes make the best denim collabs",
+          "resource-id": "com.opera.browser.beta:id/title",
+          "ancestors": [
+            "dae",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingTextView",
+          "bounds": [
+            56,
+            1175,
+            1384,
+            1327
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.opera.browser.beta:id/image",
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingImageView",
+          "bounds": [
+            56,
+            1355,
+            486,
+            1635
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.opera.browser.beta:id/image_2",
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingImageView",
+          "bounds": [
+            504,
+            1355,
+            935,
+            1635
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.opera.browser.beta:id/image_3",
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingImageView",
+          "bounds": [
+            953,
+            1355,
+            1384,
+            1635
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.opera.android.custom_views.LayoutDirectionRelativeLayout",
+      "bounds": [
+        0,
+        1671,
+        1440,
+        2044
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "Rank Your Favorite Cold Shoulder Look From The Golden Globes!",
+          "resource-id": "com.opera.browser.beta:id/title",
+          "ancestors": [
+            "dae",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingTextView",
+          "bounds": [
+            56,
+            1720,
+            995,
+            1918
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.opera.browser.beta:id/image",
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingImageView",
+          "bounds": [
+            1051,
+            1728,
+            1384,
+            1987
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "97",
+          "resource-id": "com.opera.browser.beta:id/shared",
+          "ancestors": [
+            "dae",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingTextView",
+          "bounds": [
+            56,
+            1939,
+            152,
+            1995
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "mobi.perezhilton.com",
+          "resource-id": "com.opera.browser.beta:id/url",
+          "ancestors": [
+            "dae",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingTextView",
+          "bounds": [
+            201,
+            1943,
+            995,
+            1990
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.opera.android.custom_views.LayoutDirectionRelativeLayout",
+      "bounds": [
+        0,
+        2045,
+        1440,
+        2234
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "Chelsea's £70m transfer target reveals he wants to play under Antonio Conte",
+          "resource-id": "com.opera.browser.beta:id/title",
+          "ancestors": [
+            "dae",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.opera.android.custom_views.StylingTextView",
+          "bounds": [
+            56,
+            2087,
+            1384,
+            2234
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

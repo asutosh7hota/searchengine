@@ -1,0 +1,177 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.locon.housing:id/toolbar_main",
+      "children": [
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            8,
+            104,
+            204,
+            300
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "Punjagutta,Madhura Nagar,Ameerpet",
+          "bounds": [
+            218,
+            159,
+            1249,
+            244
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text Button"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.support.v7.widget.q",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1264,
+            118,
+            1432,
+            286
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        0,
+        1440,
+        320
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        357,
+        750,
+        1082,
+        1436
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "text": "No properties available",
+      "ancestors": [
+        "com.locon.housing.views.g",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.locon.housing.views.RobotoMediumTextView",
+      "bounds": [
+        358,
+        1618,
+        1082,
+        1711
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "There are no properties matching your preferences in this locality",
+      "ancestors": [
+        "com.locon.housing.views.g",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.locon.housing.views.RobotoRegularTextView",
+      "bounds": [
+        56,
+        1767,
+        1384,
+        1923
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Start a New Search",
+      "resource-id": "com.locon.housing:id/new_search_button",
+      "ancestors": [
+        "com.locon.housing.views.g",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.locon.housing.views.RobotoMediumTextView",
+      "bounds": [
+        56,
+        2168,
+        1384,
+        2336
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Loading your Properties",
+      "resource-id": "com.locon.housing:id/count_alerts",
+      "ancestors": [
+        "com.locon.housing.views.g",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.locon.housing.views.RobotoMediumTextView",
+      "bounds": [
+        53,
+        373,
+        1387,
+        439
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

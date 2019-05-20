@@ -1,0 +1,248 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.JankStudio.Mixtapes:id/toolbar",
+      "children": [
+        {
+          "text": "Radio",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            135,
+            432,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.JankStudio.Mixtapes:id/bg_main",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        280,
+        1440,
+        1726
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Now Playing:",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        70,
+        1904,
+        442,
+        1989
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Stutter",
+      "resource-id": "com.JankStudio.Mixtapes:id/tv_playing_song_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        70,
+        2007,
+        308,
+        2110
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Gucci Mane",
+      "resource-id": "com.JankStudio.Mixtapes:id/tv_playing_song_artist",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        70,
+        2128,
+        402,
+        2213
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Previous:",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        53,
+        333,
+        310,
+        418
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "40",
+      "resource-id": "com.JankStudio.Mixtapes:id/tv_previous_song_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        53,
+        429,
+        123,
+        514
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Peewee Longway Feat. E",
+      "resource-id": "com.JankStudio.Mixtapes:id/tv_previous_song_artist",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        53,
+        525,
+        746,
+        610
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.JankStudio.Mixtapes:id/btn_play_pause",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        422,
+        705,
+        1017,
+        1300
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "facebook",
+      "text": "",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.joanzapata.iconify.widget.IconTextView",
+      "bounds": [
+        70,
+        1522,
+        206,
+        1656
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "iconClass": "twitter",
+      "text": "",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.joanzapata.iconify.widget.IconTextView",
+      "bounds": [
+        259,
+        1522,
+        395,
+        1656
+      ],
+      "componentLabel": "Text Button"
+    }
+  ]
+}

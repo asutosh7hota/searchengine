@@ -1,0 +1,108 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    108,
+    457,
+    1331,
+    2019
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        108,
+        457,
+        1331,
+        2019
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "android:id/titleDivider",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            163,
+            701,
+            1283,
+            705
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Lightning Color",
+          "resource-id": "android:id/alertTitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.android.internal.widget.DialogTitle",
+          "bounds": [
+            198,
+            545,
+            1248,
+            669
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Ok",
+          "resource-id": "android:id/button1",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.Button",
+          "bounds": [
+            170,
+            1777,
+            723,
+            1945
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "ok"
+        },
+        {
+          "text": "Cancel",
+          "resource-id": "android:id/button2",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.Button",
+          "bounds": [
+            723,
+            1777,
+            1276,
+            1945
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "back"
+        }
+      ],
+      "componentLabel": "Modal"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "Roku",
+      "resource-id": "com.roku.remote:id/title_bar_title",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        152,
+        84,
+        1419,
+        280
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.AbsoluteLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.roku.remote:id/webview",
+      "clickable": true,
+      "class": "android.webkit.WebView",
+      "bounds": [
+        140,
+        459,
+        1300,
+        1299
+      ],
+      "componentLabel": "Web View"
+    },
+    {
+      "text": "Continue",
+      "resource-id": "com.roku.remote:id/continueButton",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        140,
+        1509,
+        1300,
+        1677
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "continue"
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.cmcm.indianews:id/ll_bottom_home",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2220,
+        480,
+        2392
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "home"
+    },
+    {
+      "resource-id": "com.cmcm.indianews:id/ll_bottom_video",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        480,
+        2220,
+        960,
+        2392
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "video"
+    },
+    {
+      "resource-id": "com.cmcm.indianews:id/ll_bottom_me",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        960,
+        2220,
+        1440,
+        2392
+      ],
+      "componentLabel": "Text Button",
+      "text": ""
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.cmcm.indianews:id/iv_top_logo",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        84,
+        231,
+        224
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "resource-id": "com.cmcm.indianews:id/news_indicator",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "Urbana",
+          "bounds": [
+            231,
+            84,
+            448,
+            224
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "Video",
+          "bounds": [
+            448,
+            84,
+            706,
+            224
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text Button",
+          "textButtonClass": "video"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "Showbiz",
+          "bounds": [
+            706,
+            84,
+            989,
+            224
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "Lifestyle",
+          "bounds": [
+            989,
+            84,
+            1270,
+            224
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "World",
+          "bounds": [
+            1270,
+            84,
+            1335,
+            224
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.HorizontalScrollView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.cmcm.onews.ui.indicator.PagerSlidingTabStrip",
+      "bounds": [
+        231,
+        84,
+        1335,
+        224
+      ],
+      "componentLabel": "Multi-Tab"
+    },
+    {
+      "resource-id": "com.cmcm.indianews:id/item_container",
+      "children": [
+        {
+          "ancestors": [
+            "com.android.volley.toolbox.NetworkImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.cmcm.indianews:id/item_img",
+          "clickable": false,
+          "class": "com.cmcm.onews.bitmapcache.AsyncImageView",
+          "bounds": [
+            0,
+            224,
+            1440,
+            935
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "play",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.cmcm.indianews:id/item_play_img",
+          "clickable": true,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            623,
+            483,
+            816,
+            676
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "02:12",
+          "resource-id": "com.cmcm.indianews:id/duration",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            1265,
+            850,
+            1398,
+            910
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Ghost in the Shell Official Trailer 1 (2017) - Scarlett Johansson Movie",
+          "resource-id": "com.cmcm.indianews:id/item_video_title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            0,
+            768,
+            1265,
+            935
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Movieclips Trailers",
+          "resource-id": "com.cmcm.indianews:id/item_video_source",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            42,
+            971,
+            390,
+            1028
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "com.cmcm.indianews:id/item_video_share",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            1342,
+            964,
+            1412,
+            1034
+          ],
+          "componentLabel": "Text Button"
+        }
+      ],
+      "ancestors": [
+        "com.cmcm.onews.ui.wave.RectClickRelativeLayout",
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.cmcm.onews.ui.wave.NewsItemRootLayout",
+      "bounds": [
+        0,
+        224,
+        1440,
+        1064
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.cmcm.indianews:id/item_container",
+      "children": [
+        {
+          "ancestors": [
+            "com.android.volley.toolbox.NetworkImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.cmcm.indianews:id/item_img",
+          "clickable": false,
+          "class": "com.cmcm.onews.bitmapcache.AsyncImageView",
+          "bounds": [
+            0,
+            1082,
+            1440,
+            1793
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "play",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.cmcm.indianews:id/item_play_img",
+          "clickable": true,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            623,
+            1341,
+            816,
+            1534
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "01:57",
+          "resource-id": "com.cmcm.indianews:id/duration",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            1265,
+            1708,
+            1398,
+            1768
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Dead Boyfriend Prank",
+          "resource-id": "com.cmcm.indianews:id/item_video_title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            0,
+            1692,
+            1265,
+            1793
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "MysticGotJokes",
+          "resource-id": "com.cmcm.indianews:id/item_video_source",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            42,
+            1829,
+            346,
+            1886
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "com.cmcm.indianews:id/item_video_share",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            1342,
+            1822,
+            1412,
+            1892
+          ],
+          "componentLabel": "Text Button"
+        }
+      ],
+      "ancestors": [
+        "com.cmcm.onews.ui.wave.RectClickRelativeLayout",
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.cmcm.onews.ui.wave.NewsItemRootLayout",
+      "bounds": [
+        0,
+        1082,
+        1440,
+        1922
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.cmcm.indianews:id/item_container",
+      "children": [
+        {
+          "ancestors": [
+            "com.android.volley.toolbox.NetworkImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.cmcm.indianews:id/item_img",
+          "clickable": false,
+          "class": "com.cmcm.onews.bitmapcache.AsyncImageView",
+          "bounds": [
+            0,
+            1940,
+            1440,
+            2220
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.cmcm.indianews:id/item_play_img",
+          "clickable": true,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            623,
+            2199,
+            816,
+            2220
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "com.cmcm.onews.ui.wave.RectClickRelativeLayout",
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.cmcm.onews.ui.wave.NewsItemRootLayout",
+      "bounds": [
+        0,
+        1940,
+        1440,
+        2220
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

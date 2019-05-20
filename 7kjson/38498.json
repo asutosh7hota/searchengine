@@ -1,0 +1,301 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        217,
+        1163,
+        462,
+        1408
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        799,
+        1625,
+        1106,
+        1932
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1118,
+        2221,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        752,
+        2045,
+        997,
+        2290
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        300,
+        1025,
+        696,
+        1421
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        434,
+        531,
+        741,
+        838
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        652,
+        1305,
+        959,
+        1612
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1413,
+        1879,
+        1440,
+        2124
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        964,
+        2036,
+        1360,
+        2392
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Please select unlock mode",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        35,
+        345,
+        1405,
+        466
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Unlock Mode",
+      "resource-id": "com.smsrobot.photox:id/card_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        91,
+        168,
+        1188,
+        285
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "iconClass": "help",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.smsrobot.photox:id/card_help",
+      "clickable": true,
+      "class": "android.widget.ImageButton",
+      "bounds": [
+        1244,
+        168,
+        1349,
+        285
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.smsrobot.photox:id/button_pattern",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        63,
+        536,
+        396,
+        886
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.smsrobot.photox:id/button_pin",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        63,
+        956,
+        396,
+        1306
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.smsrobot.photox:id/button_fake_crash",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        63,
+        1376,
+        396,
+        1726
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Pattern Unlock",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        452,
+        653,
+        1012,
+        765
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Pin Unlock",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        452,
+        1073,
+        861,
+        1185
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Fake Crash Unlock",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        452,
+        1493,
+        1152,
+        1605
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.cbsnews.sixtyminutes:id/action_bar_container",
+      "children": [
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.cbsnews.sixtyminutes:id/ibBack",
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "bounds": [
+            0,
+            135,
+            129,
+            228
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "60 MINUTES",
+          "resource-id": "com.cbsnews.sixtyminutes:id/tvMainHeader",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            451,
+            115,
+            988,
+            249
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "settings",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.cbsnews.sixtyminutes:id/ibSettings",
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "bounds": [
+            1226,
+            112,
+            1366,
+            252
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.internal.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.cbsnews.sixtyminutes:id/image_video_background",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        280,
+        1440,
+        333
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "APRIL 2, 2017",
+      "resource-id": "com.cbsnews.sixtyminutes:id/segment_date",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        566,
+        407,
+        874,
+        462
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Shots Fired",
+      "resource-id": "com.cbsnews.sixtyminutes:id/segment_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        375,
+        483,
+        1064,
+        659
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Was the fatal shooting of Terence Crutcher a wrongful death -- influenced by race -- or the outcome of Crutcher's actions? Bill Whitaker reports.",
+      "resource-id": "com.cbsnews.sixtyminutes:id/segment_description",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        70,
+        659,
+        1370,
+        992
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "share",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.cbsnews.sixtyminutes:id/share_segment_main",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        501,
+        1020,
+        641,
+        1160
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.cbsnews.sixtyminutes:id/text_segment_main",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        659,
+        1020,
+        799,
+        1160
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "bookmark",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.cbsnews.sixtyminutes:id/bookmark_segment_main",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        817,
+        1020,
+        957,
+        1160
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.cbsnews.sixtyminutes:id/related_image",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        70,
+        1272,
+        560,
+        1762
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "60 MINUTES OVERTIME",
+      "resource-id": "com.cbsnews.sixtyminutes:id/related_title",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        630,
+        1272,
+        1217,
+        1332
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Police shooting in Tulsa: Was the man threatening or was he compliant?",
+      "resource-id": "com.cbsnews.sixtyminutes:id/related_desctiption",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        630,
+        1374,
+        1300,
+        1613
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.cbsnews.sixtyminutes:id/related_image",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        70,
+        1832,
+        560,
+        2322
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "60 MINUTES OVERTIME",
+      "resource-id": "com.cbsnews.sixtyminutes:id/related_title",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        630,
+        1832,
+        1217,
+        1892
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "More evidence in the Terence Crutcher shooting",
+      "resource-id": "com.cbsnews.sixtyminutes:id/related_desctiption",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        630,
+        1934,
+        1300,
+        2173
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

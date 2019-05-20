@@ -1,0 +1,108 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "",
+      "resource-id": "com.real.smart.myflute:id/swipe",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        160,
+        0,
+        1280,
+        299
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "",
+      "resource-id": "com.real.smart.myflute:id/arrow_a",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        393,
+        897,
+        626,
+        1196
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "",
+      "resource-id": "com.real.smart.myflute:id/arrow_b",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        393,
+        1196,
+        626,
+        1495
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "",
+      "resource-id": "com.real.smart.myflute:id/hand",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        393,
+        1495,
+        626,
+        1794
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "",
+      "resource-id": "com.real.smart.myflute:id/puff",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        370,
+        2093,
+        1070,
+        2392
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

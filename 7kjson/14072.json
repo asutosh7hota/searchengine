@@ -1,0 +1,163 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "Register",
+      "resource-id": "com.espn.radio:id/register_button",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        593,
+        1460,
+        846,
+        1628
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "register"
+    },
+    {
+      "text": "myESPN Registration",
+      "resource-id": "com.espn.radio:id/registration_header",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.espn.radio.ui.widget.RobotoTextView",
+      "bounds": [
+        70,
+        137,
+        1370,
+        356
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Grace",
+      "resource-id": "com.espn.radio:id/register_first_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.EditText",
+      "bounds": [
+        70,
+        363,
+        1370,
+        536
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Chan",
+      "resource-id": "com.espn.radio:id/register_last_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.EditText",
+      "bounds": [
+        70,
+        538,
+        1370,
+        711
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "appcrawler6@gmail.com",
+      "resource-id": "com.espn.radio:id/register_email",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.EditText",
+      "bounds": [
+        70,
+        713,
+        1370,
+        886
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "appcrawler6",
+      "resource-id": "com.espn.radio:id/register_member_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.EditText",
+      "bounds": [
+        70,
+        888,
+        1370,
+        1061
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Crowd3116",
+      "resource-id": "com.espn.radio:id/register_password",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.EditText",
+      "bounds": [
+        70,
+        1063,
+        1370,
+        1236
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Jul 15, 1990",
+      "resource-id": "com.espn.radio:id/register_birthdate",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.espn.radio.ui.widget.RobotoTextView",
+      "bounds": [
+        70,
+        1238,
+        1370,
+        1407
+      ],
+      "componentLabel": "Text Button"
+    }
+  ]
+}

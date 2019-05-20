@@ -1,0 +1,103 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.jburn.test:id/ImageView01",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        84,
+        112,
+        242
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "search",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.jburn.test:id/ImageView02",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1300,
+        84,
+        1440,
+        242
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.widget.AbsoluteLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.jburn.test:id/webview",
+      "clickable": true,
+      "class": "android.webkit.WebView",
+      "bounds": [
+        0,
+        242,
+        1440,
+        2392
+      ],
+      "componentLabel": "Web View"
+    },
+    {
+      "text": "Buscador RAE",
+      "resource-id": "com.jburn.test:id/TextView02",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        112,
+        84,
+        1296,
+        195
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "RAE",
+      "resource-id": "com.jburn.test:id/TextView01",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        112,
+        195,
+        1296,
+        233
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

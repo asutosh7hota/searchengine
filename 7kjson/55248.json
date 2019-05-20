@@ -1,0 +1,772 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.mangoplate:id/title_bar",
+      "children": [
+        {
+          "iconClass": "expand_more",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.mangoplate:id/button_home",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            84,
+            188,
+            294
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.mangoplate:id/button_add_to_mylist",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            978,
+            84,
+            1132,
+            294
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "chat",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.mangoplate:id/button_kakao_talk_share",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1132,
+            112,
+            1286,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "share",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.mangoplate:id/button_share",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1286,
+            112,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "com.mangoplate.widget.base.BaseCustomView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.mangoplate.widget.RestaurantTitleBarView",
+      "bounds": [
+        0,
+        84,
+        1440,
+        294
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.mangoplate:id/restaurant_map",
+      "children": [
+        {
+          "resource-id": "com.mangoplate:id/b_map_image",
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.mangoplate:id/network_image",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                0,
+                1941,
+                1440,
+                2361
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.mangoplate.widget.StaticMapImageView",
+          "bounds": [
+            0,
+            1941,
+            1440,
+            2361
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "favorite",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            676,
+            2089,
+            764,
+            2212
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "com.mangoplate.widget.base.BaseCustomView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.mangoplate.widget.RPMapView",
+      "bounds": [
+        0,
+        1941,
+        1440,
+        2392
+      ],
+      "componentLabel": "Map View"
+    },
+    {
+      "text": "Upload pictures",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        305,
+        1440,
+        813
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "help",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.mangoplate:id/question",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1331,
+        912,
+        1408,
+        989
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "3.8",
+      "resource-id": "com.mangoplate:id/rating_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        1156,
+        852,
+        1331,
+        1000
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Let us know how your dining experience was!",
+      "resource-id": "com.mangoplate:id/rating_message",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        1552,
+        1440,
+        1618
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "clickable": true,
+      "children": [
+        {
+          "resource-id": "com.mangoplate:id/image_picture",
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.mangoplate:id/network_image",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                0,
+                305,
+                507,
+                812
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "com.mangoplate.widget.NetworkImageView",
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.mangoplate.widget.RestaurantImageView",
+          "bounds": [
+            0,
+            305,
+            507,
+            812
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "com.mangoplate.widget.base.BaseCustomView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.mangoplate.widget.RestaurantPictureItemView",
+      "bounds": [
+        0,
+        305,
+        507,
+        812
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "clickable": true,
+      "children": [
+        {
+          "resource-id": "com.mangoplate:id/image_picture",
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.mangoplate:id/network_image",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                523,
+                305,
+                1030,
+                812
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "com.mangoplate.widget.NetworkImageView",
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.mangoplate.widget.RestaurantImageView",
+          "bounds": [
+            523,
+            305,
+            1030,
+            812
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "com.mangoplate.widget.base.BaseCustomView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.mangoplate.widget.RestaurantPictureItemView",
+      "bounds": [
+        523,
+        305,
+        1030,
+        812
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "clickable": true,
+      "children": [
+        {
+          "resource-id": "com.mangoplate:id/image_picture",
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.mangoplate:id/network_image",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1046,
+                305,
+                1440,
+                812
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "com.mangoplate.widget.NetworkImageView",
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.mangoplate.widget.RestaurantImageView",
+          "bounds": [
+            1046,
+            305,
+            1440,
+            812
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "com.mangoplate.widget.base.BaseCustomView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.mangoplate.widget.RestaurantPictureItemView",
+      "bounds": [
+        1046,
+        305,
+        1440,
+        812
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "Ilmi Hwapyeongdong Naengmyeon",
+      "resource-id": "com.mangoplate:id/name_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        70,
+        852,
+        1040,
+        1036
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "일미화평동냉면",
+      "resource-id": "com.mangoplate:id/org_name_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        70,
+        1054,
+        322,
+        1100
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "5,058",
+      "resource-id": "com.mangoplate:id/view_count_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        70,
+        1121,
+        219,
+        1167
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "159",
+      "resource-id": "com.mangoplate:id/wanna_go_count_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        254,
+        1121,
+        360,
+        1167
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "11",
+      "resource-id": "com.mangoplate:id/review_count_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        395,
+        1121,
+        476,
+        1167
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "star",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.mangoplate:id/wanna_go_image",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        107,
+        1251,
+        252,
+        1398
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Wannago",
+      "resource-id": "com.mangoplate:id/wanna_go_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        92,
+        1398,
+        268,
+        1475
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "location",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.mangoplate:id/check_in_image",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        467,
+        1251,
+        612,
+        1398
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Check in",
+      "resource-id": "com.mangoplate:id/check_in_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        461,
+        1398,
+        619,
+        1475
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "edit",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.mangoplate:id/review_image",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        826,
+        1251,
+        973,
+        1398
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Review",
+      "resource-id": "com.mangoplate:id/review_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        834,
+        1398,
+        966,
+        1475
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "photo",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.mangoplate:id/photo_image",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1187,
+        1251,
+        1332,
+        1398
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Photo",
+      "resource-id": "com.mangoplate:id/photo_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        1204,
+        1398,
+        1316,
+        1475
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "emoji",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.mangoplate:id/recommend_icon",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        336,
+        1660,
+        441,
+        1765
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Tasty!",
+      "resource-id": "com.mangoplate:id/recommend_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        337,
+        1783,
+        440,
+        1836
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "iconClass": "emoji",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.mangoplate:id/ok_icon",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        644,
+        1660,
+        749,
+        1765
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "So so",
+      "resource-id": "com.mangoplate:id/ok_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        648,
+        1783,
+        745,
+        1836
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "iconClass": "emoji",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.mangoplate:id/do_not_recommend_icon",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        968,
+        1660,
+        1073,
+        1765
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Not Good",
+      "resource-id": "com.mangoplate:id/do_not_recommend_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        938,
+        1783,
+        1104,
+        1836
+      ],
+      "componentLabel": "Text Button"
+    }
+  ]
+}

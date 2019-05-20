@@ -1,0 +1,161 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "iconClass": "add",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.zoomer.app:id/restaurantlist_arrow_back",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        84,
+        196,
+        280
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": ", ",
+      "resource-id": "com.zoomer.app:id/locationbar_current_location",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.z",
+      "bounds": [
+        645,
+        98,
+        795,
+        266
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        296,
+        392,
+        1143,
+        914
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "text": "We're not Zooming in\nthis area just yet!",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.z",
+      "bounds": [
+        295,
+        1005,
+        1145,
+        1196
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "resource-id": "com.zoomer.app:id/noterritory_phone",
+      "children": [
+        {
+          "text": "",
+          "resource-id": "com.zoomer.app:id/zoomer_edittext",
+          "ancestors": [
+            "android.widget.EditText",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.m",
+          "bounds": [
+            256,
+            1301,
+            1184,
+            1383
+          ],
+          "componentLabel": "Input"
+        }
+      ],
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.zoomer.app.view.base.ZoomerEditText",
+      "bounds": [
+        221,
+        1252,
+        1219,
+        1445
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Keep Me Posted",
+      "resource-id": "com.zoomer.app:id/noterritory_button",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.z",
+      "bounds": [
+        359,
+        1557,
+        1080,
+        1735
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "We're expanding fast and will notify you\nwhen Zoomer launches in your area.",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.z",
+      "bounds": [
+        223,
+        1791,
+        1216,
+        1910
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

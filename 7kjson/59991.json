@@ -1,0 +1,306 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.tripit:id/tripit_toolbar",
+      "children": [
+        {
+          "text": "Alerts and Updates",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            135,
+            656,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "com.tripit:id/alert_center_options",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.support.v7.widget.Toolbar",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tripit.view.TripItToolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "iconClass": "notifications",
+      "resource-id": "com.tripit:id/navigation_tab_alerts",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.tripit:id/navigation_bar_item_icon",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            383,
+            2230,
+            481,
+            2328
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Alerts",
+          "resource-id": "com.tripit:id/navigation_bar_item_text",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            313,
+            2328,
+            551,
+            2381
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tripit.view.NavigationBarItemView",
+      "bounds": [
+        288,
+        2209,
+        576,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "You have no new alerts or updates.",
+      "resource-id": "com.tripit:id/empty_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        170,
+        1126,
+        1270,
+        1219
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "TripIt will notify you of updates to your account and trip itineraries.",
+      "resource-id": "com.tripit:id/empty_detail",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        106,
+        1219,
+        1334,
+        1276
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tripit:id/navigation_bar_item_icon",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        95,
+        2230,
+        193,
+        2328
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Trips",
+      "resource-id": "com.tripit:id/navigation_bar_item_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        25,
+        2328,
+        263,
+        2381
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tripit:id/navigation_bar_item_icon",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        671,
+        2230,
+        769,
+        2328
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Profile",
+      "resource-id": "com.tripit:id/navigation_bar_item_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        601,
+        2328,
+        839,
+        2381
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tripit:id/navigation_bar_item_icon",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        959,
+        2230,
+        1057,
+        2328
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Unfiled",
+      "resource-id": "com.tripit:id/navigation_bar_item_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        889,
+        2328,
+        1127,
+        2381
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "arrow_forward",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tripit:id/navigation_bar_item_icon",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1247,
+        2230,
+        1345,
+        2328
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "More",
+      "resource-id": "com.tripit:id/navigation_bar_item_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        1177,
+        2328,
+        1415,
+        2381
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

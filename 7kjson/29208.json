@@ -1,0 +1,242 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.ebay.gumtree.au:id/toolbar_actionbar",
+      "children": [
+        {
+          "text": "Sign In",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            143,
+            456,
+            221
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Sign in with Facebook",
+      "resource-id": "com.ebay.gumtree.au:id/facebookLoginButton",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        88,
+        336,
+        1352,
+        517
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "facebook"
+    },
+    {
+      "text": "Sign in with Google",
+      "resource-id": "com.ebay.gumtree.au:id/googleLoginButton",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        88,
+        573,
+        1352,
+        754
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "login"
+    },
+    {
+      "text": "or",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        672,
+        810,
+        768,
+        857
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "",
+      "resource-id": "com.ebay.gumtree.au:id/usernameCtl",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.ebay.app.common.widgets.MaterialEditText",
+      "bounds": [
+        88,
+        864,
+        1352,
+        1144
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "",
+      "resource-id": "com.ebay.gumtree.au:id/passwordCtl",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.ebay.app.common.widgets.MaterialEditText",
+      "bounds": [
+        88,
+        1144,
+        1352,
+        1424
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Sign In",
+      "resource-id": "com.ebay.gumtree.au:id/btnLogin",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        88,
+        1477,
+        1352,
+        1645
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "login"
+    },
+    {
+      "text": "Forgot Password",
+      "resource-id": "com.ebay.gumtree.au:id/forgotPassword",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        354,
+        1680,
+        714,
+        1735
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "change"
+    },
+    {
+      "text": "|",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        802,
+        1680,
+        817,
+        1805
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Register",
+      "resource-id": "com.ebay.gumtree.au:id/createAccount",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        905,
+        1680,
+        1086,
+        1735
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "register"
+    }
+  ]
+}

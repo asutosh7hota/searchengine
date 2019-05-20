@@ -1,0 +1,202 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tripit:id/clouds",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        2174,
+        1440,
+        2392
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "",
+      "resource-id": "com.tripit:id/username_widget",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.tripit.view.ExtendedEditText",
+      "bounds": [
+        71,
+        155,
+        1369,
+        306
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "",
+      "resource-id": "com.tripit:id/susi_password",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.tripit.view.ExtendedEditText",
+      "bounds": [
+        71,
+        342,
+        1369,
+        493
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Forgot password?",
+      "resource-id": "com.tripit:id/password_help",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        535,
+        767,
+        904,
+        829
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Or sign in with:",
+      "resource-id": "com.tripit:id/or_sign_up_in_with",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        78,
+        899,
+        435,
+        1015
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Not a TripIt user?",
+      "resource-id": "com.tripit:id/switch_up_message_1",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        358,
+        1121,
+        707,
+        1183
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Create an Account",
+      "resource-id": "com.tripit:id/switch_up_message_2",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        725,
+        1121,
+        1100,
+        1183
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "create"
+    },
+    {
+      "iconClass": "facebook",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tripit:id/facebook_sign_in",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        435,
+        864,
+        586,
+        1015
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tripit:id/google_sign_in",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        656,
+        864,
+        807,
+        1015
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "filter",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tripit:id/yahoo_sign_in",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        877,
+        864,
+        1028,
+        1015
+      ],
+      "componentLabel": "Icon"
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "br.com.tecnonutri.app:id/toolbar",
+      "children": [
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Training Plans",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            135,
+            659,
+            228
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        280,
+        1440,
+        1948
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "br.com.tecnonutri.app:id/imageview_header",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            280,
+            1440,
+            910
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Professor Jonas Henrique de Almeida is a certified trainer by multiple institutions like CORE 360 phases 1, 2, 3 e 4; BPro; CrossFit and others.\n\nThe High Intensity Interval Training has gained popularity among practitioners that have decided to change their life habits and behaviour for a better life quality. It's a very efficient method to improve physical conditioning. This training was assembled by professor Jonas as a 30 days program and has a ratio of exercises and interval that suits precisely for anyone that wants to leave a sedentary life and start working out from the comfort and privacy of home.\n\nTo know more about professor Jonas work, follow his fan page at: fb.com/mestrejonaspersonal/\n\n",
+          "resource-id": "br.com.tecnonutri.app:id/textview_text",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "br.com.tecnonutri.app.util.HTMLTextView",
+          "bounds": [
+            28,
+            938,
+            1412,
+            1916
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "Home HIIT Workout for Beginners",
+          "resource-id": "br.com.tecnonutri.app:id/textview_name_training_day",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            37,
+            528,
+            1402,
+            650
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "br.com.tecnonutri.app:id/imageview_author",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            484,
+            668,
+            572,
+            756
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Jonas Henrique",
+          "resource-id": "br.com.tecnonutri.app:id/textview_name_autor_day",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            590,
+            674,
+            984,
+            750
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "date_range",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "br.com.tecnonutri.app:id/icon_calendar",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            414,
+            784,
+            484,
+            854
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "30 days",
+          "resource-id": "br.com.tecnonutri.app:id/textview_training_day_details_days",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            498,
+            786,
+            669,
+            852
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "time",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "br.com.tecnonutri.app:id/icon_timer",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            697,
+            784,
+            767,
+            854
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "20 minutes",
+          "resource-id": "br.com.tecnonutri.app:id/textview_training_day_details_duration",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            781,
+            786,
+            1025,
+            852
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1948,
+        1440,
+        2303
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Jumping Jacks, Plank, Standing Mountain Climber, Wall Sit",
+          "resource-id": "br.com.tecnonutri.app:id/textview_training_day_exercises",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            0,
+            2162,
+            1440,
+            2303
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Day 1",
+          "resource-id": "br.com.tecnonutri.app:id/textview_training_day_number",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            0,
+            2026,
+            251,
+            2158
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "20 minutes",
+          "resource-id": "br.com.tecnonutri.app:id/textview_training_day_duration",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            279,
+            2059,
+            523,
+            2125
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Start",
+          "resource-id": "br.com.tecnonutri.app:id/button_start_training",
+          "ancestors": [
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatButton",
+          "bounds": [
+            1076,
+            2022,
+            1384,
+            2162
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "go"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2303,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Day 2",
+          "resource-id": "br.com.tecnonutri.app:id/textview_training_day_number",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            0,
+            2381,
+            251,
+            2392
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "br.com.tecnonutri.app:id/imageview_training_day_block",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            936,
+            2377,
+            1076,
+            2392
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Start",
+          "resource-id": "br.com.tecnonutri.app:id/button_start_training",
+          "ancestors": [
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatButton",
+          "bounds": [
+            1076,
+            2377,
+            1384,
+            2392
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "go"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

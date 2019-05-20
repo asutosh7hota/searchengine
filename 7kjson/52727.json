@@ -1,0 +1,346 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "android:id/action_bar_container",
+      "children": [
+        {
+          "iconClass": "info",
+          "resource-id": "com.dynotes.dictionary.english2arabic:id/aboutfaq",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.android.internal.view.menu.ActionMenuItemView",
+          "bounds": [
+            1048,
+            84,
+            1244,
+            252
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1244,
+            84,
+            1440,
+            252
+          ],
+          "clickable": true,
+          "class": "android.widget.ActionMenuPresenter$OverflowMenuButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "android:id/home",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            43,
+            112,
+            155,
+            224
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "English » Arabic Dictionary / Translator",
+          "resource-id": "android:id/action_bar_title",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            169,
+            125,
+            1020,
+            210
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.internal.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        252
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.dynotes.dictionary.english2arabic:id/gadView",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.google.android.gms.ads.internal.webview.l",
+          "bounds": [
+            0,
+            2217,
+            1440,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.webkit.WebView",
+                "android.widget.AbsoluteLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "bounds": [
+                0,
+                2217,
+                1440,
+                2392
+              ],
+              "clickable": true,
+              "class": "com.google.android.gms.ads.internal.webview.m",
+              "componentLabel": "Web View"
+            }
+          ],
+          "componentLabel": "Web View"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.google.android.gms.ads.AdView",
+      "bounds": [
+        0,
+        2217,
+        1440,
+        2392
+      ],
+      "componentLabel": "Advertisement"
+    },
+    {
+      "text": "love",
+      "resource-id": "com.dynotes.dictionary.english2arabic:id/etEnglish",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.EditText",
+      "bounds": [
+        0,
+        252,
+        1440,
+        406
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Share",
+      "resource-id": "com.dynotes.dictionary.english2arabic:id/btnShare",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        14,
+        406,
+        310,
+        546
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "share"
+    },
+    {
+      "text": "Copy",
+      "resource-id": "com.dynotes.dictionary.english2arabic:id/btnCopy",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        338,
+        406,
+        634,
+        546
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "copy"
+    },
+    {
+      "text": "Translate",
+      "resource-id": "com.dynotes.dictionary.english2arabic:id/btnTranslate",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        662,
+        406,
+        1030,
+        546
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "translate"
+    },
+    {
+      "text": "Dictionary",
+      "resource-id": "com.dynotes.dictionary.english2arabic:id/btnDictionary",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        1058,
+        406,
+        1426,
+        546
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.widget.AbsoluteLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.dynotes.dictionary.english2arabic:id/wvArabic",
+      "clickable": true,
+      "class": "android.webkit.WebView",
+      "bounds": [
+        11,
+        568,
+        1429,
+        2031
+      ],
+      "componentLabel": "Web View"
+    },
+    {
+      "text": "Transcribe",
+      "resource-id": "com.dynotes.dictionary.english2arabic:id/btnTranscribe",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        0,
+        2049,
+        400,
+        2217
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Romanize",
+      "resource-id": "com.dynotes.dictionary.english2arabic:id/btnRomanize",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        400,
+        2049,
+        799,
+        2217
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Unconnect",
+      "resource-id": "com.dynotes.dictionary.english2arabic:id/btnUnconnect",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        799,
+        2049,
+        1215,
+        2217
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Full",
+      "resource-id": "com.dynotes.dictionary.english2arabic:id/btnFullScreen",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        1215,
+        2049,
+        1440,
+        2217
+      ],
+      "componentLabel": "Text Button"
+    }
+  ]
+}

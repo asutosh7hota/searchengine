@@ -1,0 +1,244 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.outfit7.talkingsantafree:id/background",
+      "clickable": false,
+      "class": "com.outfit7.talkingfriends.gui.BackgroundImageView",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2392
+      ],
+      "componentLabel": "Background Image"
+    },
+    {
+      "resource-id": "com.outfit7.talkingsantafree:id/sharingListMainView",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            70,
+            935,
+            565,
+            951
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Share to:",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            565,
+            892,
+            875,
+            995
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "minus",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            875,
+            935,
+            1370,
+            951
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Gallery",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.outfit7.talkingfriends.gui.O7ImageButton",
+          "bounds": [
+            240,
+            1065,
+            1199,
+            1233
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "gallery"
+        },
+        {
+          "text": "Facebook",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.outfit7.talkingfriends.gui.O7ImageButton",
+          "bounds": [
+            240,
+            1233,
+            1199,
+            1401
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "facebook"
+        },
+        {
+          "text": "MMS",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.outfit7.talkingfriends.gui.O7ImageButton",
+          "bounds": [
+            240,
+            1401,
+            1199,
+            1569
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2392
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "iconClass": "close",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.outfit7.talkingsantafree:id/sharingListButtonClose",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        1272,
+        0,
+        1440,
+        168
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "resource-id": "com.outfit7.talkingsantafree:id/adLayout",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            1408,
+            0,
+            1440,
+            2
+          ],
+          "clickable": false,
+          "componentLabel": "Pager Indicator"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.outfit7.talkingsantafree:id/adLabel",
+          "clickable": false,
+          "class": "com.outfit7.talkingfriends.gui.O7AdLabelImageView",
+          "bounds": [
+            160,
+            177,
+            232,
+            220
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "com.mopub.mobileads.BaseHtmlWebView",
+            "com.mopub.mobileads.BaseWebView",
+            "android.webkit.WebView",
+            "android.widget.AbsoluteLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            160,
+            2,
+            1280,
+            177
+          ],
+          "clickable": true,
+          "class": "com.mopub.mobileads.HtmlBannerWebView",
+          "componentLabel": "Advertisement"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.outfit7.talkingfriends.ad.O7AdContainer",
+      "bounds": [
+        0,
+        0,
+        1440,
+        220
+      ],
+      "componentLabel": "Advertisement"
+    }
+  ]
+}

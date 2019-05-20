@@ -1,0 +1,496 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2196,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "iconClass": "search",
+          "resource-id": "com.hornet.android:id/discover",
+          "children": [
+            {
+              "text": "Discover",
+              "resource-id": "com.hornet.android:id/text",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                378,
+                2386,
+                378,
+                2386
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "iconClass": "search",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.hornet.android:id/icon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                336,
+                2253,
+                420,
+                2337
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "ancestors": [
+            "com.hornet.android.views.botnav.BottomBarItem",
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.hornet.android.views.botnav.BottomBarItem_",
+          "bounds": [
+            252,
+            2211,
+            504,
+            2392
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "resource-id": "com.hornet.android:id/nearby",
+          "ancestors": [
+            "com.hornet.android.views.botnav.BottomBarItem",
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.hornet.android.views.botnav.BottomBarItem_",
+          "bounds": [
+            504,
+            2211,
+            756,
+            2392
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "nearby"
+        },
+        {
+          "iconClass": "info",
+          "resource-id": "com.hornet.android:id/profile",
+          "ancestors": [
+            "com.hornet.android.views.botnav.BottomBarItem",
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.hornet.android.views.botnav.BottomBarItem_",
+          "bounds": [
+            1188,
+            2211,
+            1440,
+            2392
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "profile"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            0,
+            2211,
+            252,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "Feed",
+              "resource-id": "com.hornet.android:id/text",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                126,
+                2386,
+                126,
+                2386
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "iconClass": "power",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.hornet.android:id/icon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                84,
+                2253,
+                168,
+                2337
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "componentLabel": "Bottom Navigation"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            756,
+            2211,
+            1188,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "Chats",
+              "resource-id": "com.hornet.android:id/text",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                917,
+                2323,
+                1026,
+                2392
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "iconClass": "chat",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.hornet.android:id/icon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                930,
+                2225,
+                1014,
+                2309
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "text": "4",
+              "resource-id": "com.hornet.android:id/badge",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                1000,
+                2266,
+                1000,
+                2266
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "Bottom Navigation"
+        }
+      ],
+      "componentLabel": "Bottom Navigation"
+    },
+    {
+      "resource-id": "com.hornet.android:id/toolbar",
+      "children": [
+        {
+          "text": "Chats",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            135,
+            434,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1300,
+            98,
+            1440,
+            266
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.ActionMenuPresenter$OverflowMenuButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        455,
+        1440,
+        2196
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "com.hornet.android.views.chat.ChatItem",
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.hornet.android.views.chat.ChatItem_",
+          "bounds": [
+            0,
+            455,
+            1440,
+            786
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.RelativeLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "class": "com.hornet.android.core.views.SquareLayout",
+              "bounds": [
+                7,
+                463,
+                322,
+                778
+              ],
+              "clickable": false,
+              "children": [
+                {
+                  "ancestors": [
+                    "android.widget.ImageView",
+                    "android.view.View",
+                    "java.lang.Object"
+                  ],
+                  "resource-id": "com.hornet.android:id/image",
+                  "clickable": false,
+                  "class": "android.support.v7.widget.AppCompatImageView",
+                  "bounds": [
+                    7,
+                    463,
+                    322,
+                    778
+                  ],
+                  "componentLabel": "Image"
+                },
+                {
+                  "ancestors": [
+                    "android.widget.ImageView",
+                    "android.view.View",
+                    "java.lang.Object"
+                  ],
+                  "resource-id": "com.hornet.android:id/indicator",
+                  "clickable": false,
+                  "class": "android.support.v7.widget.AppCompatImageView",
+                  "bounds": [
+                    25,
+                    481,
+                    83,
+                    539
+                  ],
+                  "componentLabel": "Image"
+                }
+              ],
+              "componentLabel": "List Item"
+            },
+            {
+              "text": "Hornet",
+              "resource-id": "com.hornet.android:id/chat_name",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                357,
+                518,
+                1172,
+                594
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Every week we have a fresh supply of new guys joining Hornet. Get in early and snap them up before others do ;) Click on \"Buzz\" and \"New Guys\" to view your nearest fresh hotties. hrnt://recent",
+              "resource-id": "com.hornet.android:id/chat_message",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                357,
+                612,
+                1387,
+                733
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Yesterday",
+              "resource-id": "com.hornet.android:id/chat_time",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                1190,
+                518,
+                1405,
+                584
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "com.mopub.mobileads.BaseWebView",
+        "android.webkit.WebView",
+        "android.widget.AbsoluteLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        160,
+        280,
+        1280,
+        455
+      ],
+      "clickable": true,
+      "class": "com.mopub.mraid.MraidBridge$MraidWebView",
+      "componentLabel": "Web View"
+    }
+  ]
+}

@@ -1,0 +1,651 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "android:id/action_bar_container",
+      "children": [
+        {
+          "iconClass": "menu",
+          "clickable": false,
+          "children": [
+            {
+              "iconClass": "menu",
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "android:id/home",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                29,
+                112,
+                141,
+                224
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.android.internal.widget.ActionBarView$HomeView",
+          "bounds": [
+            15,
+            84,
+            155,
+            252
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "resource-id": "android:id/action_bar_spinner",
+          "ancestors": [
+            "android.widget.AbsSpinner",
+            "android.widget.AdapterView",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.Spinner",
+          "bounds": [
+            155,
+            84,
+            829,
+            252
+          ],
+          "componentLabel": "Text Button",
+          "text": "All Categories"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.internal.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        252
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        252,
+        1440,
+        747
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.box.android:id/oneCloudBanner",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            0,
+            252,
+            1440,
+            747
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        749,
+        1440,
+        1105
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            1101,
+            1440,
+            1105
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "resource-id": "com.box.android:id/boxImageView",
+          "children": [
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.box.android:id/boxImageViewThumb",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                53,
+                802,
+                228,
+                970
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "com.box.android.views.BoxImageView",
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.box.android.views.BoxDefaultImageView",
+          "bounds": [
+            53,
+            802,
+            228,
+            977
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "MindMeister",
+          "resource-id": "com.box.android:id/appName",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            281,
+            802,
+            556,
+            868
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "MindMeister allows you to create, edit, and view mind maps online an intuitive, award-winning interface.",
+          "resource-id": "com.box.android:id/appDescription",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            281,
+            868,
+            1387,
+            1048
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1107,
+        1440,
+        1463
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            1459,
+            1440,
+            1463
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "resource-id": "com.box.android:id/boxImageView",
+          "children": [
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.box.android:id/boxImageViewThumb",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                53,
+                1160,
+                228,
+                1328
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "com.box.android.views.BoxImageView",
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.box.android.views.BoxDefaultImageView",
+          "bounds": [
+            53,
+            1160,
+            228,
+            1335
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Unifyle",
+          "resource-id": "com.box.android:id/appName",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            281,
+            1160,
+            430,
+            1226
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Unifyle is a great migration tool to help you migrate users from File shares (or other storage services) to Box.  Unifyle, from Primadesk, helps you search, manage, edit, share and backup all your online AND on-premises content in one place.",
+          "resource-id": "com.box.android:id/appDescription",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            281,
+            1226,
+            1387,
+            1406
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1465,
+        1440,
+        1750
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            1746,
+            1440,
+            1750
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "resource-id": "com.box.android:id/boxImageView",
+          "children": [
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.box.android:id/boxImageViewThumb",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                53,
+                1518,
+                228,
+                1686
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "com.box.android.views.BoxImageView",
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.box.android.views.BoxDefaultImageView",
+          "bounds": [
+            53,
+            1518,
+            228,
+            1693
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "SpriteBackup",
+          "resource-id": "com.box.android:id/appName",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            281,
+            1518,
+            571,
+            1584
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Mobile Phone Backup",
+          "resource-id": "com.box.android:id/appDescription",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            281,
+            1584,
+            743,
+            1650
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1752,
+        1440,
+        2108
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            2104,
+            1440,
+            2108
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "resource-id": "com.box.android:id/boxImageView",
+          "children": [
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.box.android:id/boxImageViewThumb",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                53,
+                1805,
+                228,
+                1973
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "com.box.android.views.BoxImageView",
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.box.android.views.BoxDefaultImageView",
+          "bounds": [
+            53,
+            1805,
+            228,
+            1980
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "CamScanner",
+          "resource-id": "com.box.android:id/appName",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            281,
+            1805,
+            562,
+            1871
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "CamScanner is a mobile scanning application with image enhancement and support for multi-page scans.",
+          "resource-id": "com.box.android:id/appDescription",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            281,
+            1871,
+            1387,
+            2051
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2110,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "iconClass": "location",
+          "resource-id": "com.box.android:id/boxImageView",
+          "children": [
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.box.android:id/boxImageViewIcon",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                53,
+                2163,
+                228,
+                2331
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.box.android:id/boxImageViewThumb",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                53,
+                2163,
+                228,
+                2331
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "com.box.android.views.BoxImageView",
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.box.android.views.BoxDefaultImageView",
+          "bounds": [
+            53,
+            2163,
+            228,
+            2338
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "DocuSign",
+          "resource-id": "com.box.android:id/appName",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            281,
+            2163,
+            489,
+            2229
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "DocuSign is a digital e-signature service that allows users to securely send documents to be electronically signed.",
+          "resource-id": "com.box.android:id/appDescription",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            281,
+            2229,
+            1387,
+            2392
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

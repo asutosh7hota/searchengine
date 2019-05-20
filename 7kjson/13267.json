@@ -1,0 +1,218 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.evilduck.musiciankit:id/action_bar_container",
+      "children": [
+        {
+          "text": "Circle Of Fifths",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.au",
+          "bounds": [
+            252,
+            135,
+            719,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.ac",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "help",
+          "resource-id": "com.evilduck.musiciankit:id/action_help",
+          "ancestors": [
+            "android.support.v7.widget.au",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Wrong!",
+      "resource-id": "com.evilduck.musiciankit:id/exercise_popup",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.au",
+      "bounds": [
+        554,
+        280,
+        885,
+        420
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Next",
+      "resource-id": "com.evilduck.musiciankit:id/button_next",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.v",
+      "bounds": [
+        0,
+        2210,
+        336,
+        2378
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "next"
+    },
+    {
+      "text": "D Major/b minor",
+      "resource-id": "com.evilduck.musiciankit:id/scale_name_label",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.au",
+      "bounds": [
+        56,
+        2033,
+        1384,
+        2136
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Correct",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.au",
+      "bounds": [
+        646,
+        2275,
+        803,
+        2341
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "0",
+      "resource-id": "com.evilduck.musiciankit:id/label_correct",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.au",
+      "bounds": [
+        817,
+        2238,
+        864,
+        2350
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Incorrect",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.au",
+      "bounds": [
+        878,
+        2275,
+        1068,
+        2341
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "1",
+      "resource-id": "com.evilduck.musiciankit:id/label_incorrect",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.au",
+      "bounds": [
+        1082,
+        2238,
+        1129,
+        2350
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

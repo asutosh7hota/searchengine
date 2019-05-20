@@ -1,0 +1,307 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.hrs.b2c.android:id/hrs_toolbar",
+      "children": [
+        {
+          "text": "My HRS login",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            252,
+            135,
+            672,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.hrs.b2c.android:id/myAccountOverviewFragmentBackground",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        280,
+        1440,
+        2392
+      ],
+      "componentLabel": "Background Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.hrs.android.common.widget.SensitiveCardView",
+      "bounds": [
+        0,
+        280,
+        1440,
+        2164
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "resource-id": "com.hrs.b2c.android:id/login_fragment",
+          "children": [
+            {
+              "text": "Your My HRS login",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                91,
+                392,
+                1349,
+                485
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Forgot your password?",
+              "resource-id": "com.hrs.b2c.android:id/myhrs_lostPW_button",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                91,
+                1027,
+                639,
+                1210
+              ],
+              "componentLabel": "Text Button"
+            },
+            {
+              "text": "Login",
+              "resource-id": "com.hrs.b2c.android:id/myhrs_login_button",
+              "ancestors": [
+                "android.widget.Button",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatButton",
+              "bounds": [
+                91,
+                1273,
+                1349,
+                1441
+              ],
+              "componentLabel": "Text Button",
+              "textButtonClass": "login"
+            },
+            {
+              "text": "",
+              "resource-id": "com.hrs.b2c.android:id/myhrs_username_field",
+              "ancestors": [
+                "android.widget.EditText",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "com.hrs.android.common.widget.ClearableEditText",
+              "bounds": [
+                91,
+                617,
+                1349,
+                756
+              ],
+              "componentLabel": "Input"
+            },
+            {
+              "text": "",
+              "resource-id": "com.hrs.b2c.android:id/myhrs_password_field",
+              "ancestors": [
+                "android.widget.EditText",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "com.hrs.android.common.widget.ClearableEditText",
+              "bounds": [
+                91,
+                888,
+                1349,
+                1027
+              ],
+              "componentLabel": "Input"
+            },
+            {
+              "text": "Go to registration",
+              "resource-id": "com.hrs.b2c.android:id/showRegistrationCard",
+              "ancestors": [
+                "android.widget.Button",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatButton",
+              "bounds": [
+                723,
+                1567,
+                1349,
+                1735
+              ],
+              "componentLabel": "Text Button"
+            },
+            {
+              "text": "Register now and enjoy a number of benefits:",
+              "resource-id": "com.hrs.b2c.android:id/register_now_advantages_label",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                91,
+                1589,
+                695,
+                1712
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Save your preferred hotels as favourites",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                91,
+                1798,
+                1038,
+                1864
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Overview of your booking transactions",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                91,
+                1892,
+                1009,
+                1958
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "Save up to 30% as a business traveller",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                91,
+                1986,
+                1007,
+                2052
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            28,
+            308,
+            1412,
+            2136
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "componentLabel": "Card"
+    }
+  ]
+}

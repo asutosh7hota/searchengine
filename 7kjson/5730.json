@@ -1,0 +1,87 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.u.lateefay:id/imageView1",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2131
+      ],
+      "componentLabel": "Background Image"
+    },
+    {
+      "text": "",
+      "resource-id": "com.u.lateefay:id/back",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        0,
+        2131,
+        288,
+        2391
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "",
+      "resource-id": "com.u.lateefay:id/next",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        1152,
+        2131,
+        1440,
+        2391
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Page 4",
+      "resource-id": "android:id/text1",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        302,
+        2221,
+        1096,
+        2297
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

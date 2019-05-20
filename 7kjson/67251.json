@@ -1,0 +1,839 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.raycom.wtvm:id/adview_bottom",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.vervewireless.advert.AdView",
+          "bounds": [
+            0,
+            2217,
+            1440,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "com.vervewireless.advert.internal.webvideo.VideoWebView",
+                "android.webkit.WebView",
+                "android.widget.AbsoluteLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "bounds": [
+                160,
+                2217,
+                1280,
+                2392
+              ],
+              "clickable": true,
+              "class": "com.vervewireless.advert.internal.AdWebView",
+              "componentLabel": "Web View"
+            }
+          ],
+          "componentLabel": "Advertisement"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.ads.MediationAdView",
+      "bounds": [
+        0,
+        2217,
+        1440,
+        2392
+      ],
+      "componentLabel": "Advertisement"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.raycom.wtvm:id/button_settings",
+      "clickable": true,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssImageButton",
+      "bounds": [
+        543,
+        2245,
+        711,
+        2392
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "BUSINESS BREAK",
+      "resource-id": "com.raycom.wtvm:id/textLeft",
+      "ancestors": [
+        "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.common.CategoryTextView",
+      "bounds": [
+        522,
+        252,
+        918,
+        318
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "resource-id": "com.raycom.wtvm:id/side_menu_item",
+      "children": [
+        {
+          "text": "MR. FOOD TEST KITCHEN ON WTVM",
+          "resource-id": "com.raycom.wtvm:id/side_menu_item_title",
+          "ancestors": [
+            "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.common.CategoryTextView",
+          "bounds": [
+            0,
+            376,
+            711,
+            461
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssRelativeLayout",
+      "bounds": [
+        0,
+        357,
+        711,
+        480
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.raycom.wtvm:id/side_menu_item",
+      "children": [
+        {
+          "text": "BUSINESS BREAK",
+          "resource-id": "com.raycom.wtvm:id/side_menu_item_title",
+          "ancestors": [
+            "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.common.CategoryTextView",
+          "bounds": [
+            0,
+            500,
+            298,
+            585
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssRelativeLayout",
+      "bounds": [
+        0,
+        481,
+        711,
+        604
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.raycom.wtvm:id/side_menu_item",
+      "children": [
+        {
+          "text": "AS SEEN ON 9",
+          "resource-id": "com.raycom.wtvm:id/side_menu_item_title",
+          "ancestors": [
+            "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.common.CategoryTextView",
+          "bounds": [
+            0,
+            624,
+            196,
+            709
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssRelativeLayout",
+      "bounds": [
+        0,
+        605,
+        711,
+        728
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.raycom.wtvm:id/side_menu_item",
+      "children": [
+        {
+          "text": "BUSINESS BREAK",
+          "resource-id": "com.raycom.wtvm:id/side_menu_item_title",
+          "ancestors": [
+            "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.common.CategoryTextView",
+          "bounds": [
+            0,
+            748,
+            298,
+            833
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssRelativeLayout",
+      "bounds": [
+        0,
+        729,
+        711,
+        852
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.raycom.wtvm:id/side_menu_item",
+      "children": [
+        {
+          "text": "MOST POPULAR STORIES",
+          "resource-id": "com.raycom.wtvm:id/side_menu_item_title",
+          "ancestors": [
+            "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.common.CategoryTextView",
+          "bounds": [
+            0,
+            872,
+            536,
+            957
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssRelativeLayout",
+      "bounds": [
+        0,
+        853,
+        711,
+        976
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.raycom.wtvm:id/side_menu_item",
+      "children": [
+        {
+          "text": "WTVM.COM POLLS",
+          "resource-id": "com.raycom.wtvm:id/side_menu_item_title",
+          "ancestors": [
+            "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.common.CategoryTextView",
+          "bounds": [
+            0,
+            996,
+            346,
+            1081
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssRelativeLayout",
+      "bounds": [
+        0,
+        977,
+        711,
+        1100
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.raycom.wtvm:id/side_menu_item",
+      "children": [
+        {
+          "text": "NATIONAL NEWS",
+          "resource-id": "com.raycom.wtvm:id/side_menu_item_title",
+          "ancestors": [
+            "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.common.CategoryTextView",
+          "bounds": [
+            0,
+            1120,
+            284,
+            1205
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssRelativeLayout",
+      "bounds": [
+        0,
+        1101,
+        711,
+        1224
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.raycom.wtvm:id/side_menu_item",
+      "children": [
+        {
+          "text": "MOST POPULAR VIDEOS",
+          "resource-id": "com.raycom.wtvm:id/side_menu_item_title",
+          "ancestors": [
+            "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.common.CategoryTextView",
+          "bounds": [
+            0,
+            1244,
+            501,
+            1329
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssRelativeLayout",
+      "bounds": [
+        0,
+        1225,
+        711,
+        1348
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.raycom.wtvm:id/side_menu_item",
+      "children": [
+        {
+          "text": "INTERNATIONAL NEWS",
+          "resource-id": "com.raycom.wtvm:id/side_menu_item_title",
+          "ancestors": [
+            "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.common.CategoryTextView",
+          "bounds": [
+            0,
+            1368,
+            459,
+            1453
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssRelativeLayout",
+      "bounds": [
+        0,
+        1349,
+        711,
+        1472
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.raycom.wtvm:id/side_menu_item",
+      "children": [
+        {
+          "text": "BUSINESS NEWS",
+          "resource-id": "com.raycom.wtvm:id/side_menu_item_title",
+          "ancestors": [
+            "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.common.CategoryTextView",
+          "bounds": [
+            0,
+            1492,
+            274,
+            1577
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssRelativeLayout",
+      "bounds": [
+        0,
+        1473,
+        711,
+        1596
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.raycom.wtvm:id/side_menu_item",
+      "children": [
+        {
+          "text": "ENTERTAINMENT NEWS",
+          "resource-id": "com.raycom.wtvm:id/side_menu_item_title",
+          "ancestors": [
+            "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.common.CategoryTextView",
+          "bounds": [
+            0,
+            1616,
+            480,
+            1701
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssRelativeLayout",
+      "bounds": [
+        0,
+        1597,
+        711,
+        1720
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.raycom.wtvm:id/side_menu_item",
+      "children": [
+        {
+          "text": "POLITICAL NEWS",
+          "resource-id": "com.raycom.wtvm:id/side_menu_item_title",
+          "ancestors": [
+            "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.common.CategoryTextView",
+          "bounds": [
+            0,
+            1740,
+            289,
+            1825
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssRelativeLayout",
+      "bounds": [
+        0,
+        1721,
+        711,
+        1844
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.raycom.wtvm:id/side_menu_item",
+      "children": [
+        {
+          "text": "SCIENCE NEWS",
+          "resource-id": "com.raycom.wtvm:id/side_menu_item_title",
+          "ancestors": [
+            "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.common.CategoryTextView",
+          "bounds": [
+            0,
+            1864,
+            232,
+            1949
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssRelativeLayout",
+      "bounds": [
+        0,
+        1845,
+        711,
+        1968
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.raycom.wtvm:id/side_menu_item",
+      "children": [
+        {
+          "text": "STRANGE NEWS",
+          "resource-id": "com.raycom.wtvm:id/side_menu_item_title",
+          "ancestors": [
+            "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.common.CategoryTextView",
+          "bounds": [
+            0,
+            1988,
+            261,
+            2073
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssRelativeLayout",
+      "bounds": [
+        0,
+        1969,
+        711,
+        2092
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.raycom.wtvm:id/masthead_logo",
+      "clickable": true,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssImageView",
+      "bounds": [
+        510,
+        91,
+        930,
+        245
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "resource-id": "com.raycom.wtvm:id/weatherIcon",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1217,
+            115,
+            1322,
+            220
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "66°",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+          "bounds": [
+            1322,
+            130,
+            1422,
+            206
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "com.raycom.wtvm.v2.flexibleui.cssviews.CssLinearLayout",
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.raycom.wtvm.v2.weather.WeatherIconView",
+      "bounds": [
+        1199,
+        84,
+        1440,
+        252
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "No Results",
+      "resource-id": "com.raycom.wtvm:id/listEmpty",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        318,
+        1440,
+        2217
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.raycom.wtvm:id/side_menu_sub_title_icon",
+      "clickable": false,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssImageView",
+      "bounds": [
+        45,
+        276,
+        101,
+        332
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "MORE NEWS",
+      "resource-id": "com.raycom.wtvm:id/side_menu_sub_title_text",
+      "ancestors": [
+        "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.raycom.wtvm.common.CapitalizedTextView",
+      "bounds": [
+        101,
+        271,
+        455,
+        337
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.raycom.wtvm:id/hamburger_button_menu",
+      "clickable": true,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssImageButton",
+      "bounds": [
+        0,
+        84,
+        168,
+        252
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "CATEGORIES",
+      "resource-id": "com.raycom.wtvm:id/side_menu_top_title_text",
+      "ancestors": [
+        "com.raycom.wtvm.v2.flexibleui.cssviews.CssTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.raycom.wtvm.common.CapitalizedTextView",
+      "bounds": [
+        0,
+        125,
+        711,
+        210
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "categories"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.raycom.wtvm:id/button_search",
+      "clickable": true,
+      "class": "com.raycom.wtvm.v2.flexibleui.cssviews.CssImageButton",
+      "bounds": [
+        543,
+        84,
+        711,
+        252
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

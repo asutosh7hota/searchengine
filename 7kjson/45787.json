@@ -1,0 +1,112 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    36,
+    541,
+    1404,
+    1935
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        92,
+        597,
+        1348,
+        1879
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "resource-id": "android:id/buttonPanel",
+          "children": [
+            {
+              "text": "OK",
+              "resource-id": "android:id/button1",
+              "ancestors": [
+                "android.widget.Button",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatButton",
+              "bounds": [
+                1082,
+                1697,
+                1306,
+                1865
+              ],
+              "componentLabel": "Text Button",
+              "textButtonClass": "ok"
+            }
+          ],
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.android.internal.widget.ButtonBarLayout",
+          "bounds": [
+            92,
+            1683,
+            1348,
+            1879
+          ],
+          "componentLabel": "Button Bar"
+        },
+        {
+          "text": "The page at \"http://www.ridomali.info\" says:",
+          "resource-id": "android:id/alertTitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.android.internal.widget.DialogTitle",
+          "bounds": [
+            176,
+            660,
+            1264,
+            818
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "WARNING!\n\nThis Generic Android 6.0 is infected with viruses and your browser is seriously damaged. You need to remove viruses and make corrections immediately.\n\n It is necessary to remove and fix now.\n\n Don't close this window.\n\n ** If you leave, you will be blocked. **",
+          "resource-id": "android:id/message",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            92,
+            881,
+            1348,
+            1683
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "Modal"
+    }
+  ]
+}

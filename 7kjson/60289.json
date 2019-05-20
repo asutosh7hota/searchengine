@@ -1,0 +1,92 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "Set Your Home Page",
+      "resource-id": "com.etrade.mobilepro.activity:id/title",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        252,
+        224,
+        1187,
+        387
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Want to change your home page?",
+      "resource-id": "com.etrade.mobilepro.activity:id/message",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.TextView",
+      "bounds": [
+        252,
+        387,
+        1187,
+        667
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "NO",
+      "resource-id": "com.etrade.mobilepro.activity:id/btnLeft",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.etrade.mobilepro.common.widget.ETButton",
+      "bounds": [
+        357,
+        710,
+        684,
+        803
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "no"
+    },
+    {
+      "text": "YES",
+      "resource-id": "com.etrade.mobilepro.activity:id/btnRight",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.etrade.mobilepro.common.widget.ETButton",
+      "bounds": [
+        754,
+        710,
+        1081,
+        803
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "agree"
+    }
+  ]
+}

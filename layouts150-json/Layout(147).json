@@ -1,0 +1,70 @@
+{
+  "layouts": [
+    {
+      "canvasheight": 235, 
+      "canvasWidth": 195, 
+      "elements": [
+        {
+          "y": 36, 
+          "x": 140, 
+          "height": 85, 
+          "width": 43
+        }, 
+        {
+          "y": 36, 
+          "x": 92, 
+          "height": 85, 
+          "width": 47
+        }, 
+        {
+          "y": 36, 
+          "x": 219, 
+          "height": 46, 
+          "width": 68
+        }, 
+        {
+          "y": 36, 
+          "x": 184, 
+          "height": 46, 
+          "width": 34
+        }, 
+        {
+          "y": 83, 
+          "x": 219, 
+          "height": 38, 
+          "width": 68
+        }, 
+        {
+          "y": 83, 
+          "x": 184, 
+          "height": 38, 
+          "width": 34
+        }, 
+        {
+          "y": 122, 
+          "x": 179, 
+          "height": 36, 
+          "width": 108
+        }, 
+        {
+          "y": 122, 
+          "x": 92, 
+          "height": 149, 
+          "width": 86
+        }, 
+        {
+          "y": 200, 
+          "x": 179, 
+          "height": 71, 
+          "width": 108
+        }, 
+        {
+          "y": 159, 
+          "x": 179, 
+          "height": 40, 
+          "width": 108
+        }
+      ]
+    }
+  ]
+}

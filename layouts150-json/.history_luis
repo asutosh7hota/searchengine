@@ -1,0 +1,3 @@
+2019-04-12@11:05:19 tar xzf layouts150.tgz 
+2019-04-12@11:05:38 less "Layout(95).json"
+2019-04-12@11:05:45 rm layouts150.tgz 
